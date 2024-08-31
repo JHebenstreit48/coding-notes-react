@@ -7,13 +7,13 @@ export default function Navigation() {
 
         <div>
 
-        <ul>
+        <ul className='nav-css'>
 
             <li className='nav-item'>
 
                 <Link
                 to='/'
-                className={currentPage === '/' ? 'active' : ''}
+                className={currentPage === '/' ? "nav-link active" : "nav-link"}
                 >
                     
                 HTML
@@ -26,7 +26,7 @@ export default function Navigation() {
 
                 <Link
                 to='/css'
-                className={currentPage === '/css' ? 'active' : ''}
+                className={currentPage === "/css" ? "nav-link active" : "nav-link"}
                 >
                     
                 CSS
@@ -39,7 +39,7 @@ export default function Navigation() {
 
                 <Link
                 to='/javascript'
-                className={currentPage === '/javascript' ? 'active' : ''}
+                className={currentPage === "/javascript" ? "nav-link active" : "nav-link"}
                 >
                     
                 JavaScript
