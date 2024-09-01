@@ -1,18 +1,18 @@
-export default function HTMLNotes() {
+export default function htmlNotes() {
 
-return (
+    return (
 
-    <>
-    
-    <ul>
-        <li>
-            
-        </li>
-    </ul>
+        <>
 
-    </>
+            <ul>
+                <li>
+
+                </li>
+            </ul>
+
+        </>
 
 
-);
+    );
 
 }
