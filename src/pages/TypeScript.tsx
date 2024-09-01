@@ -1,10 +1,15 @@
-export default function TypeScript() {
+import Header from "../components/Header";
+import Navigation from "../components/Navigation";
+export default function typescript() {
 
-    return (
+    return(
+
         <>
-
-            <h1>TypeScript</h1>
-
+        <Header text="TypeScript"/>
+        <Navigation />
+        <h2>Notes without Code</h2>
+        <h1>Code Examples</h1>
         </>
     );
+
 }
