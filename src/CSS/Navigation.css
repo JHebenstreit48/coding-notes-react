@@ -23,6 +23,13 @@
     font-size: 2rem;
 }
 
+.bottom-border {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(169, 30, 255);
+    position: fixed;
+}
+
 a {
     color: rgb(8, 179, 236);
 }
