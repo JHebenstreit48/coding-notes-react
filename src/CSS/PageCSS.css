@@ -1,0 +1,38 @@
+.list-items {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    justify-content: center;
+    color: rgb(31, 206, 28);
+    width: 710px;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:  100%;
+    margin: 12rem auto;
+    border: 2px solid gray;
+    box-shadow: 5px 10px #888888;
+    line-height: 2rem;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(31, 31, 31) 6%, rgb(115, 115, 115)135%, rgb(151, 150, 150));
+}
+
+#card-header {
+    background-image: linear-gradient(to bottom, rgb(65, 4, 4), rgb(160, 19, 1), rgb(255, 0, 0));
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(255, 214, 10);
+}

@@ -1,3 +1,5 @@
+import '../CSS/HTMLNotes.css';
+
 // Define the types for each text part and for the list item
 interface TextPart {
   text: string;
@@ -8,8 +10,6 @@ interface ListItem {
   content: TextPart[];
 }
 
-// Define the functional component with TypeScript and use the default export function syntax
-export default function htmlNotesComponent() {
   // Define the list items with dynamic content
   const items: ListItem[] = [
     {
@@ -35,19 +35,5 @@ export default function htmlNotesComponent() {
     },
   ];
 
-  return (
-    <ul>
-      {items.map((item, index) => (
-        <li key={index}>
-          {item.content.map((part, idx) =>
-            part.emphasis ? (
-              <span key={idx} className="emphasis">{part.text} </span>
-            ) : (
-              <span key={idx}>{part.text} </span>
-            )
-          )}
-        </li>
-      ))}
-    </ul>
-  );
-}
+export default items;
+
