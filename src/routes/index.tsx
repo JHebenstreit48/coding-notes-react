@@ -8,6 +8,7 @@ import TypeScript from "../pages/TypeScript";
 import Git from "../pages/Git";
 import Servers from "../pages/ExpressServers";
 import API from "../pages/API";
+import React from "../pages/React";
 
 export const router = createBrowserRouter([
 
@@ -44,7 +45,10 @@ export const router = createBrowserRouter([
                 path: '/apis',
                 element: <API />,
             },
-            
+            {
+                path: '/react',
+                element: <React />,
+            },
         ],
     },
 ]);

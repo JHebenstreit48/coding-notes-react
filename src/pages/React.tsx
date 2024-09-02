@@ -1,12 +1,13 @@
-export default function React() {
+import Header from "../components/Header";
+export default function react() {
 
-    return (
+    return(
 
         <>
-
-            <h1>React</h1>
-
+        <Header text="React"/>
+        <h2>Notes without Code</h2>
+        <h1>Code Examples</h1>
         </>
-
     );
+
 }

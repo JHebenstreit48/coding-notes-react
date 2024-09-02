@@ -1,45 +1,40 @@
-interface TextPart {
-  text: string;
-  emphasis: boolean;
-}
+// interface TextPart {
+//   text: string;
+//   emphasis: boolean;
+// }
 
-interface ListItem {
-  content: TextPart[];
-}
+// interface ListItem {
+//   content: TextPart[];
+// }
 
-interface DynamicNotes {
+// interface DynamicNotes {
 
-  items: ListItem[];
-}
+//   items: ListItem[];
+// }
 
-export default function DynamicNotes({ items }: DynamicNotes) {
+// const DynamicNotes: React.FC<DynamicNotes> = ({ items = [] }) => {
+//   return (
+//     <>
+//       <div className="card">
+//         <h2 id="card-header">Notes without Code</h2>
+//         <div>
+//           <ul className="notesList">
+//             {items.map((item, index) => (
+//               <li className="list-items" key={index}>
+//                 {item.content.map((part, idx) =>
+//                   part.emphasis ? (
+//                     <span key={idx} className="emphasis">{part.text} </span>
+//                   ) : (
+//                     <span key={idx}>{part.text} </span>
+//                   )
+//                 )}
+//               </li>
+//             ))}
+//           </ul>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 
-  return (
-
-    <>
-
-      <div className="card">
-
-        <h2 id="card-header">Notes without Code</h2>
-        <ul>
-          {items.map((item, index) => (
-            <li className="list-items" key={index}>
-              {item.content.map((part, idx) =>
-                part.emphasis ? (
-                  <span key={idx} className="emphasis">{part.text} </span>
-                ) : (
-                  <span key={idx}>{part.text} </span>
-                )
-              )}
-            </li>
-          ))}
-        </ul>
-
-      </div>
-
-
-    </>
-
-
-  )
-}
+// export default DynamicNotes;
