@@ -1,9 +1,8 @@
-import HTMLCodeExamples from "../components/HTMLCodeExamples";
-import HTMLNotes from "../components/HTMLNotes";
+// import HTMLCodeExamples from "../components/HTMLCodeExamples";
+// import HTMLNotes from "../components/HTMLNotes";
 import Header from "../components/Header";
-import Navigation from "../components/Navigation";
 import '../CSS/PageCSS.css'
-import DynamicNotes from "../components/DynamicNotes";
+// import DynamicNotes from "../components/DynamicNotes";
 
 export default function HTML() {
 
@@ -11,10 +10,9 @@ export default function HTML() {
 
         <>
         <Header text="HTML"/>
-        <Navigation />
-        <DynamicNotes items={ HTMLNotes } />
+        {/* <DynamicNotes items={ HTMLNotes } /> */}
         <h1>Code Examples</h1>
-        <HTMLCodeExamples />
+        {/* <HTMLCodeExamples /> */}
         </>
     );
 
