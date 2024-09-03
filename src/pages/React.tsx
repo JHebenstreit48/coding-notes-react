@@ -1,12 +1,17 @@
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
+import items from "../components/Notes/ReactNotes";
+import DynamicNotes from "../components/Notes/DynamicNotes";
+import '../CSS/PageCSS.css';
+import DynamicNotesCode from "../components/Notes/DynamicNotesCode";
+
 export default function react() {
 
-    return(
+    return (
 
         <>
-        <Header text="React"/>
-        <h2>Notes without Code</h2>
-        <h1>Code Examples</h1>
+            <Header text="React" />
+            <DynamicNotes items={items} />
+            <DynamicNotesCode items={items} />
         </>
     );
 

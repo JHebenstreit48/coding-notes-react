@@ -1,12 +1,12 @@
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 export default function javascript() {
 
-    return(
+    return (
 
         <>
-        <Header text="JavaScript"/>
-        <h2>Notes without Code</h2>
-        <h1>Code Examples</h1>
+            <Header text="JavaScript" />
+            <h2>Notes without Code</h2>
+            <h1>Code Examples</h1>
         </>
     );
 
