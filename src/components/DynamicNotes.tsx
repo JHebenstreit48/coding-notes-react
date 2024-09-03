@@ -13,7 +13,7 @@ interface DynamicNotesProps {
   items: ListItem[];
 }
 
-const DynamicNotes: React.FC<DynamicNotesProps> = (props) => {
+const DynamicNotes = (props: DynamicNotesProps) => {
   return (
     <>
       <div className="card">
