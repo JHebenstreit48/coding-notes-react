@@ -29,9 +29,13 @@
 }
 
 .list-items {
-    align-items: left;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    /* align-items: left; */
+    /* margin-top: 50px; */
+    /* margin-bottom: 30px; */
+    
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     color: rgb(31, 206, 28);
     width: 55%;
     font-size: 20px;
