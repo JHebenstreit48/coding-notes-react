@@ -1,12 +1,12 @@
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 export default function servers() {
 
-    return(
+    return (
 
         <>
-        <Header text="Servers"/>
-        <h2>Notes without Code</h2>
-        <h1>Code Examples</h1>
+            <Header text="Servers" />
+            <h2>Notes without Code</h2>
+            <h1>Code Examples</h1>
         </>
     );
 

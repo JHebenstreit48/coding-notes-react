@@ -1,5 +1,3 @@
-// import HTMLNotes from './HTMLNotes';
-
 interface ListItem {
   content: TextPart[];
 }

@@ -1,18 +1,17 @@
-import HTMLCodeExamples from "../components/HTMLCodeExamples";
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import '../CSS/PageCSS.css'
-import DynamicNotes from "../components/DynamicNotes";
-import items from "../components/HTMLNotes";
+import DynamicNotes from "../components/Notes/DynamicNotes";
+import items from "../components/Notes/HTMLNotes";
+import DynamicNotesCode from "../components/Notes/DynamicNotesCode";
 
 export default function HTML() {
 
     return (
 
         <>
-        <Header text="HTML"/>
-        <DynamicNotes items={items}/>
-        <h1>Code Examples</h1>
-        <HTMLCodeExamples />
+            <Header text="HTML" />
+            <DynamicNotes items={ items } />
+            <DynamicNotesCode items={ items } />
         </>
     );
 

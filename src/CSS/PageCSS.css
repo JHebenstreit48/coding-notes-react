@@ -4,7 +4,24 @@
     justify-content: center;
     align-items: center;
     width:  100%;
-    margin: 15rem auto;
+    margin-top: 15rem;
+    border: 2px solid gray;
+    box-shadow: 5px 10px #888888;
+    line-height: 2rem;
+    color: white;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: linear-gradient(to bottom, rgb(31, 31, 31) 6%, rgb(115, 115, 115)135%, rgb(151, 150, 150));
+}
+
+.codeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:  100%;
+    margin-top: 5rem;
     border: 2px solid gray;
     box-shadow: 5px 10px #888888;
     line-height: 2rem;
@@ -29,10 +46,6 @@
 }
 
 .list-items {
-    /* align-items: left; */
-    /* margin-top: 50px; */
-    /* margin-bottom: 30px; */
-    
     text-align: left;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -41,4 +54,11 @@
     font-size: 20px;
     line-height: 1.2;
     margin: 0 auto;
+}
+
+.emphasis {
+    color: rgb(242, 194, 2);
+    font-weight: bolder;
+    font-size: 21px;
+    font-style: italic;
 }
