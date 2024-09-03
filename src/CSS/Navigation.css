@@ -7,7 +7,7 @@
     top: 136px;
     left: 0;
     background-color: rgb(169, 30, 255); /* Full-width background */
-    padding: 0;
+    padding: 2px;
     margin: 0;
     list-style: none; /* Removes default list markers */
 }
@@ -15,13 +15,11 @@
 .nav-css li {
     list-style: none; /* Removes any default list marker */
     margin: 0; /* Ensures no extra space from li margins */
-    padding: 0; /* Ensures no extra space from li padding */
 }
 
 .nav-button {
     flex-grow: 0; /* Prevents each button from growing to fill space */
     text-decoration: none;
-    padding: 0; /* Removes padding from buttons */
     font-size: 30px; /* Font size for readability */
     text-align: center; /* Centers text within each button */
     margin: 0; /* Reset margin to control spacing */
@@ -40,6 +38,8 @@
     color: rgb(255, 55, 0);
     border-left: 2px solid rgb(255, 55, 0);
     border-right: 2px solid rgb(255, 55, 0);
+    border-top: 2px solid rgb(255, 55, 0);
+    /* border-bottom: 2px solid rgb(255, 55, 0); */
 }
 
 .nav-button a:active {

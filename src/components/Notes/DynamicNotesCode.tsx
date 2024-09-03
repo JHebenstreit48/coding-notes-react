@@ -7,11 +7,11 @@ interface ListItem {
     emphasis?: boolean;
   }
   
-  interface DynamicNotesProps {
+  interface DynamicNotesCodeProps {
     items: ListItem[];
   }
   
-  const DynamicNotesCode = (props: DynamicNotesProps) => {
+  const DynamicNotesCode = (props: DynamicNotesCodeProps) => {
     return (
       <>
         <div className="codeCard">

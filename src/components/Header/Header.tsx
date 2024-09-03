@@ -8,7 +8,13 @@ export default function Header({ text }: Header) {
     return (
         <>
             <div>
-            <h1 className='header'>{ text }</h1>
+
+                <header>
+                    <div>
+                    <h1 className='Header'>{ text }</h1>
+                    </div>
+                </header>
+            
             </div>
             
         </>
