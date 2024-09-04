@@ -1,10 +1,5 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.card {
-  padding: 2em;
+:root {
+  line-height: 1.5;
+  background-image: linear-gradient(to bottom, rgb(31, 31, 31) 6%, rgb(115, 115, 115) 135%, rgb(151, 150, 150));
+  height: 100vh;
 }
