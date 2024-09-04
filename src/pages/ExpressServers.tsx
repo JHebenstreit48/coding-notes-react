@@ -1,12 +1,16 @@
 import Header from "../components/Header/Header";
+import Navigation from "../components/Header/Navigation";
+import '../CSS/Card.css';
+import '../CSS/PageCSS.css';
 export default function servers() {
 
     return (
 
         <>
-            <Header text="Servers" />
-            <h2>Notes without Code</h2>
-            <h1>Code Examples</h1>
+            <Header text="Express Servers" />
+            <Navigation />
+            {/* <DynamicNotes items={ items } />
+            <DynamicNotesCode items={ itemsWithCode } /> */}
         </>
     );
 

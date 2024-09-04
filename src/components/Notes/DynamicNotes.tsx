@@ -1,11 +1,4 @@
-interface ListItem {
-  content: TextPart[];
-}
-
-interface TextPart {
-  text: string;
-  emphasis?: boolean;
-}
+import { ListItem } from "../OtherComponents/Types";
 
 interface DynamicNotesProps {
   items: ListItem[];
@@ -15,7 +8,7 @@ const DynamicNotes = (props: DynamicNotesProps) => {
   return (
     <>
       <div className="card">
-        <h2 id="card-header">Notes</h2>
+        <h2 className="card-header">Notes</h2>
         <div>
           <ul className="notesList">
             {props.items.map((item, index) => (
@@ -28,6 +21,8 @@ const DynamicNotes = (props: DynamicNotesProps) => {
                   ) : (
                     <span key={idx}>{part.text} </span>
                   )
+
+
                 )}
               </li>
             ))}
@@ -37,5 +32,37 @@ const DynamicNotes = (props: DynamicNotesProps) => {
     </>
   );
 };
+
+export const DynamicNotesCode = (props: DynamicNotesProps) => {
+  return (
+    <>
+      <div className="card-code">
+        <h2 className="card-header">Notes with Code</h2>
+        <div>
+          <ul className="notesList">
+            {props.items.map((item, index) => (
+              <li className="list-items" key={index}>
+                {item.content.map((part, idx) =>
+                  part.emphasis ? (
+                    <span key={idx} className="emphasis">
+                      {part.text}{" "}
+                    </span>
+                  ) : (
+                    part.code ? <li><code className="code">{part.text}</code></li> :
+                      <span key={idx}>{part.text} </span>
+                  )
+
+
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </>
+  );
+};
+
+
 
 export default DynamicNotes;

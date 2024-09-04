@@ -1,4 +1,4 @@
-import { ListItem } from './Types';
+import { ListItem } from '../OtherComponents/Types';
 
 // Define the types for each text part and for the list item
 
@@ -9,6 +9,7 @@ const items: ListItem[] = [
     content: [
       { text: 'Hypertext Markup Language (HTML)', emphasis: true },
       { text: 'is one of the three cornerstone languages.', emphasis: false },
+      { text: 'It is the standard markup language for documents designed to be displayed in a web browser.', code: true },
     ],
   },
   {

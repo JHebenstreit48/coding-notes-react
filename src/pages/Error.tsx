@@ -1,4 +1,5 @@
 import { useRouteError } from "react-router-dom";
+import '../CSS/Error.css';
 
 export default function ErrorPage() {
 

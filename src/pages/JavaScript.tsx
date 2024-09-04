@@ -1,12 +1,16 @@
 import Header from "../components/Header/Header";
+import Navigation from "../components/Header/Navigation";
+import '../CSS/Card.css';
+import '../CSS/PageCSS.css';
 export default function javascript() {
 
     return (
 
         <>
             <Header text="JavaScript" />
-            <h2>Notes without Code</h2>
-            <h1>Code Examples</h1>
+            <Navigation />
+            {/* <DynamicNotes items={ items } />
+            <DynamicNotesCode items={ itemsWithCode } /> */}
         </>
     );
 

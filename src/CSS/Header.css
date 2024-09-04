@@ -4,9 +4,9 @@
     max-width: 100%;
     align-items: center;
     background-color:rgb(8, 8, 103);
-    height: 5rem;
+    height: 6rem;
     text-shadow: 10px 5px 0px black;
     color: rgb(255, 255, 255);
     font-size: 60px;
-
+    margin-bottom: 0;
 }

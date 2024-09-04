@@ -5,7 +5,8 @@ export type NotesPropsType = {
 
 export interface TextPart {
     text: string;
-  emphasis: boolean;
+  emphasis?: boolean;
+  code?: boolean;
   }
 
   export interface ListItem {
