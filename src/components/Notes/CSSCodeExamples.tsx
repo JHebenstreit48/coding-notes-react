@@ -7,16 +7,16 @@ import { ListItem } from '../OtherComponents/Types';
 const items: ListItem[] = [
   {
     content: [
-      { text: 'The following element contains', emphasis: false },
-      { text: 'information', emphasis: true },
-      { text: 'or', emphasis: false },
-      { text: 'metadata', emphasis: true },
-      { text: 'that helps the', emphasis: false },
-      { text: 'browser', emphasis: true },
-      { text: ' to', emphasis: false },
-      { text: 'display/render', emphasis: true },
-      { text: 'the webpage correctly', emphasis: false },
-      { text: '<head>', code: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', code: true },
     ],
   },
   {

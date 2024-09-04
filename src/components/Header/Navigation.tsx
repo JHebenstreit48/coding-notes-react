@@ -1,6 +1,5 @@
 import {Link, useLocation} from 'react-router-dom';
 import '../../CSS/Navigation.css';
-import Header from './Header';
 
 interface NavigationLinks {
     to: string;
@@ -32,7 +31,6 @@ export default function Navigation() {
     
       return (
         <>
-        <Header />
         <ul className="nav-css">
           {
             navLinks.map((navLinks) => (
