@@ -1,36 +1,25 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(31, 31, 31) 6%, rgb(115, 115, 115)135%, rgb(151, 150, 150));
+}
+
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:  100%;
     margin-top: 15rem;
+    width:  50rem;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid gray;
     box-shadow: 5px 10px #888888;
     line-height: 2rem;
-    color: white;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
     background-image: linear-gradient(to bottom, rgb(31, 31, 31) 6%, rgb(115, 115, 115)135%, rgb(151, 150, 150));
 }
 
-.codeCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width:  100%;
-    margin-top: 5rem;
-    border: 2px solid gray;
-    box-shadow: 5px 10px #888888;
-    line-height: 2rem;
-    color: white;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    background-image: linear-gradient(to bottom, rgb(31, 31, 31) 6%, rgb(115, 115, 115)135%, rgb(151, 150, 150));
-}
 
 #card-header {
     background-image: linear-gradient(to bottom, rgb(65, 4, 4), rgb(160, 19, 1), rgb(255, 0, 0));
@@ -43,6 +32,7 @@
     justify-content: center;
     font-size: 40px;
     color: rgb(255, 214, 10);
+    text-shadow: 2px 3px 3px black;
 }
 
 .list-items {
@@ -50,7 +40,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: rgb(31, 206, 28);
-    width: 55%;
+    width: 65%;
     font-size: 20px;
     line-height: 1.2;
     margin: 0 auto;

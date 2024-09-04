@@ -1,13 +1,12 @@
 .Header {
     display: flex;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:rgb(5, 5, 71);
-    height: 15%;
-    margin-top: 0;
+    background-color:rgb(8, 8, 103);
+    height: 5rem;
+    text-shadow: 10px 5px 0px black;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
 
 }

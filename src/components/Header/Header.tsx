@@ -1,22 +1,13 @@
-import '../../CSS/Header.css';
+import "../../CSS/Header.css";
 
 interface Header {
-    text: string;
+  text: string;
 }
 
 export default function Header({ text }: Header) {
-    return (
-        <>
-            <div>
-
-                <header>
-                    <div>
-                    <h1 className='Header'>{ text }</h1>
-                    </div>
-                </header>
-            
-            </div>
-            
-        </>
-    )
+  return (
+    <>
+      <h1 className="Header">{text}</h1>
+    </>
+  );
 }

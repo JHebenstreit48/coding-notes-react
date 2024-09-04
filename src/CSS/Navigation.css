@@ -3,10 +3,9 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 136px;
+    top: 133px;
     left: 0;
-    background-color: rgb(169, 30, 255); /* Full-width background */
+    background-color: rgb(130, 21, 198); /* Full-width background */
     padding: 2px;
     margin: 0;
     list-style: none; /* Removes default list markers */
@@ -23,6 +22,7 @@
     font-size: 30px; /* Font size for readability */
     text-align: center; /* Centers text within each button */
     margin: 0; /* Reset margin to control spacing */
+    text-shadow: 2px 3px 3px black;
 }
 
 .nav-button a {
@@ -35,11 +35,11 @@
 }
 
 .nav-button a:hover {
-    color: rgb(255, 55, 0);
-    border-left: 2px solid rgb(255, 55, 0);
-    border-right: 2px solid rgb(255, 55, 0);
-    border-top: 2px solid rgb(255, 55, 0);
-    /* border-bottom: 2px solid rgb(255, 55, 0); */
+    color: rgb(214, 143, 29);
+    border-left: 2px solid rgb(0, 255, 255);
+    border-right: 2px solid rgb(0, 255, 255);
+    border-top: 2px solid rgb(0, 255, 255);
+    text-shadow: 2px 3px 3px black;
 }
 
 .nav-button a:active {

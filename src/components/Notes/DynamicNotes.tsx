@@ -15,7 +15,7 @@ const DynamicNotes = (props: DynamicNotesProps) => {
   return (
     <>
       <div className="card">
-        <h2 id="card-header">Notes without Code</h2>
+        <h2 id="card-header">Notes</h2>
         <div>
           <ul className="notesList">
             {props.items.map((item, index) => (
