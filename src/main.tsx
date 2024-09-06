@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
 import { router } from './routes';
 const rootElement = document.getElementById('root');
+import './CSS/Page.css';
 
 if (rootElement) {
 
