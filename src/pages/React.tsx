@@ -3,7 +3,7 @@ import Navigation from "../components/Header/Navigation";
 import DynamicNotes, { DynamicNotesCode } from "../components/Notes/DynamicNotes";
 import items from "../components/Notes/ReactNotes";
 import itemsWithCode from "../components/Notes/ReactCodeExamples";
-import '../CSS/PageCSS.css';
+import '../CSS/Page.css';
 import '../CSS/Card.css';
 
 

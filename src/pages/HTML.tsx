@@ -2,7 +2,7 @@ import DynamicNotes, { DynamicNotesCode } from "../components/Notes/DynamicNotes
 import items from "../components/Notes/HTMLNotes";
 import itemsWithCode from "../components/Notes/HTMLCodeExamples";
 import Navigation from "../components/Header/Navigation";
-import '../CSS/PageCSS.css'
+import '../CSS/Page.css'
 import '../CSS/Card.css'
 
 
