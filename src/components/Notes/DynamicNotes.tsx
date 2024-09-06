@@ -48,7 +48,7 @@ export const DynamicNotesCode = (props: DynamicNotesProps) => {
                       {part.text}{" "}
                     </span>
                   ) : (
-                    part.code ? <li><code className="code">{part.text}</code></li> :
+                    part.code ? <li className="list-code"><code className="code">{part.text}</code></li> :
                       <span key={idx}>{part.text} </span>
                   )
 
