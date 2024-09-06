@@ -1,5 +1,6 @@
 import Header from "../components/Header/Header";
 import Navigation from "../components/Header/Navigation";
+import '../CSS/Page.css'
 // import DynamicNotes from "../components/Notes/DynamicNotes";
 // import items from "../components/Notes/HTMLNotes";
 export default function typescript() {
