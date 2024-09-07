@@ -1,5 +1,5 @@
-import Header from "../Components/Header/Header";
-import Navigation from "../Components/Header/Navigation";
+import Header from "../Components/HeaderNavFooter/Header";
+import Navigation from "../Components/HeaderNavFooter/Navigation";
 import '../CSS/Page.css'
 // import DynamicNotes from "../components/Notes/DynamicNotes";
 // import items from "../components/Notes/HTMLNotes";
