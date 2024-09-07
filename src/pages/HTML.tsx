@@ -1,7 +1,7 @@
-import DynamicNotes, { DynamicNotesCode } from "../Components/Notes/DynamicNotes";
-import items from "../Components/Notes/HTMLNotes/HTMLNotes";
-import itemsWithCode from "../Components/Notes/HTMLNotes/HTMLCodeExamples";
-import Navigation from "../Components/Header/Navigation";
+import DynamicNotes, { DynamicNotesCode } from "../Components/OtherComponents/DynamicNotes";
+import items from "../Components/HTMLNotes/HTMLNotes";
+import itemsWithCode from "../Components/HTMLNotes/HTMLCodeExamples";
+import Navigation from "../Components/HeaderNavFooter/Navigation";
 import '../CSS/Page.css'
 import '../CSS/Card.css'
 
