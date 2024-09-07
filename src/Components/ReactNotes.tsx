@@ -1,4 +1,4 @@
-import { ListItem } from '../OtherComponents/Types';
+import { ListItem } from './Types';
 
 const items: ListItem[] = [
     {

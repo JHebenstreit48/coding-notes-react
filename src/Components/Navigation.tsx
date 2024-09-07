@@ -1,5 +1,5 @@
 import {Link, useLocation} from 'react-router-dom';
-import '../../CSS/Navigation.css';
+import '../CSS/Navigation.css';
 
 interface NavigationLinks {
     to: string;

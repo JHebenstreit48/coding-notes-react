@@ -9,6 +9,7 @@ import Git from "../pages/Git";
 import Servers from "../pages/ExpressServers";
 import API from "../pages/API";
 import React from "../pages/React";
+import PostgreSQL from "../pages/PostgreSQL";
 
 export const router = createBrowserRouter([
 
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
             {
                 path: '/apis',
                 element: <API />,
+            },
+            {
+                path: '/postgresql',
+                element: <PostgreSQL />,
             },
             {
                 path: '/react',

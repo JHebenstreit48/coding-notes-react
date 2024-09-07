@@ -1,8 +1,8 @@
-import Header from "../Components/HeaderNavFooter/Header";
-import Navigation from "../Components/HeaderNavFooter/Navigation";
-import DynamicNotes, { DynamicNotesCode } from "../Components/OtherComponents/DynamicNotes";
-import items from "../Components/CSSNotes/CSSNotes";
-import itemsWithCode from "../Components/CSSNotes/CSSCodeExamples";
+import Header from "../Components/Header";
+import Navigation from "../Components/Navigation";
+import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
+import items from "../Components/CSSNotes";
+import itemsWithCode from "../Components/CSSCodeExamples";
 import '../CSS/Page.css'
 import '../CSS/Card.css'
 export default function CSS() {
