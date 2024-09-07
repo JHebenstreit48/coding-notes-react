@@ -1,15 +1,15 @@
+// import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-export default function javascript() {
+export default function WebAPI() {
 
     return (
 
         <>
-            <Header text="JavaScript" />
+            <Header text="Web APIs" />
             <Navigation />
             {/* <DynamicNotes items={ items } />
             <DynamicNotesCode items={ itemsWithCode } /> */}
         </>
     );
-
 }

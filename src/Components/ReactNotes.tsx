@@ -11,8 +11,8 @@ const items: ListItem[] = [
             { text: 'or', emphasis: false },
             { text: 'UI pieces', emphasis: true },
             { text: 'that are also known as', emphasis: false },
-            { text: 'components', emphasis: true },
-        ]
+            { text: 'components ', emphasis: true },
+        ],
     },
     {
         content: [
@@ -22,7 +22,11 @@ const items: ListItem[] = [
             { text: 'flexible', emphasis: true },
             { text: 'or', emphasis: false },
             { text: 'reusable', emphasis: true },
-            { text: '. Which means that you', emphasis: false },
+        ],
+    },
+    {
+        content: [
+            { text: 'Which means that you', emphasis: false },
             { text: 'define', emphasis: true },
             { text: 'what a component should be', emphasis: false },
             { text: 'once', emphasis: true },
@@ -32,7 +36,27 @@ const items: ListItem[] = [
             { text: 'many times', emphasis: true },
             { text: 'as you want', emphasis: false },
         ],
-    },
+      },
+      {
+        content: [
+          { text: 'If you add the following keyword into a', emphasis: false },
+          { text: '.d.ts', emphasis: true },
+          { text: 'file before the', emphasis: false },
+          { text: 'type', emphasis: true },
+          { text: 'it loses the capability of', emphasis: false },
+          { text: 'declaring', emphasis: true },
+          { text: 'types', emphasis: false },
+
+        ],
+      },
+      {
+        content: [
+          { text: '', emphasis: true },
+          { text: '', emphasis: false },
+          { text: '', emphasis: true },
+          { text: '', emphasis: false },
+        ],
+      },
 ];
 
 export default items;

@@ -23,11 +23,14 @@ export default function Navigation() {
         {pageTitle: 'CSS', path: '/css'},
         {pageTitle: 'Git', path: '/git'},
         {pageTitle: 'JavaScript', path: '/javascript'},
+        {pageTitle: 'Web APIs', path: '/webapis'},
+        {pageTitle: 'Node', path: '/node'},
         {pageTitle: 'TypeScript', path: '/typescript'},
         {pageTitle: 'Servers', path: '/servers'},
         {pageTitle: 'APIs', path: '/apis'},
         {pageTitle: 'PostgreSQL', path: '/postgresql'},
         {pageTitle: 'React', path: '/react'},
+        {pageTitle: 'React + TypeScript', path: '/reactandtypescript'},
       ];
     
       return (

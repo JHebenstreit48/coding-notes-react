@@ -7,16 +7,10 @@ import { ListItem } from './Types';
 const items: ListItem[] = [
   {
     content: [
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', code: true },
+      { text: 'The following code is an HTML', emphasis: false },
+      { text: '<a>', emphasis: true },
+      { text: 'tag under the hood. It comes from React Router DOM.', emphasis: false },
+      { text: 'Link', code: true },
     ],
   },
   {

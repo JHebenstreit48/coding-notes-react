@@ -1,8 +1,6 @@
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-import '../CSS/Card.css';
-import '../CSS/Page.css';
-export default function node() {
+export default function NodeJS() {
 
     return (
 
