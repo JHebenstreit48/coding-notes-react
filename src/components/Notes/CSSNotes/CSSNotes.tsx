@@ -1,4 +1,4 @@
-import { ListItem } from '../OtherComponents/Types';
+import { ListItem } from '../../OtherComponents/Types';
 
 // Define the types for each text part and for the list item
 
@@ -7,13 +7,6 @@ import { ListItem } from '../OtherComponents/Types';
 const items: ListItem[] = [
   {
     content: [
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
       { text: '', emphasis: true },
       { text: '', emphasis: false },
       { text: '', code: true },
