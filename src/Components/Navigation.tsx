@@ -26,6 +26,7 @@ export default function Navigation() {
         {pageTitle: 'TypeScript', path: '/typescript'},
         {pageTitle: 'Servers', path: '/servers'},
         {pageTitle: 'APIs', path: '/apis'},
+        {pageTitle: 'PostgreSQL', path: '/postgresql'},
         {pageTitle: 'React', path: '/react'},
       ];
     
