@@ -1,8 +1,8 @@
-import Header from "../components/Header/Header";
-import Navigation from "../components/Header/Navigation";
-import DynamicNotes, { DynamicNotesCode } from "../components/Notes/DynamicNotes";
-import items from "../components/Notes/ReactNotes";
-import itemsWithCode from "../components/Notes/ReactCodeExamples";
+import Header from "../Components/Header/Header";
+import Navigation from "../Components/Header/Navigation";
+import DynamicNotes, { DynamicNotesCode } from "../Components/Notes/DynamicNotes";
+import  items from "../Components/Notes/ReactNotes/ReactNotes";
+import itemsWithCode from "../Components/Notes/ReactNotes/ReactCodeExamples";
 import '../CSS/Page.css';
 import '../CSS/Card.css';
 
