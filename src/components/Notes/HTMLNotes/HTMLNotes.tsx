@@ -52,10 +52,18 @@ const items: ListItem[] = [
   },
   {
     content: [
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: false },
+      { text: 'Metadata', emphasis: true },
+      { text: 'is', emphasis: false },
+      { text: 'data', emphasis: true },
+      { text: 'about the', emphasis: false },
+      { text: 'webpage', emphasis: true },
+      { text: 'that the', emphasis: false },
+      { text: 'browser', emphasis: true },
+      { text: 'uses to', emphasis: false },
+      { text: 'display', emphasis: true },
+      { text: 'the', emphasis: false },
+      { text: 'webpage', emphasis: true },
+      { text: 'correctly to users.', emphasis: false },
     ],
   },
   {
