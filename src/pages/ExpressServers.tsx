@@ -1,5 +1,5 @@
-import Header from "../Components/HeaderNavFooter/Header";
-import Navigation from "../Components/HeaderNavFooter/Navigation";
+import Header from "../Components/Header";
+import Navigation from "../Components/Navigation";
 import '../CSS/Card.css';
 import '../CSS/Page.css';
 export default function servers() {

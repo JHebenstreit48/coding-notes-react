@@ -1,4 +1,4 @@
-import "../../CSS/Footer.css";
+import "../CSS/Footer.css";
 
 
 

@@ -1,4 +1,4 @@
-import "../../CSS/Header.css";
+import "../CSS/Header.css";
 
 interface Header {
   text: string;
