@@ -3,8 +3,6 @@ import Navigation from "../Components/Navigation";
 import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
 import items from "../Components/CSSNotes";
 import itemsWithCode from "../Components/CSSCodeExamples";
-import '../CSS/Page.css'
-import '../CSS/Card.css'
 export default function CSS() {
 
     return (

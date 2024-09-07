@@ -9,7 +9,7 @@ const items: ListItem[] = [
     content: [
       { text: 'Hypertext Markup Language (HTML)', emphasis: true },
       { text: 'is one of the three cornerstone languages.', emphasis: false },
-      { text: 'It is the standard markup language for documents designed to be displayed in a web browser.', code: true },
+      { text: 'It is the standard markup language for documents designed to be displayed in a web browser', code: true },
     ],
   },
   {
@@ -17,14 +17,14 @@ const items: ListItem[] = [
       { text: 'HTML', emphasis: true },
       { text: 'is used to create the', emphasis: false },
       { text: 'structure', emphasis: true },
-      { text: 'of a webpage.', emphasis: false },
+      { text: 'of a webpage', emphasis: false },
     ],
   },
   {
     content: [
       { text: 'It is made up of', emphasis: false },
       { text: 'elements', emphasis: true },
-      { text: 'which work together to provide content and the basic framework for all pages on the web.', emphasis: false },
+      { text: 'which work together to provide content and the basic framework for all pages on the web', emphasis: false },
     ],
   },
   {
@@ -47,7 +47,7 @@ const items: ListItem[] = [
       { text: 'content', emphasis: true },
       { text: 'to.', emphasis: false },
       { text: 'browsers', emphasis: true },
-      { text: 'and other developers.', emphasis: false },
+      { text: 'and other developers', emphasis: false },
     ],
   },
   {
@@ -63,7 +63,7 @@ const items: ListItem[] = [
       { text: 'display', emphasis: true },
       { text: 'the', emphasis: false },
       { text: 'webpage', emphasis: true },
-      { text: 'correctly to users.', emphasis: false },
+      { text: 'correctly to users', emphasis: false },
     ],
   },
   {

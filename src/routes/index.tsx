@@ -10,6 +10,9 @@ import Servers from "../pages/ExpressServers";
 import API from "../pages/API";
 import React from "../pages/React";
 import PostgreSQL from "../pages/PostgreSQL";
+import WebAPI from "../pages/WebAPI";
+import ReactAndTypeScript from "../pages/ReactandTypeScript";
+import NodeJS from "../pages/Node";
 
 export const router = createBrowserRouter([
 
@@ -35,6 +38,14 @@ export const router = createBrowserRouter([
                 element: <JavaScript />,
             },
             {
+                path: '/webapis',
+                element: <WebAPI />
+            },
+            {
+                path: '/node',
+                element: <NodeJS />
+            },
+            {
                 path: '/typescript',
                 element: <TypeScript />,
             },
@@ -53,6 +64,10 @@ export const router = createBrowserRouter([
             {
                 path: '/react',
                 element: <React />,
+            },
+            {
+                path: '/reactandtypescript',
+                element: <ReactAndTypeScript />,
             },
         ],
     },
