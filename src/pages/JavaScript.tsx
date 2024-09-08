@@ -1,5 +1,8 @@
+import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
+import items from "../Components/JavaScriptNotes";
+import itemsWithCode from "../Components/JavaScriptNotesWithCode";
 export default function javascript() {
 
     return (
@@ -7,8 +10,8 @@ export default function javascript() {
         <>
             <Header text="JavaScript" />
             <Navigation />
-            {/* <DynamicNotes items={ items } />
-            <DynamicNotesCode items={ itemsWithCode } /> */}
+            <DynamicNotes items={ items } />
+            <DynamicNotesCode items={ itemsWithCode } />
         </>
     );
 
