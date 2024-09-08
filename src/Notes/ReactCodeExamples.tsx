@@ -1,4 +1,4 @@
-import { ListItem } from './Types';
+import { ListItem } from '../Components/Types';
 
 // Define the types for each text part and for the list item
 
@@ -30,6 +30,38 @@ const items: ListItem[] = [
   },
   {
     content: [
+      { text: 'Classes', emphasis: true },
+      { text: 'in React are not indicated by the same attribute as they are in HTML', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: 'In React', emphasis: false },
+      { text: 'classes', emphasis: true },
+      { text: 'are indicated by the following line of code', emphasis: false },
+      { text: `className=""`, code: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'The following code is an example of a way to add', emphasis: false },
+      { text: 'props', emphasis: true },
+      { text: 'to a', emphasis: false },
+      { text: 'component', emphasis: true },
+      { text: `function Pet(props) { return ( <li> {props.name} is a {props.species} and is {props.age} years old. </li> )}`, code: true },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
       { text: '', emphasis: false },
       { text: '', emphasis: true },
       { text: '', emphasis: false },
