@@ -15,10 +15,17 @@ const items: ListItem[] = [
   },
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
+      { text: 'The parent HTML tag always has to have the following', emphasis: false },
+      { text: 'attribute', emphasis: true },
+      { text: 'to identify an', emphasis: false },
+      { text: 'element', emphasis: true },
+      { text: 'of the', emphasis: false },
+      { text: 'same type', emphasis: true },
+      { text: 'among its', emphasis: false },
+      { text: 'siblings', emphasis: true },
+      { text: 'during page', emphasis: false },
+      { text: 'rendering and re-rendering.', emphasis: true },
+      { text: 'key=()', code: true },
     ],
   },
   {

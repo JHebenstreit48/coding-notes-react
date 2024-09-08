@@ -22,7 +22,6 @@ const DynamicNotes = (props: DynamicNotesProps) => {
                     <span key={idx}>{part.text} </span>
                   )
 
-
                 )}
               </li>
             ))}
@@ -51,7 +50,6 @@ export const DynamicNotesCode = (props: DynamicNotesProps) => {
                     part.code ? <li className="list-code"><code className="code">{part.text}</code></li> :
                       <span key={idx}>{part.text} </span>
                   )
-
 
                 )}
               </li>
