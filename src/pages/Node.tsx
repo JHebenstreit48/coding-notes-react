@@ -1,4 +1,4 @@
-import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
 import items from "../Components/NodeJSNotes";
@@ -10,8 +10,8 @@ export default function NodeJS() {
         <>
             <Header text="Node" />
             <Navigation />
-            <DynamicNotes items={ items } />
-            <DynamicNotesCode items={ itemsWithCode } />
+            <DynamicNotes items={items} />
+            <DynamicNotesCode items={itemsWithCode} />
         </>
     );
 

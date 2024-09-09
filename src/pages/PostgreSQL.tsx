@@ -1,4 +1,4 @@
-import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Navigation from "../Components/Navigation";
 import items from "../Components/PostgreSQLNotes";
 import itemsWithCode from "../Components/PostgreSQLNotesWCode";

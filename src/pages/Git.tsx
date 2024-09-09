@@ -1,8 +1,8 @@
-import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-import items from "../Components/GitNotes";
-import itemsWithCode from "../Components/GitNotesWithCode";
+import items from "../Notes/GitNotes";
+import itemsWithCode from "../Notes/GitNotesWithCode";
 export default function git() {
 
     return (
@@ -10,8 +10,8 @@ export default function git() {
         <>
             <Header text="Git" />
             <Navigation />
-            <DynamicNotes items={ items } />
-            <DynamicNotesCode items={ itemsWithCode } />
+            <DynamicNotes items={items} />
+            <DynamicNotesCode items={itemsWithCode} />
 
         </>
     );

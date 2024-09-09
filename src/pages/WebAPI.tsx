@@ -1,5 +1,5 @@
 // import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
-import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
 import items from "../Components/WebAPINotes";
@@ -11,8 +11,8 @@ export default function WebAPI() {
         <>
             <Header text="Web APIs" />
             <Navigation />
-            <DynamicNotes items={ items } />
-            <DynamicNotesCode items={ itemsWithCode } />
+            <DynamicNotes items={items} />
+            <DynamicNotesCode items={itemsWithCode} />
         </>
     );
 }

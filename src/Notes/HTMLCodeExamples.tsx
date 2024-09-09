@@ -1,5 +1,4 @@
-import { ListItem } from './Types';
-
+import { ListItem } from '../Components/Types';
 // Define the types for each text part and for the list item
 
 // Define the functional component with TypeScript and use the default export function syntax
