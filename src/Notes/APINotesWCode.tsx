@@ -1,15 +1,12 @@
-import { ListItem } from './Types';
-
-// Define the types for each text part and for the list item
-
-// Define the functional component with TypeScript and use the default export function syntax
+import { ListItem } from '../Components/Types';
 
 const items: ListItem[] = [
   {
     content: [
       { text: '', emphasis: true },
       { text: '', emphasis: false },
-      { text: '', code: true },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
     ],
   },
   {
@@ -22,6 +19,15 @@ const items: ListItem[] = [
   },
   {
     content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
       { text: '', emphasis: false },
       { text: '', emphasis: true },
       { text: '', emphasis: false },

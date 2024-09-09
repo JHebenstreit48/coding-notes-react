@@ -1,4 +1,4 @@
-import { ListItem } from './Types';
+import { ListItem } from '../Components/Types';
 
 // Define the types for each text part and for the list item
 

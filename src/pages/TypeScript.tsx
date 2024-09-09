@@ -1,6 +1,6 @@
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import items from "../Components/TypeScriptNotes";
 import itemsWithCode from "../Components/TypeScriptNotesWithCode";
 

@@ -1,8 +1,8 @@
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
-import items from "../Components/APINotes";
-import itemsWithCode from "../Components/APINotesWCode";
+import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
+import items from "../Notes/APINotes";
+import itemsWithCode from "../Notes/APINotesWCode";
 export default function apis() {
 
     return (
@@ -10,8 +10,8 @@ export default function apis() {
         <>
             <Header text="APIs" />
             <Navigation />
-            <DynamicNotes items={ items } />
-            <DynamicNotesCode items={ itemsWithCode } />
+            <DynamicNotes items={items} />
+            <DynamicNotesCode items={itemsWithCode} />
         </>
     );
 

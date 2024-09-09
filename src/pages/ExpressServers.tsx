@@ -1,7 +1,7 @@
-import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Header from "../Components/Header";
-import items from "../Components/ExpressServersNotes";
-import itemsWithCode from "../Components/ExpressSeversCode";
+import items from "../Notes/ExpressServersNotes";
+import itemsWithCode from "../Notes/ExpressSeversCode";
 import Navigation from "../Components/Navigation";
 export default function servers() {
 
@@ -10,8 +10,8 @@ export default function servers() {
         <>
             <Header text="Express Servers" />
             <Navigation />
-            <DynamicNotes items={ items } />
-            <DynamicNotesCode items={ itemsWithCode } />
+            <DynamicNotes items={items} />
+            <DynamicNotesCode items={itemsWithCode} />
         </>
     );
 }
