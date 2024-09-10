@@ -5,32 +5,39 @@
     align-items: center;
     left: 0;
     background-color: rgb(130, 21, 198); /* Full-width background */
-    padding: 2px;
     margin: 0;
-    list-style: none; /* Removes default list markers */
+    list-style: none;
+    flex-wrap: nowrap; /* Removes default list markers */
 }
 
 .nav-css li {
     list-style: none; /* Removes any default list marker */
-    margin: 0; /* Ensures no extra space from li margins */
 }
 
 .nav-button {
+    flex-wrap: nowrap; /* Prevents buttons from wrapping */
     flex-grow: 0; /* Prevents each button from growing to fill space */
     text-decoration: none;
-    font-size: 30px; /* Font size for readability */
+    font-size: 28px; /* Font size for readability */
     text-align: center; /* Centers text within each button */
-    margin: 0; /* Reset margin to control spacing */
     text-shadow: 2px 3px 3px black;
+    padding: 0;
 }
 
 .nav-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(9, 188, 248);
     text-decoration: none;
-    padding: 10px 15px; /* Minimal padding to reduce space */
-    margin: 0; /* Removes default margins around a tags */
-    display: inline-block; /* Allows for padding adjustments */
-    line-height: 45px; /* Vertical centering of the text */
+    display: flex; /* Allows for padding adjustments */
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 9px;
+    width: 138px;
 }
 
 .nav-button a:hover {
@@ -39,6 +46,7 @@
     border-right: 2px solid rgb(0, 255, 255);
     border-top: 2px solid rgb(0, 255, 255);
     text-shadow: 2px 3px 3px black;
+    padding: 10px;
 }
 
 .nav-button a:active {
@@ -48,4 +56,19 @@
 /* Additional spacing control between links */
 .nav-button:not(:last-child) {
     margin-right: 10px; /* Minimal space between nav items */
+}
+
+.scroll-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Width of the arrow buttons */
+    height: 40px; /* Height of the arrow buttons */
+    cursor: pointer;
+    position: relative;
+}
+
+/* Optional: Hide scrollbar visually */
+.nav-container::-webkit-scrollbar {
+    display: none;
 }
