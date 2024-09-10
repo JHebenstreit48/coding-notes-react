@@ -1,6 +1,6 @@
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
-import items from "../Components/HTMLNotes";
-import itemsWithCode from "../Components/HTMLCodeExamples";
+import items from "../HTMLNotes/HTMLNotes";
+import itemsWithCode from "../HTMLNotes/HTMLCodeExamples";
 import Navigation from "../Components/Navigation";
 
 

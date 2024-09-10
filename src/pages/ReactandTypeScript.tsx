@@ -1,8 +1,8 @@
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-import items from "../Components/ReactWTypeScriptNotes"
-import itemsWithCode from "../Components/ReactWTypeScriptNotesWithCode"
+import items from "../ReactWithTS/ReactWTypeScriptNotes";
+import itemsWithCode from "../ReactWithTS/ReactWTypeScriptNotesWithCode"
 export default function ReactAndTypeScript() {
 
     return (

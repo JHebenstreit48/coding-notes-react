@@ -13,6 +13,8 @@ import PostgreSQL from "../pages/PostgreSQL";
 import WebAPI from "../pages/WebAPI";
 import ReactAndTypeScript from "../pages/ReactandTypeScript";
 import NodeJS from "../pages/Node";
+import FullStackReact from "../pages/FullStackReact";
+import NoSQL from "../pages/NoSQL";
 
 export const router = createBrowserRouter([
 
@@ -69,6 +71,14 @@ export const router = createBrowserRouter([
                 path: '/reactandtypescript',
                 element: <ReactAndTypeScript />,
             },
+            {
+                path: '/fullstackreact',
+                element: <FullStackReact />,
+            },
+            {
+                path: '/nosql',
+                element: <NoSQL />,
+            }
         ],
     },
 ]);

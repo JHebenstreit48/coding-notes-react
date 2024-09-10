@@ -2,8 +2,8 @@
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-import items from "../Components/WebAPINotes";
-import itemsWithCode from "../Components/WebAPINotesWithCode";
+import items from "../Notes/WebAPINotes";
+import itemsWithCode from "../Notes/WebAPINotesWithCode";
 export default function WebAPI() {
 
     return (

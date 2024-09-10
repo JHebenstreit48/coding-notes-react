@@ -1,8 +1,8 @@
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
-import items from "../Notes/CSSNotes";
-import itemsWithCode from "../Notes/CSSCodeExamples";
+import items from "../CSSNotes/CSSNotes";
+import itemsWithCode from "../CSSNotes/CSSCodeExamples";
 export default function CSS() {
 
     return (

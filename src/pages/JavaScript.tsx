@@ -1,8 +1,8 @@
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-import items from "../Components/JavaScriptNotes";
-import itemsWithCode from "../Components/JavaScriptNotesWithCode";
+import items from "../JavaScriptNotes/JavaScriptNotes";
+import itemsWithCode from "../JavaScriptNotes/JavaScriptNotesWithCode";
 export default function javascript() {
 
     return (
