@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import '../CSS/Navigation.css';
-import { useRef } from 'react';
+// import { useRef } from 'react';
 
 interface NavigationLinks {
   to: string;
@@ -17,7 +17,7 @@ const ListItems = ({ to, pageTitle, isActive }: NavigationLinks & { isActive: bo
 
 export default function Navigation() {
   const currentTab = useLocation().pathname;
-  const navRef = useRef<HTMLDivElement>(null);
+  // const navRef = useRef<HTMLDivElement>(null);
 
   const navLinks = [
 
@@ -37,20 +37,20 @@ export default function Navigation() {
     // { pageTitle: 'NoSQL', path: '/nosql' },
   ];
 
-  const scroll = (scrollOffset: number) => {
-    if (navRef.current) {
-      navRef.current.scrollLeft += scrollOffset;
-    }
-  };
+  // const scroll = (scrollOffset: number) => {
+  //   if (navRef.current) {
+  //     navRef.current.scrollLeft += scrollOffset;
+  //   }
+  // };
 
   return (
     <>
-      <div ref={navRef} className="nav-container">
+      {/* <div ref={navRef} className="nav-container"> */}
       
         <ul className="nav-css">
-          <div>
+          {/* <div>
           <button className="scroll-arrow left-arrow" onClick={() => scroll(-200)}>&lt;</button>
-          </div>
+          </div> */}
 
           {navLinks.map(link => (
             <ListItems
@@ -60,12 +60,12 @@ export default function Navigation() {
               isActive={currentTab === link.path}
             />
           ))}
-          <div>
+          {/* <div>
           <button className="scroll-arrow right-arrow" onClick={() => scroll(200)}>&gt;</button>
-          </div>
+          </div> */}
         </ul>
 
-      </div>
+      {/* </div> */}
 
 
 

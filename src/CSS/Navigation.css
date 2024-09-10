@@ -37,7 +37,7 @@
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 9px;
-    width: 138px;
+    width: 130px;
 }
 
 .nav-button a:hover {
@@ -46,7 +46,9 @@
     border-right: 2px solid rgb(0, 255, 255);
     border-top: 2px solid rgb(0, 255, 255);
     text-shadow: 2px 3px 3px black;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
 }
 
 .nav-button a:active {
@@ -58,17 +60,17 @@
     margin-right: 10px; /* Minimal space between nav items */
 }
 
-.scroll-arrow {
+/* .scroll-arrow {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40px; /* Width of the arrow buttons */
-    height: 40px; /* Height of the arrow buttons */
-    cursor: pointer;
+    /* height: 40px; Height of the arrow buttons */
+    /* cursor: pointer;
     position: relative;
-}
+} */
 
 /* Optional: Hide scrollbar visually */
-.nav-container::-webkit-scrollbar {
+/* .nav-container::-webkit-scrollbar {
     display: none;
-}
+} */
