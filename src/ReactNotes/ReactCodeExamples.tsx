@@ -40,6 +40,8 @@ const items: ListItem[] = [
       { text: 'classes', emphasis: true },
       { text: 'are indicated by the following line of code', emphasis: false },
       { text: `className=""`, code: true },
+      { text: 'instead of', emphasis: false },
+      { text: 'class=""', code: true },
     ],
   },
   {
@@ -49,6 +51,54 @@ const items: ListItem[] = [
       { text: 'to a', emphasis: false },
       { text: 'component', emphasis: true },
       { text: `function Pet(props) { return ( <li> {props.name} is a {props.species} and is {props.age} years old. </li> )}`, code: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'The following React', emphasis: false },
+      { text: 'function', emphasis: true },
+      { text: 'allows us to', emphasis: false },
+      { text: 'add', emphasis: true },
+      { text: 'a', emphasis: false },
+      { text: 'state', emphasis: true },
+      { text: 'to your', emphasis: false },
+      { text: 'component', emphasis: true },
+      { text: 'useState()', code: true },
+      { text: 'The following code is an example of useState()', emphasis: false },
+      { text: `const [name, setName] = useState('Edward');`, code: true },
+
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
     ],
   },
   {
