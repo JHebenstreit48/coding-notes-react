@@ -60,19 +60,25 @@ const items: ListItem[] = [
       { text: 'that the', emphasis: false },
       { text: 'browser', emphasis: true },
       { text: 'uses to', emphasis: false },
-      { text: 'display', emphasis: true },
-      { text: 'the', emphasis: false },
-      { text: 'webpage', emphasis: true },
-      { text: 'correctly to users', emphasis: false },
+      { text: 'serve', emphasis: true },
+      { text: 'the webpage to users', emphasis: false },
     ],
   },
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
+      { text: 'Metadata', emphasis: true },
+      { text: 'is', emphasis: false },
+      { text: 'data', emphasis: true },
+      { text: 'that is', emphasis: false },
+      { text: 'not visible', emphasis: true },
+      { text: 'to the user', emphasis: false },
     ],
+  },
+  {
+    content: [
+      { text: 'Some examples of character encoding are:', emphasis: false },
+      { text: 'UTF-8, ISO-8859-1, ANSI(Windows-1252), ASCII', emphasis: true },
+    ]
   },
   {
     content: [

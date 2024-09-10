@@ -58,6 +58,80 @@ const items: ListItem[] = [
       { text: '<!DOCTYPE html>', code: true },
     ],
   },
+  {
+    content: [
+      { text: 'The following tag contains the', emphasis: false },
+      { text: 'metadata', emphasis: true },
+      { text: 'for the webpage', emphasis: false },
+      { text: '<meta>', code: true },
+      { text: 'and it may contains the following', emphasis: false },
+      { text: 'attributes:', emphasis: true },
+      { text: 'charset, content, http-equiv, name', code: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'The following attribute of the', emphasis: false },
+      { text: 'metadata', emphasis: true },
+      { text: 'HTML tag sets the', emphasis: false },
+      { text: 'character encoding', emphasis: true },
+      { text: 'for the document', emphasis: false },
+      { text: 'charset="<insert character encoding here>"', code: true },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: 'The following tag is used to', emphasis: false },
+      { text: 'embed executable', emphasis: false },
+      { text: 'code', emphasis: true },
+      { text: 'or', emphasis: false },
+      { text: 'data', emphasis: true },
+      { text: 'into the document', emphasis: false },
+      { text: '<script>', code: true },
+      { text: 'This code is typically', emphasis: false },
+      { text: 'JavaScript', emphasis: true },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
 ];
 
 export default items;

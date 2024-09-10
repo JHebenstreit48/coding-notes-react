@@ -16,7 +16,6 @@ const items: ListItem[] = [
       { text: '', emphasis: false },
       { text: '', emphasis: true },
       { text: '', emphasis: false },
-      { text: '', code: true },
     ],
   },
   {
