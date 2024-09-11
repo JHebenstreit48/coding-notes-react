@@ -2,6 +2,7 @@ import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Navigation from "../Components/Navigation";
 import items from "../GitNotes/GitNotes";
 import itemsWithCode from "../GitNotes/GitNotesWithCode";
+import "../CSS/Header.css";
 export default function git() {
 
     return (

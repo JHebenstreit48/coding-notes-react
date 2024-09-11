@@ -2,6 +2,7 @@ import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import items from "../Notes/ExpressServersNotes";
 import itemsWithCode from "../Notes/ExpressSeversCode";
 import Navigation from "../Components/Navigation";
+import "../CSS/Header.css";
 export default function servers() {
 
     return (

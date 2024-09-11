@@ -2,6 +2,7 @@ import Navigation from "../Components/Navigation";
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import items from "../CSSNotes/CSSNotes";
 import itemsWithCode from "../CSSNotes/CSSCodeExamples";
+import "../CSS/Header.css";
 export default function css() {
 
     return (

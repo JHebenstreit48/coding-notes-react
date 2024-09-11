@@ -2,6 +2,7 @@ import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Navigation from "../Components/Navigation";
 import items from "../PostgreSQL/PostgreSQLNotes";
 import itemsWithCode from "../PostgreSQL/PostgreSQLNotesWCode";
+import "../CSS/Header.css";
 
 
 export default function postgreSQL() {

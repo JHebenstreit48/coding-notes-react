@@ -2,6 +2,7 @@ import Navigation from "../Components/Navigation";
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import items from "../ReactNotes/ReactNotes";
 import itemsWithCode from "../ReactNotes/ReactCodeExamples";
+import "../CSS/Header.css";
 
 
 export default function react() {
