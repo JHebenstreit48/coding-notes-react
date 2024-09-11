@@ -4,7 +4,7 @@ import itemsWithCode from "../HTMLNotes/HTMLCodeExamples";
 import Navigation from "../Components/Navigation";
 
 
-export default function HTML() {
+export default function html() {
 
     return (
 

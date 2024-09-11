@@ -4,7 +4,7 @@ import items from "../PostgreSQL/PostgreSQLNotes";
 import itemsWithCode from "../PostgreSQL/PostgreSQLNotesWCode";
 
 
-export default function PostgreSQL() {
+export default function postgreSQL() {
 
     return (
 

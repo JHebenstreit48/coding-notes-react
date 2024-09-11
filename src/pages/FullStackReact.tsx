@@ -1,12 +1,11 @@
 // import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
-import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-export default function FullStackReact() {
+export default function fullStackReact() {
 
     return (
 
         <>
-            <Header text="Full-Stack React" />
+            <h1 className="Header">Full-Stack React</h1>
             <Navigation />
             {/* <DynamicNotes items={items} />
             <DynamicNotesCode items={itemsWithCode} /> */}

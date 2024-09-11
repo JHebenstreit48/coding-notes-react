@@ -1,14 +1,13 @@
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
-import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
 import items from "../ReactWithTS/ReactWTypeScriptNotes";
 import itemsWithCode from "../ReactWithTS/ReactWTypeScriptNotesWithCode"
-export default function ReactAndTypeScript() {
+export default function reactAndTypeScript() {
 
     return (
 
         <>
-            <Header text="React + TypeScript" />
+            <h1 className="Header">React + TypeScript</h1>
             <Navigation />
             <DynamicNotes items={items} />
             <DynamicNotesCode items={itemsWithCode} />

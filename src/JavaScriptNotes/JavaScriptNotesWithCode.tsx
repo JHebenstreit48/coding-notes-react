@@ -63,18 +63,22 @@ const items: ListItem[] = [
       },
       {
         content: [
-          { text: '', emphasis: true },
-          { text: '', emphasis: false },
-          { text: '', emphasis: true },
-          { text: '', emphasis: false },
+          { text: 'The following', emphasis: false },
+          { text: 'parameter', emphasis: true },
+          { text: 'will be located inside of a set of parenthesis and stands for ', emphasis: false },
+          { text: 'event', emphasis: true },
+          { text: '(e)', code: true },
         ],
       },
       {
         content: [
-          { text: '', emphasis: true },
-          { text: '', emphasis: false },
-          { text: '', emphasis: true },
-          { text: '', emphasis: false },
+          { text: 'The following code will', emphasis: false },
+          { text: 'prevent', emphasis: true },
+          { text: 'the', emphasis: false },
+          { text: 'default behavior', emphasis: true },
+          { text: 'of the', emphasis: false },
+          { text: 'browser', emphasis: true },
+          { text: 'preventDefault()', code: true },
         ],
       },
 ];
