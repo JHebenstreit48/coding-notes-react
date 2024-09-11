@@ -2,6 +2,7 @@ import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Navigation from "../Components/Navigation";
 import items from "../NodeJSNotes/NodeJSNotes";
 import itemsWithCode from "../NodeJSNotes/NodeJSNotesWithCode";
+import "../CSS/Header.css";
 export default function nodeJS() {
 
     return (

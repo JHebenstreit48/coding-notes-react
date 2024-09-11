@@ -3,6 +3,7 @@ import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Navigation from "../Components/Navigation";
 import items from "../Notes/WebAPINotes";
 import itemsWithCode from "../Notes/WebAPINotesWithCode";
+import "../CSS/Header.css";
 export default function webAPI() {
 
     return (
