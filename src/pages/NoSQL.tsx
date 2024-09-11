@@ -1,12 +1,11 @@
 // import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
-import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-export default function NoSQL() {
+export default function noSQL() {
 
     return (
 
         <>
-            <Header text="NoSQL" />
+            <h1 className="Header">NoSQL</h1>
             <Navigation />
             {/* <DynamicNotes items={items} />
             <DynamicNotesCode items={itemsWithCode} /> */}

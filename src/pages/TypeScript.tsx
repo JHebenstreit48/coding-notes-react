@@ -1,4 +1,3 @@
-import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import items from "../TypeScriptNotes/TypeScriptNotes";
@@ -9,7 +8,7 @@ export default function typescript() {
     return (
 
         <>
-            <Header text="TypeScript" />
+            <h1 className="Header">TypeScript</h1>
             <Navigation />
             <DynamicNotes items={items} />
             <DynamicNotesCode items={itemsWithCode} />

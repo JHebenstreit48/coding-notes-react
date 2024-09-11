@@ -1,4 +1,3 @@
-import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import items from "../APINotes/APINotes";
@@ -8,7 +7,7 @@ export default function apis() {
     return (
 
         <>
-            <Header text="APIs" />
+            <h1 className="Header">APIs</h1>
             <Navigation />
             <DynamicNotes items={items} />
             <DynamicNotesCode items={itemsWithCode} />

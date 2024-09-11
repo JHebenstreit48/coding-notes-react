@@ -1,14 +1,13 @@
-import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import items from "../CSSNotes/CSSNotes";
 import itemsWithCode from "../CSSNotes/CSSCodeExamples";
-export default function CSS() {
+export default function css() {
 
     return (
 
         <>
-            <Header text="CSS" />
+            <h1 className="Header">CSS</h1>
             <Navigation />
             <DynamicNotes items={items} />
             <DynamicNotesCode items={itemsWithCode} />

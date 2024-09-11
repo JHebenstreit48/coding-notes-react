@@ -1,16 +1,15 @@
-import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import items from "../ReactNotes/ReactNotes";
 import itemsWithCode from "../ReactNotes/ReactCodeExamples";
 
 
-export default function React() {
+export default function react() {
 
     return (
 
         <>
-            <Header text="React" />
+            <h1 className="Header">React</h1>
             <Navigation />
             <DynamicNotes items={items} />
             <DynamicNotesCode items={itemsWithCode} />
