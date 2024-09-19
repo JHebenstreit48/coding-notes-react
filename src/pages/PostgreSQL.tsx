@@ -1,7 +1,7 @@
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Navigation from "../Components/Navigation";
 import items from "../PostgreSQL/PostgreSQLNotes";
-import itemsWithCode from "../PostgreSQL/PostgreSQLNotesWCode";
+import postgreSQLItemsWithCode from "../PostgreSQL/PostgreSQLNotesWCode";
 import "../CSS/Header.css";
 
 
@@ -13,7 +13,7 @@ export default function postgreSQL() {
             <h1 className="Header">PostgreSQL</h1>
             <Navigation />
             <DynamicNotes items={items} />
-            <DynamicNotesCode items={itemsWithCode} />
+            <DynamicNotesCode items={postgreSQLItemsWithCode} />
         </>
     );
 

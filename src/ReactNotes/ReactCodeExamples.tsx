@@ -4,7 +4,7 @@ import { ListItem } from '../Components/Types';
 
 // Define the functional component with TypeScript and use the default export function syntax
 
-const items: ListItem[] = [
+const reactItemsWithCode: ListItem[] = [
   {
     content: [
       { text: 'The following code is an HTML', emphasis: false },
@@ -119,4 +119,4 @@ const items: ListItem[] = [
   },
 ];
 
-export default items;
+export default reactItemsWithCode;

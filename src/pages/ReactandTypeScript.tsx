@@ -1,7 +1,7 @@
 import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Navigation from "../Components/Navigation";
 import items from "../ReactWithTS/ReactWTypeScriptNotes";
-import itemsWithCode from "../ReactWithTS/ReactWTypeScriptNotesWithCode";
+import reactAndTypescriptItemsWithCode from "../ReactWithTS/ReactWTypeScriptNotesWithCode";
 import "../CSS/Header.css";
 export default function reactAndTypeScript() {
 
@@ -11,7 +11,7 @@ export default function reactAndTypeScript() {
             <h1 className="Header">React + TypeScript</h1>
             <Navigation />
             <DynamicNotes items={items} />
-            <DynamicNotesCode items={itemsWithCode} />
+            <DynamicNotesCode items={reactAndTypescriptItemsWithCode} />
         </>
     );
 }

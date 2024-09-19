@@ -1,6 +1,6 @@
 import { ListItem } from '../Components/Types';
 
-const items: ListItem[] = [
+const javascriptItemsWithCode: ListItem[] = [
     {
         content: [
           { text: 'When you use the following code before the name of a', emphasis: false },
@@ -83,4 +83,4 @@ const items: ListItem[] = [
       },
 ];
 
-export default items;
+export default javascriptItemsWithCode;

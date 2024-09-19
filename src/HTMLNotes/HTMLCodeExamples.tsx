@@ -3,7 +3,7 @@ import { ListItem } from '../Components/Types';
 
 // Define the functional component with TypeScript and use the default export function syntax
 
-const items: ListItem[] = [
+const htmlItemsWithCode: ListItem[] = [
   {
     content: [
       { text: 'The following element contains', emphasis: false },
@@ -134,4 +134,4 @@ const items: ListItem[] = [
   },
 ];
 
-export default items;
+export default htmlItemsWithCode;

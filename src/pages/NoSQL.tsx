@@ -9,7 +9,7 @@ export default function noSQL() {
             <h1 className="Header">NoSQL</h1>
             <Navigation />
             {/* <DynamicNotes items={items} />
-            <DynamicNotesCode items={itemsWithCode} /> */}
+            <DynamicNotesCode items={noSQLItemsWithCode} /> */}
 
         </>
     );
