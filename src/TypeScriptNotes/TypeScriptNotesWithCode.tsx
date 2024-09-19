@@ -1,6 +1,6 @@
 import { ListItem } from '../Components/Types';
 
-const items: ListItem[] = [
+const typescriptItemsWithCode: ListItem[] = [
     {
         content: [
           { text: '', emphasis: true },
@@ -35,4 +35,4 @@ const items: ListItem[] = [
       },
 ];
 
-export default items;
+export default typescriptItemsWithCode;

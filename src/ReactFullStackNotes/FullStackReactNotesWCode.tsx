@@ -1,11 +1,20 @@
 import { ListItem } from '../Components/Types';
 
-const reactAndTypescriptItemsWithCode: ListItem[] = [
+const fullStackReactItemsWithCode: ListItem[] = [
     {
         content: [
+          { text: '', emphasis: false },
           { text: '', emphasis: true },
           { text: '', emphasis: false },
           { text: '', emphasis: true },
+          { text: '', code: true },
+          { text: '', emphasis: false },
+          { text: '', emphasis: true },
+          { text: '', emphasis: false },
+          { text: '', emphasis: true },
+          { text: '', emphasis: false },
+          { text: '', emphasis: true },
+          { text: '', code: true },
           { text: '', emphasis: false },
         ],
       },
@@ -35,4 +44,4 @@ const reactAndTypescriptItemsWithCode: ListItem[] = [
       },
 ];
 
-export default reactAndTypescriptItemsWithCode;
+export default fullStackReactItemsWithCode;

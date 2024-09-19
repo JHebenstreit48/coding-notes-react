@@ -1,7 +1,7 @@
 import Navigation from "../Components/Navigation";
-import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
 import items from "../CSSNotes/CSSNotes";
-import itemsWithCode from "../CSSNotes/CSSCodeExamples";
+import cssItemsWithCode from "../CSSNotes/CSSCodeExamples";
 import "../CSS/Header.css";
 export default function css() {
 
@@ -11,7 +11,7 @@ export default function css() {
             <h1 className="Header">CSS</h1>
             <Navigation />
             <DynamicNotes items={items} />
-            <DynamicNotesCode items={itemsWithCode} />
+            <DynamicNotesCode items={cssItemsWithCode} />
 
         </>
     );

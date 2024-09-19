@@ -1,6 +1,6 @@
 import { ListItem } from '../Components/Types';
 
-const items: ListItem[] = [
+const gitItemsWithCode: ListItem[] = [
   {
     content: [
       { text: '', emphasis: true },
@@ -34,5 +34,4 @@ const items: ListItem[] = [
     ],
   },
 ];
-
-export default items;
+export default gitItemsWithCode;
