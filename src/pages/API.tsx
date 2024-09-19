@@ -1,5 +1,5 @@
 import Navigation from "../Components/Navigation";
-import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
 import items from "../APINotes/APINotes";
 import apiItemsWithCode from "../APINotes/APINotesWCode";
 import "../CSS/Header.css";

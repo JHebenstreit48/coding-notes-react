@@ -4,6 +4,11 @@ interface DynamicNotesProps {
   items: ListItem[];
 }
 
+interface DynamicNotesPropsCode {
+  items: ListItem[];
+}
+
+
 const DynamicNotes = (props: DynamicNotesProps) => {
   return (
     <>
@@ -32,7 +37,7 @@ const DynamicNotes = (props: DynamicNotesProps) => {
   );
 };
 
-export const DynamicNotesCode = (props: DynamicNotesProps) => {
+export const DynamicNotesCode = (props: DynamicNotesPropsCode) => {
   return (
     <>
       <div className="card-code">

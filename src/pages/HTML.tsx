@@ -1,4 +1,4 @@
-import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
 import items from "../HTMLNotes/HTMLNotes";
 import htmlItemsWithCode from "../HTMLNotes/HTMLCodeExamples";
 import Navigation from "../Components/Navigation";

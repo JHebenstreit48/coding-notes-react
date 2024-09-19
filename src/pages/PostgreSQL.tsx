@@ -1,7 +1,7 @@
-import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
+import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
 import Navigation from "../Components/Navigation";
-import items from "../PostgreSQL/PostgreSQLNotes";
-import postgreSQLItemsWithCode from "../PostgreSQL/PostgreSQLNotesWCode";
+import items from "../PostgreSQL/PostgreSQLNotes.tsx";
+import postgreSQLItemsWithCode from "../PostgreSQL/PostgreSQLNotesWCode.tsx";
 import "../CSS/Header.css";
 
 
