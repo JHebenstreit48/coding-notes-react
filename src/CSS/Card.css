@@ -92,3 +92,28 @@
   width: 70%;
   color: rgb(5, 255, 238);
 }
+
+@media only screen and (max-width: 464px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 50px;
+  }
+
+  .list-items {
+    width: 86%;
+  }
+  .card-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 50px;
+  }
+
+  .list-code {
+    margin-left: 2rem;
+  }
+}
