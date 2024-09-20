@@ -32,10 +32,22 @@ const reactAndTypescriptItemsWithCode: ListItem[] = [
       },
       {
         content: [
-          { text: '', emphasis: true },
-          { text: '', emphasis: false },
-          { text: '', emphasis: true },
-          { text: '', emphasis: false },
+          { text: 'The following file is used to set the', emphasis: false },
+          { text: 'configuration rules', emphasis: true },
+          { text: 'for the', emphasis: false },
+          { text: 'React application', emphasis: true },
+          { text: 'portion of the project.', emphasis: false },
+          { text: 'tsconfig.app.json', code: true },
+        ],
+      },
+      {
+        content: [
+          { text: 'The following file is used to set the', emphasis: false },
+          { text: 'configuration rules', emphasis: true },
+          { text: 'for the', emphasis: false },
+          { text: 'Node.js environments', emphasis: true },
+          { text: 'portions of the project.', emphasis: false },
+          { text: 'tsconfig.node.json', code: true },
         ],
       },
       {
