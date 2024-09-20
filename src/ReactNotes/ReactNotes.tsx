@@ -39,6 +39,16 @@ const items: ListItem[] = [
   },
   {
     content: [
+      { text: 'To create a', emphasis: false },
+      { text: 'front-end', emphasis: true },
+      { text: 'React project, you would use the', emphasis: false },
+      { text: 'Vite,', emphasis: true },
+      { text: 'JavaScript', emphasis: false },
+      { text: 'build tool.', emphasis: true },
+    ],
+  },
+  {
+    content: [
       { text: 'Props(Properties)', emphasis: true },
       { text: 'let you pass', emphasis: false },
       { text: 'data', emphasis: true },

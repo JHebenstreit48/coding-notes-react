@@ -7,6 +7,22 @@ import { ListItem } from '../Components/Types';
 const reactItemsWithCode: ListItem[] = [
   {
     content: [
+      { text: 'The', emphasis: false },
+      { text: 'best practice to have the most', emphasis: true },
+      { text: 'up-to-date', emphasis: false },
+      { text: 'version of', emphasis: true },
+      { text: 'Vite', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: 'Enter the following commind in the', emphasis: false },
+      { text: 'terminal:', code: true },
+      { text: 'npx create vite@latest', emphasis: false },
+    ],
+  },
+  {
+    content: [
       { text: 'The following code is an HTML', emphasis: false },
       { text: '<a>', emphasis: true },
       { text: 'tag under the hood. It comes from React Router DOM.', emphasis: false },

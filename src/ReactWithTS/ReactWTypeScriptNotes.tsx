@@ -33,10 +33,14 @@ const items: ListItem[] = [
   },
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
+      { text: 'A', emphasis: false },
+      { text: 'tsconfig.node.json', emphasis: true },
+      { text: 'file, is used to set the', emphasis: false },
+      { text: 'configuration rules', emphasis: true },
+      { text: 'for the', emphasis: false },
+      { text: 'Node.js environment', emphasis: true },
+      { text: 'portions of the project.', emphasis: false },
+
     ],
   },
   {
