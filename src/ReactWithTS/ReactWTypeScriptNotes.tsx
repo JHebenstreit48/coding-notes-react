@@ -38,8 +38,10 @@ const items: ListItem[] = [
       { text: 'file, is used to set the', emphasis: false },
       { text: 'configuration rules', emphasis: true },
       { text: 'for the', emphasis: false },
-      { text: 'Node.js environment', emphasis: true },
-      { text: 'portions of the project.', emphasis: false },
+      { text: 'Node.js', emphasis: true },
+      { text: 'environment', emphasis: false },
+      { text: 'portions', emphasis: true },
+      { text: 'of your project', emphasis: false },
 
     ],
   },
@@ -66,10 +68,47 @@ const items: ListItem[] = [
   },
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
+      { text: 'When using', emphasis: false },
+      { text: 'React', emphasis: true },
+      { text: 'with', emphasis: false },
+      { text: 'TypeScript', emphasis: true },
+      { text: 'you should use', emphasis: false },
+      { text: 'types', emphasis: true },
+      { text: 'by default versus', emphasis: false },
+      { text: 'interfaces', emphasis: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'You should only use', emphasis: false },
+      { text: 'interfaces', emphasis: true },
+      { text: 'when you need a', emphasis: false },
+      { text: 'specific feature', emphasis: true },
+      { text: 'of', emphasis: false },
+      { text: 'interfaces', emphasis: true },
+      { text: 'that is not available with', emphasis: false },
+      { text: 'types', emphasis: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'Interfaces CANNOT', emphasis: true },
+      { text: 'express', emphasis: false },
+      { text: 'unions, mapped types,', emphasis: true },
+      { text: 'or', emphasis: false },
+      { text: 'conditional types', emphasis: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'When you are using', emphasis: false },
+      { text: 'objects', emphasis: true },
+      { text: 'that', emphasis: false },
+      { text: 'inherit', emphasis: true },
+      { text: 'from', emphasis: false },
+      { text: 'each other', emphasis: true },
+      { text: 'you should use', emphasis: false },
+      { text: 'interfaces', emphasis: true },
     ],
   },
   {
@@ -96,6 +135,7 @@ const items: ListItem[] = [
       { text: '', emphasis: false },
     ],
   },
+  
 ];
 
 export default items;
