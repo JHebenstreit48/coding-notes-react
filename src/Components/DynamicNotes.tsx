@@ -45,7 +45,7 @@ export const DynamicNotesCode = (props: DynamicNotesPropsCode) => {
         <div>
           <ul className="notesList">
             {props.items.map((item, index) => (
-              <li className="list-items" key={index}>
+              <li className="list-items-code" key={index}>
                 {item.content.map((part, idx) =>
                   part.emphasis ? (
                     <span key={idx} className="emphasis">

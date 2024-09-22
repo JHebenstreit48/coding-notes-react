@@ -75,11 +75,23 @@
   margin-bottom: 12px;
 }
 
+.list-items-code {
+  text-align: left;
+  color: rgb(31, 206, 28);
+  width: 65%;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.8rem;
+  margin-bottom: 12px;
+}
+
 .list-code {
   list-style-type: lower-roman;
-  margin-left: 4rem;
-  margin-top: 1rem;
-  margin-bottom: 5px;
+  margin-left: 2.2rem;
+  list-style-type: none;
+  margin-top: .4rem;
 }
 
 .emphasis {
