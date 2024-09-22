@@ -47,6 +47,51 @@ const items: ListItem[] = [
   },
   {
     content: [
+      { text: 'An', emphasis: false },
+      { text: 'intersection', emphasis: true },
+      { text: 'is used with', emphasis: false },
+      { text: 'types', emphasis: true },
+      { text: 'to', emphasis: false },
+      { text: 'combine multiple types', emphasis: true },
+      { text: 'into', emphasis: false },
+      { text: 'one', emphasis: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'This in turn allows you to', emphasis: false },
+      { text: 'add together', emphasis: true },
+      { text: 'existing', emphasis: false },
+      { text: 'types', emphasis: true },
+      { text: 'into a', emphasis: false },
+      { text: 'single type', emphasis: true },
+      { text: 'that has', emphasis: false},
+      { text: 'all', emphasis: true },
+      { text: 'of the', emphasis: false },
+      { text: 'features', emphasis: true },
+      { text: 'you need', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: 'If you create two', emphasis: false },
+      { text: 'interfaces', emphasis: true },
+      { text: 'in', emphasis: false },
+      { text: 'React with TypeScript', emphasis: true },
+      { text: 'that have the', emphasis: false },
+      { text: 'same name, ', emphasis: true },
+      { text: 'and are declared in the same', emphasis: false },
+      { text: 'scope', emphasis: true },
+      { text: 'they will', emphasis: false },
+      { text: 'merge', emphasis: true },
+      { text: 'their', emphasis: false },
+      { text: 'declarations', emphasis: true },
+      { text: 'together into', emphasis: false },
+      { text: 'one interface', emphasis: true },
+    ],
+  },
+  {
+    content: [
       { text: 'When you use React ', emphasis: false },
       { text: 'with TypeScript', emphasis: true },
       { text: ' it is best practice to declare our types in a ', emphasis: false },
@@ -109,6 +154,16 @@ const items: ListItem[] = [
       { text: 'each other', emphasis: true },
       { text: 'you should use', emphasis: false },
       { text: 'interfaces', emphasis: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'A', emphasis: false },
+      { text: 'linter', emphasis: true },
+      { text: 'helps catch potential', emphasis: false },
+      { text: 'bugs, bad practices, enforce code style conventions, improve overall code quality, streamline the development process', emphasis: true },
+      { text: 'and', emphasis: false },
+      { text: 'boost efficiency', emphasis: true },
     ],
   },
   {

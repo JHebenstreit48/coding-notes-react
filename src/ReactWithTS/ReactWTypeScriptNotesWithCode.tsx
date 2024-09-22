@@ -3,10 +3,26 @@ import { ListItem } from '../Components/Types';
 const reactAndTypescriptItemsWithCode: ListItem[] = [
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
+      { text: 'When using', emphasis: false },
+      { text: 'interfaces', emphasis: true },
+      { text: 'the following', emphasis: false },
+      { text: 'keyword', emphasis: true },
+      { text: 'makes', emphasis: false },
+      { text: `TypeScript's type checker`, emphasis: true },
+      { text: 'run', emphasis: false },
+      { text: 'faster.', emphasis: true },
+      { text: 'than when using a different symbol for', emphasis: false },
+      { text: 'types', emphasis: true },
+      { text: 'extends', code: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'The following symbol is used with', emphasis: false },
+      { text: 'types', emphasis: true },
+      { text: 'to create an', emphasis: false },
+      { text: 'intersection', emphasis: true },
+      { text: '&', code: true },
     ],
   },
   {
@@ -52,10 +68,29 @@ const reactAndTypescriptItemsWithCode: ListItem[] = [
   },
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
+      { text: 'The following code is an example of', emphasis: false },
+      { text: 'combining two interfaces', emphasis: true },
+      { text: 'into', emphasis: false },
+      { text: 'one', emphasis: true },
+      { text: 'by giving them the', emphasis: false },
+      { text: 'same name', emphasis: true},
+      { text: 'interface Person {', code: true },
+      { text: 'firstName: string;', code: true },
+      { text: '}', code: true },
+      { text: 'interface Person {', code: true },
+      { text: 'lastName: string;', code: true },
+      { text: '}', code: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'The following', emphasis: false },
+      { text: 'rule', emphasis: true },
+      { text: 'does not allow you to use the same', emphasis: false },
+      { text: 'interface', emphasis: true },
+      { text: 'name more than once inside your', emphasis: false },
+      { text: 'linter', emphasis: true },
+      { text: 'no-redeclare', code: true },
     ],
   },
   {
