@@ -1,6 +1,6 @@
 import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
-import items from "../Notes/ExpressServersNotes";
-import expressItemsWithCode from "../Notes/ExpressSeversCode";
+import items from "../ExpressServers/ExpressServersNotes";
+import expressItemsWithCode from "../ExpressServers/ExpressSeversCode";
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 export default function servers() {
