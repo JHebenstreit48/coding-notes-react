@@ -231,14 +231,6 @@ const items: ListItem[] = [
             { text: '', emphasis: false },
         ],
     },
-    {
-        content: [
-            { text: '', emphasis: true },
-            { text: '', emphasis: false },
-            { text: '', emphasis: true },
-            { text: '', emphasis: false },
-        ],
-    },
 ];
 
 export default items;
