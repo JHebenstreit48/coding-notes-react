@@ -14,7 +14,7 @@ import WebAPI from "../pages/WebAPI";
 import ReactAndTypeScript from "../pages/ReactandTypeScript";
 import NodeJS from "../pages/Node";
 import FullStackReact from "../pages/FullStackReact";
-import NoSQL from "../pages/NoSQL";
+import MongoDB from "../pages/MongoDB";
 
 export const router = createBrowserRouter([
 
@@ -77,7 +77,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/nosql',
-                element: <NoSQL />,
+                element: <MongoDB />,
             }
         ],
     },

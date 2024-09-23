@@ -33,7 +33,7 @@ export default function Navigation() {
         { pageTitle: 'React', path: '/react' },
         { pageTitle: 'React TS', path: '/reactandtypescript' },
         { pageTitle: 'React FS', path: '/fullstackreact' },
-        { pageTitle: 'NoSQL', path: '/nosql' },
+        { pageTitle: 'MongoDB', path: '/mongodb' },
     ]
 
     const scroll = (scrollOffset: number) => {
