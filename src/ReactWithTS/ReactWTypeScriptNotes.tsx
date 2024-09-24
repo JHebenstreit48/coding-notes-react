@@ -92,6 +92,17 @@ const items: ListItem[] = [
   },
   {
     content: [
+      { text: 'Index signatures', emphasis: true },
+      { text: 'are used when you know the', emphasis: false },
+      { text: 'key', emphasis: true },
+      { text: 'and', emphasis: false },
+      { text: 'value types', emphasis: true },
+      { text: 'of an', emphasis: false },
+      { text: 'object', emphasis: true },
+    ],
+  },
+  {
+    content: [
       { text: 'When you use React ', emphasis: false },
       { text: 'with TypeScript', emphasis: true },
       { text: ' it is best practice to declare our types in a ', emphasis: false },
