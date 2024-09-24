@@ -76,7 +76,7 @@ export const router = createBrowserRouter([
                 element: <FullStackReact />,
             },
             {
-                path: '/nosql',
+                path: '/mongodb',
                 element: <MongoDB />,
             }
         ],
