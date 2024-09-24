@@ -95,10 +95,15 @@ const reactAndTypescriptItemsWithCode: ListItem[] = [
   },
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
+      { text: 'When using a', emphasis: false },
+      { text: '.env', emphasis: true },
+      { text: 'package in the', emphasis: false },
+      { text: 'front-end', emphasis: true },
+      { text: 'you have to prefix the', emphasis: false },
+      { text: 'key value pairs', emphasis: true },
+      { text: 'with the following at the start of any', emphasis: false },
+      { text: 'environment variables:', emphasis: true },
+      { text: 'VITE_', code: true },
     ],
   },
   {
