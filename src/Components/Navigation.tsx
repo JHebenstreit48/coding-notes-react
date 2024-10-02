@@ -34,6 +34,7 @@ export default function Navigation() {
         { pageTitle: 'React TS', path: '/reactandtypescript' },
         { pageTitle: 'React FS', path: '/fullstackreact' },
         { pageTitle: 'MongoDB', path: '/mongodb' },
+        { pageTitle: 'Python', path: '/python' },
     ]
 
     const scroll = (scrollOffset: number) => {
