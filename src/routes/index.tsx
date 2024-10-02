@@ -15,6 +15,7 @@ import ReactAndTypeScript from "../pages/ReactandTypeScript";
 import NodeJS from "../pages/Node";
 import FullStackReact from "../pages/FullStackReact";
 import MongoDB from "../pages/MongoDB";
+import Python from "../pages/Python";
 
 export const router = createBrowserRouter([
 
@@ -78,6 +79,10 @@ export const router = createBrowserRouter([
             {
                 path: '/mongodb',
                 element: <MongoDB />,
+            },
+            {
+                path: '/python',
+                element: <Python />,
             }
         ],
     },

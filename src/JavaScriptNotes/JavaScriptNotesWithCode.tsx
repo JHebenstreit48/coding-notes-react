@@ -81,6 +81,19 @@ const javascriptItemsWithCode: ListItem[] = [
           { text: 'preventDefault()', code: true },
         ],
       },
+      {
+        content: [
+          { text: 'The following', emphasis: false },
+          { text: 'method', emphasis: true },
+          { text: 'is used to', emphasis: false },
+          { text: 'extract', emphasis: true },
+          { text: 'the', emphasis: false },
+          { text: "first character", emphasis: true },
+          { text: 'of a', emphasis: false },
+          { text: 'string', emphasis: true },
+          { text: 'charAt(0)', code: true },
+        ],
+      },
 ];
 
 export default javascriptItemsWithCode;

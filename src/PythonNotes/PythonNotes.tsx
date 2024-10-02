@@ -1,17 +1,16 @@
 import { ListItem } from '../Components/Types';
 
-const mongoDBItemsWithCode: ListItem[] = [
+const items: ListItem[] = [
   {
     content: [
-      { text: 'Calling the following', emphasis: false },
-      { text: 'function', emphasis: true },
-      { text: 'a', emphasis: false },
-      { text: 'model', emphasis: true },
-      { text: 'is', emphasis: false },
-      { text: 'compiled', emphasis: true },
-      { text: 'for you by', emphasis: false },
-      { text: 'Mongoose', emphasis: true },
-      { text: 'mongoose.model()', code: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
     ],
   },
   {
@@ -20,6 +19,13 @@ const mongoDBItemsWithCode: ListItem[] = [
       { text: '', emphasis: false },
       { text: '', emphasis: true },
       { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
     ],
   },
   {
@@ -40,4 +46,4 @@ const mongoDBItemsWithCode: ListItem[] = [
   },
 ];
 
-export default mongoDBItemsWithCode;
+export default items;
