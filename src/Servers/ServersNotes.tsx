@@ -87,6 +87,111 @@ const serversNotes: ListItem[] = [
       { text: 'instructions', emphasis: true },
     ],
   },
+  {
+    content: [
+      { text: 'Async/await', emphasis: true },
+      { text: 'is a feature that makes', emphasis: false },
+      { text: 'asynchronous', emphasis: true },
+      { text: 'code', emphasis: false },
+      { text: 'look', emphasis: true },
+      { text: 'and', emphasis: false },
+      { text: 'behave', emphasis: true },
+      { text: 'more like', emphasis: false },
+      { text: 'synchronous', emphasis: true },
+      { text: 'code', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: 'Async/await', emphasis: true },
+      { text: 'therefore', emphasis: false },
+      { text: 'improves', emphasis: true },
+      { text: 'the', emphasis: false },
+      { text: 'readability', emphasis: true },
+      { text: 'and', emphasis: false },
+      { text: 'maintainability', emphasis: true },
+      { text: 'of code that involves', emphasis: false },
+      { text: 'asynchronous', emphasis: true },
+      { text: 'operations', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: 'Async/await', emphasis: true },
+      { text: 'is built on top of', emphasis: false },
+      { text: 'promises', emphasis: true },
+      { text: 'but it', emphasis: false },
+      { text: 'provides', emphasis: true },
+      { text: 'a more elegant way to work with them', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: 'Sychronous', emphasis: true },
+      { text: 'code is where', emphasis: false },
+      { text: 'JavaScript', emphasis: true },
+      { text: 'is trying to', emphasis: false },
+      { text: 'run/executes', emphasis: true },
+      { text: 'the code from', emphasis: false },
+      { text: 'top', emphasis: true },
+      { text: 'to', emphasis: false },
+      { text: 'bottom', emphasis: true },
+      { text: 'as', emphasis: false },
+      { text: 'quickly', emphasis: true },
+      { text: 'as possible', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: 'Asychronous', emphasis: true },
+      { text: 'code is where any', emphasis: false },
+      { text: 'real-world time', emphasis: true },
+      { text: 'is', emphasis: false },
+      { text: 'introduced', emphasis: true },
+      { text: 'to the application, which causes some kind of', emphasis: false },
+      { text: 'delay', emphasis: true },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
   
 ];
 
