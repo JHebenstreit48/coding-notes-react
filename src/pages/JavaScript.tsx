@@ -1,6 +1,6 @@
 import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
 import Navigation from "../Components/Navigation";
-import items from "../JavaScriptNotes/JavaScriptNotes";
+import JavaScriptItems from "../JavaScriptNotes/JavaScriptNotes";
 import javascriptItemsWithCode from "../JavaScriptNotes/JavaScriptNotesWithCode";
 import "../CSS/Header.css";
 export default function javascript() {
@@ -10,8 +10,8 @@ export default function javascript() {
         <>
             <h1 className="Header">JavaScript</h1>
             <Navigation />
-            <DynamicNotes items={items} />
-            <DynamicNotesCode items={javascriptItemsWithCode} />
+            <DynamicNotes items={ JavaScriptItems } />
+            <DynamicNotesCode items={ javascriptItemsWithCode } />
         </>
     );
 

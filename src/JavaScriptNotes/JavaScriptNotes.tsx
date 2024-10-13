@@ -1,6 +1,6 @@
 import { ListItem } from '../Components/Types';
 
-const items: ListItem[] = [
+const JavaScriptItems: ListItem[] = [
     {
         content: [
           { text: 'JavaScript', emphasis: true },
@@ -59,4 +59,4 @@ const items: ListItem[] = [
       },
 ];
 
-export default items;
+export default JavaScriptItems;

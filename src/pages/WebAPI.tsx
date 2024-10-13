@@ -8,7 +8,7 @@ export default function webAPI() {
     return (
 
         <>
-            <h1 className="Header">Web APIs</h1>
+            <h1 className="Header">APIs</h1>
             <Navigation />
             <DynamicNotes items={items} />
             <DynamicNotesCode items={itemsWithCode} />

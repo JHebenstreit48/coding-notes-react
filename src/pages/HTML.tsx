@@ -1,8 +1,8 @@
 import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
-import items from "../HTMLNotes/HTMLNotes";
 import htmlItemsWithCode from "../HTMLNotes/HTMLCodeExamples";
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
+import HTMLItems from "../HTMLNotes/HTMLNotes";
 
 
 export default function html() {
@@ -12,7 +12,7 @@ export default function html() {
         <>
             <h1 className="Header">HTML</h1>
             <Navigation />
-            <DynamicNotes items={items} />
+            <DynamicNotes items={ HTMLItems } />
             <DynamicNotesCode items={htmlItemsWithCode} />
         </>
     );

@@ -1,5 +1,5 @@
 import { ListItem } from '../Components/Types';
-const items: ListItem[] = [
+const TypeScriptItems: ListItem[] = [
     {
         content: [
           { text: '', emphasis: true },
@@ -34,4 +34,4 @@ const items: ListItem[] = [
       },
 ];
 
-export default items;
+export default TypeScriptItems;

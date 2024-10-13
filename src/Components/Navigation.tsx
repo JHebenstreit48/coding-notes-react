@@ -24,8 +24,7 @@ export default function Navigation() {
         { pageTitle: 'CSS', path: '/css' },
         { pageTitle: 'Git', path: '/git' },
         { pageTitle: 'JavaScript', path: '/javascript' },
-        { pageTitle: 'Web APIs', path: '/webapis' },
-        { pageTitle: 'Node', path: '/node' },
+        { pageTitle: 'Node.JS', path: '/node' },
         { pageTitle: 'TypeScript', path: '/typescript' },
         { pageTitle: 'Servers', path: '/servers' },
         { pageTitle: 'APIs', path: '/apis' },
@@ -34,6 +33,7 @@ export default function Navigation() {
         { pageTitle: 'React TS', path: '/reactandtypescript' },
         { pageTitle: 'React FS', path: '/fullstackreact' },
         { pageTitle: 'MongoDB', path: '/mongodb' },
+        { pageTitle: 'MERN', path: '/mern' },
         { pageTitle: 'Python', path: '/python' },
     ]
 
