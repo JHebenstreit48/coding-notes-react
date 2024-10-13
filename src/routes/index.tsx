@@ -6,16 +6,16 @@ import CSS from "../pages/CSS";
 import JavaScript from "../pages/JavaScript";
 import TypeScript from "../pages/TypeScript";
 import Git from "../pages/Git";
-import Servers from "../pages/ExpressServers";
-import API from "../pages/API";
+import Servers from "../pages/Servers";
 import React from "../pages/React";
 import PostgreSQL from "../pages/PostgreSQL";
-import WebAPI from "../pages/WebAPI";
 import ReactAndTypeScript from "../pages/ReactandTypeScript";
 import NodeJS from "../pages/Node";
 import FullStackReact from "../pages/FullStackReact";
 import MongoDB from "../pages/MongoDB";
 import Python from "../pages/Python";
+import MernAndAuth from "../pages/MernAndAuth";
+import APIs from "../pages/API.tsx";
 
 export const router = createBrowserRouter([
 
@@ -41,10 +41,6 @@ export const router = createBrowserRouter([
                 element: <JavaScript />,
             },
             {
-                path: '/webapis',
-                element: <WebAPI />
-            },
-            {
                 path: '/node',
                 element: <NodeJS />
             },
@@ -58,7 +54,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/apis',
-                element: <API />,
+                element: <APIs />,
             },
             {
                 path: '/postgresql',
@@ -79,6 +75,10 @@ export const router = createBrowserRouter([
             {
                 path: '/mongodb',
                 element: <MongoDB />,
+            },
+            {
+                path: '/mern',
+                element: <MernAndAuth />,
             },
             {
                 path: '/python',

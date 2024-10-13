@@ -4,7 +4,7 @@ import { ListItem } from '../Components/Types';
 
 // Define the functional component with TypeScript and use the default export function syntax
 
-const items: ListItem[] = [
+const HTMLItems: ListItem[] = [
   {
     content: [
       { text: 'Hypertext Markup Language (HTML)', emphasis: true },
@@ -98,4 +98,4 @@ const items: ListItem[] = [
   },
 ];
 
-export default items;
+export default HTMLItems;

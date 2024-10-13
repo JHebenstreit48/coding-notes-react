@@ -1,6 +1,6 @@
 import { ListItem } from '../Components/Types';
 
-const items: ListItem[] = [
+const ReactItems: ListItem[] = [
   {
     content: [
       { text: 'React', emphasis: true },
@@ -161,4 +161,4 @@ const items: ListItem[] = [
   },
 ];
 
-export default items;
+export default ReactItems;

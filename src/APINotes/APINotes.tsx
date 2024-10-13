@@ -1,6 +1,13 @@
 import { ListItem } from '../Components/Types';
 
-const items: ListItem[] = [
+const APINotes: ListItem[] = [
+  {
+    content: [
+      { text: 'API', emphasis: true },
+      { text: 'stands for', emphasis: false },
+      { text: 'Application Programming Interface', emphasis: true },
+    ],
+  },
   {
     content: [
       { text: '', emphasis: true },
@@ -35,4 +42,4 @@ const items: ListItem[] = [
   },
 ];
 
-export default items;
+export default APINotes;
