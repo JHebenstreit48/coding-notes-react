@@ -1,14 +1,15 @@
 export type ListItemsArray = ListItem[];
 export type NotesPropsType = {
-    items: ListItemsArray;
+  items: ListItemsArray;
 };
 
 export interface TextPart {
-    text: string;
+  text: string;
   emphasis?: boolean;
+  emphasis2?: boolean;
   code?: boolean;
-  }
+}
 
-  export interface ListItem {
-    content: TextPart[];
-  }
+export interface ListItem {
+  content: TextPart[];
+}

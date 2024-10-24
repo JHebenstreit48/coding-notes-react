@@ -20,14 +20,6 @@ const mongoDBItemsWithCode: ListItem[] = [
   },
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
-  {
-    content: [
       { text: 'You can also type the following command in the', emphasis: false },
       { text: 'shell', emphasis: true },
       { text: 'to get a', emphasis: false },
@@ -103,11 +95,18 @@ const mongoDBItemsWithCode: ListItem[] = [
   }, 
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
+      { text: 'The following MongoDB', emphasis: false },
+      { text: 'method', emphasis: true },
+      { text: 'returns a', emphasis: false },
+      { text: '12-byte', emphasis: true },
+      { text: 'object ID', emphasis: false },
+      { text: 'ObjectId()', code: true },
     ],
+  },
+  {
+    content: [
+      { text: '', emphasis: false }
+    ]
   },
   {
     content: [

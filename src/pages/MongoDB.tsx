@@ -1,9 +1,7 @@
-// import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
-import items from "../MongoDB/MongoDBNotes";
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
-import mongoDBItemsWithCode from "../MongoDB/MongoDBNotesWCode";
-import DynamicNotes, { DynamicNotesCode } from "../Components/DynamicNotes";
+import mongoDBNotesmkdn from "../MongoDB/MongoDBNotes";
+import PageSetup from "../Components/PageSetup";
 export default function MongoDB() {
 
     return (
@@ -11,8 +9,11 @@ export default function MongoDB() {
         <>
             <h1 className="Header">MongoDB</h1>
             <Navigation />
-            <DynamicNotes items={ items } />
-            <DynamicNotesCode items={ mongoDBItemsWithCode } />
+            <PageSetup
+            markdownContent={mongoDBNotesmkdn}
+             />
+            
+                
 
         </>
     );
