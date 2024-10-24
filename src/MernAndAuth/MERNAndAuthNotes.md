@@ -1,0 +1,1 @@
+- MERN is short for MongoDB, Express.js, React JS, and Node.js.

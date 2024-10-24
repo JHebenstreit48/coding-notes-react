@@ -93,6 +93,23 @@ const ReactItemsWithCode: ListItem[] = [
   },
   {
     content: [
+      { text: 'When using', emphasis: false },
+      { text: 'Vite', emphasis: true },
+      { text: 'to create a', emphasis: false },
+      { text: 'React JS', emphasis: true },
+      { text: 'project. If you did not want the folder to be ', emphasis: false },
+      { text: 'nested', emphasis: true },
+      { text: 'in another', emphasis: false },
+      { text: 'folder/subfolder.', emphasis: true },
+      { text: 'Then when you are prompted for a', emphasis: false },
+      { text: 'Project name.', emphasis: true },
+      { text: 'You would enter the following to make sure that the project is', emphasis: false },
+      { text: 'not nested', emphasis: true },
+      { text: '? Project name: > .', code: true },
+    ],
+  },
+  {
+    content: [
       { text: '', emphasis: true },
       { text: '', emphasis: false },
       { text: '', emphasis: true },

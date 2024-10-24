@@ -7,41 +7,14 @@
   width: 50rem;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid gray;
-  box-shadow: 5px 10px #888888;
+  border: 1px solid gray;
+  box-shadow: 6px 10px #888888;
   line-height: 2rem;
   padding-top: 0;
   padding-left: 0;
   padding-right: 0;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(31, 31, 31) 6%,
-    rgb(115, 115, 115) 135%,
-    rgb(151, 150, 150)
-  );
-}
-
-.card-code {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-  width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid gray;
-  box-shadow: 5px 10px #888888;
-  line-height: 2rem;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(31, 31, 31) 6%,
-    rgb(115, 115, 115) 135%,
-    rgb(151, 150, 150)
-  );
+  background-color: 
+rgb(87, 81, 81);
 }
 
 .card-header {
@@ -63,46 +36,30 @@
   text-shadow: 2px 3px 3px black;
 }
 
-.list-items {
-  text-align: left;
-  color: rgb(31, 206, 28);
-  width: 65%;
-  font-size: 20px;
+.markdownContent {
+  display: flex;
+  color: rgb(6, 159, 248);
+  width: 75%;
+  font-size: 19px;
   line-height: 1.2;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.8rem;
-  margin-bottom: 12px;
-}
-
-.list-items-code {
-  text-align: left;
-  color: rgb(31, 206, 28);
-  width: 65%;
-  font-size: 20px;
-  line-height: 1.2;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.8rem;
-  margin-bottom: 12px;
-}
-
-.list-code {
-  list-style-type: lower-roman;
-  margin-left: 2.2rem;
-  list-style-type: none;
-  margin-top: .4rem;
+  margin: 1.8rem auto 12px auto;
 }
 
 .emphasis {
-  color: rgb(242, 194, 2);
+  color: rgb(243, 175, 28);
+  font-size: 22px;
+  font-style: italic;
+}
+
+.secondEmphasis {
+  color: rgb(47, 185, 20);
   font-size: 21px;
   font-style: italic;
 }
 
 .code {
   width: 70%;
-  color: rgb(5, 255, 238);
+  color: rgb(5, 255, 47);
 }
 
 @media only screen and (max-width: 464px) {

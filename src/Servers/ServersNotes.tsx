@@ -154,10 +154,15 @@ const serversNotes: ListItem[] = [
   },
   {
     content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
+      { text: 'Async/await', emphasis: true },
+      { text: 'is usually', emphasis: false },
+      { text: 'preferred/recommended', emphasis: true },
+      { text: 'because it uses', emphasis: false },
+      { text: 'cleaner syntax', emphasis: true },
+      { text: 'compared to using', emphasis: false },
+      { text: '.then()', emphasis: true },
+      { text: 'and', emphasis: false },
+      { text: '.catch()', emphasis: true },
     ],
   },
   {

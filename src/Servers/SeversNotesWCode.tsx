@@ -136,6 +136,59 @@ const serversNotesWCode: ListItem[] = [
   },
   {
     content: [
+      { text: 'the following', emphasis: false },
+      { text: 'JavaScript API/tool', emphasis: true },
+      { text: 'can perform', emphasis: false },
+      { text: 'all', emphasis: true },
+      { text: 'of the', emphasis: false },
+      { text: 'CRUD', emphasis: true },
+      { text: 'operations', emphasis: false },
+      { text: 'fetch()', code: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'the following also', emphasis: false },
+      { text: 'defaults', emphasis: true },
+      { text: 'to a', emphasis: false },
+      { text: 'GET request', emphasis: true },
+      { text: 'fetch()', code: true },
+    ],
+  },
+  {
+    content: [
+      { text: 'The following', emphasis: false },
+      { text: 'method', emphasis: true },
+      { text: 'takes a', emphasis: false },
+      { text: 'Response interface,', emphasis: true },
+      { text: 'reads it to', emphasis: false },
+      { text: 'completion,', emphasis: true },
+      { text: 'then', emphasis: false},
+      { text: 'parses', emphasis: true },
+      { text: 'the', emphasis: false },
+      { text: 'body text', emphasis: true },
+      { text: 'as', emphasis: false },
+      { text: 'JSON', emphasis: true },
+      { text: 'and', emphasis: false },
+      { text: 'returns', emphasis: true },
+      { text: 'it as a', emphasis: false },
+      { text: 'JavaScript object', emphasis: true },
+      { text: 'json()', code: true },
+
+
+
+    ],
+  },
+  {
+    content: [
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+      { text: '', emphasis: true },
+      { text: '', emphasis: false },
+    ],
+  },
+  {
+    content: [
       { text: '', emphasis: true },
       { text: '', emphasis: false },
       { text: '', emphasis: true },
