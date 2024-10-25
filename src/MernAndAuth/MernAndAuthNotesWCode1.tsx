@@ -1,6 +1,6 @@
 import { ListItem } from '../Components/Types';
 
-const MERNItemsWithCode: ListItem[] = [
+const MernItemsWithCode: ListItem[] = [
   {
     content: [
       { text: '', emphasis: true },
@@ -35,4 +35,4 @@ const MERNItemsWithCode: ListItem[] = [
   },
 ];
 
-export default MERNItemsWithCode;
+export default MernItemsWithCode;
