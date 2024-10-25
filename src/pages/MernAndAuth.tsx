@@ -1,7 +1,7 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
-import mernAndAuthNotesMkdn from "../MernAndAuth/MERNAndAuthNotes";
+import mernAndAuthNotesMkdn from "../MernAndAuth/MernAuthNotes";
 
 
 export default function MernAndAuth() {
