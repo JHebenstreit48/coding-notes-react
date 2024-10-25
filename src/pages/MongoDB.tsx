@@ -7,13 +7,12 @@ export default function MongoDB() {
     return (
 
         <>
+        
             <h1 className="Header">MongoDB</h1>
             <Navigation />
             <PageSetup
             markdownContent={mongoDBNotesMkdn}            
              />
-            
-                
 
         </>
     );
