@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align items to the top/start */
-    width: 250px;
-    background-color: rgb(130, 21, 198);
+    width: 16rem;
+    background-color: rgb(38, 38, 39);
     margin: 0; /* Remove any margin */
     padding: 0; /* Remove any padding */
     transition: width 0.3s, background-color 0.3s;
@@ -34,7 +34,8 @@
 .nav-link-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align links to the start */
+    align-items: center;
+    justify-content: center;
     width: 100%;
     margin: 0; /* Remove margin */
     padding: 0; /* Remove padding */
@@ -42,7 +43,7 @@
 
 .nav-button {
     display: flex;
-    justify-content: flex-start; /* Align content to the start */
+    justify-content: center; /* Align content to the start */
     align-items: center;
     width: 100%;
     padding: 10px; /* Consistent padding for spacing */
@@ -51,11 +52,15 @@
 }
 
 .nav-button a {
-    color: rgb(9, 188, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(119, 0, 255);
     text-decoration: none;
     width: 100%;
     padding: 10px 15px; /* Consistent padding */
     box-sizing: border-box;
+    margin: 0 auto; /* Remove margin */
 }
 
 .nav-button a:hover {

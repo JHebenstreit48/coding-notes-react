@@ -1,7 +1,8 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import App from "../App";
 import ErrorPage from "../pages/Error";
-import HTML from "../pages/HTML";
+import HTML from "../pages/HTML.tsx";
+import HTMLCode from "../pages/HTMLCode.tsx";
 import CSS from "../pages/CSS";
 import JavaScript from "../pages/JavaScript";
 import TypeScript from "../pages/TypeScript";
@@ -26,8 +27,16 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                index: true,
+                path: '/',
+                element: <Navigate to='/html' replace />,
+            },
+            {
+                path: '/html',
                 element: <HTML />,
+            },
+            {
+                path: '/htmlcode',
+                element: <HTMLCode />,
             },
             {
                 path: '/css',

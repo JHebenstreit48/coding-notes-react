@@ -1,7 +1,7 @@
-// import DynamicNotes, { DynamicNotesCode } from "../Notes/DynamicNotes";
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
-export default function fullStackReact() {
+
+export default function FullStackReact() {
 
     return (
 

@@ -8,7 +8,7 @@ export default function Python() {
 
         <>
         
-            <h1 className="Header">MongoDB</h1>
+            <h1 className="Header">Python</h1>
             <Navigation />
 
         </>
