@@ -36,7 +36,7 @@ const pages = [
     { 
       name: 'Servers', 
       path: '/servers', 
-      subpages: [{ name: 'Servers Code Notes', path: '/servers/codenotes' }]
+      subpages: [{ name: 'Servers Code Notes', path: '/servers/servercode' }]
     },
     { 
       name: 'APIs', 
@@ -84,7 +84,7 @@ const pages = [
   
   const Navigation = () => {
     // State to handle sidebar collapse
-    const [isCollapsed, setIsCollapsed] = useState(false);
+    const [isCollapsed, setIsCollapsed] = useState(true);
   
     // State to manage the visibility of dropdowns
     const [isDropdownOpen, setIsDropdownOpen] = useState<string | null>(null);

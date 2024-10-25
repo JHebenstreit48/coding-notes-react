@@ -1,17 +1,22 @@
 .nav-css {
     position: fixed;
-    top: 0; /* Start from the top of the viewport */
+    top: 0;
     left: 0;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the top/start */
+    align-items: flex-start;
     width: 16rem;
     background-color: rgb(38, 38, 39);
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove any padding */
+    margin: 0;
+    padding: 0;
     transition: width 0.3s, background-color 0.3s;
     overflow-y: auto; /* Enables vertical scrolling */
+}
+
+/* Hide the scrollbar initially */
+.nav-css::-webkit-scrollbar {
+    width: 0;
 }
 
 .nav-css.collapsed {
@@ -19,9 +24,50 @@
     background-color: transparent;
 }
 
+/* Show a thin scrollbar on hover */
+.nav-css:hover {
+    scrollbar-width: thin; /* Firefox: Show thin scrollbar on hover */
+}
+
+.nav-css:hover::-webkit-scrollbar {
+    width: 8px; /* WebKit: Set thin scrollbar width on hover */
+}
+
+/* Make the scrollbar thumb more rounded */
+.nav-css::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent thumb */
+    border-radius: 50px; /* Makes the thumb fully rounded */
+    background-clip: padding-box;
+    border: 2px solid transparent; /* Adds space around the thumb */
+}
+
+/* Make the scrollbar track transparent */
+.nav-css::-webkit-scrollbar-track {
+    background: transparent; /* Fully transparent track */
+    box-shadow: none; /* Remove any shadow */
+    margin: 8px 0; /* Adds vertical margin to prevent top/bottom clipping */
+}
+
+/* Completely hide the top and bottom arrows in WebKit-based browsers */
+.nav-css::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none; /* Hides both top and bottom arrows */
+}
+
+/* Firefox: Make scrollbar thumb rounded and track transparent */
+.nav-css {
+    scrollbar-width: none; /* Hides scrollbar by default */
+}
+
+.nav-css:hover {
+    scrollbar-width: thin; /* Shows thin scrollbar in Firefox */
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent; /* Semi-transparent thumb and transparent track */
+}
+
 .toggleButton {
     background-color: transparent;
-    color: white;
+    color: rgb(9, 174, 230);
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -76,7 +122,7 @@
 
 .dropdown a {
     padding: 5px 15px;
-    color: #ccc;
+    color: rgb(9, 182, 38);
     text-decoration: none;
 }
 
