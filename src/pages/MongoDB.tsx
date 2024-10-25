@@ -1,6 +1,6 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
-import mongoDBNotesmkdn from "../MongoDB/MongoDBNotes";
+import mongoDBNotesMkdn from "../MongoDB/MongoDBNotes";
 import PageSetup from "../Components/PageSetup";
 export default function MongoDB() {
 
@@ -10,7 +10,7 @@ export default function MongoDB() {
             <h1 className="Header">MongoDB</h1>
             <Navigation />
             <PageSetup
-            markdownContent={mongoDBNotesmkdn}
+            markdownContent={mongoDBNotesMkdn}            
              />
             
                 

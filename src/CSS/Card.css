@@ -41,7 +41,7 @@ rgb(87, 81, 81);
   color: rgb(6, 159, 248);
   width: 75%;
   font-size: 19px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 1.8rem auto 12px auto;
 }
 
@@ -57,9 +57,15 @@ rgb(87, 81, 81);
   font-style: italic;
 }
 
-.code {
-  width: 70%;
-  color: rgb(5, 255, 47);
+.markdownContentCode {
+  width: 75%;
+  margin: 1.8rem auto 12px auto;
+  color: rgb(6, 159, 248);
+}
+
+.code span, code, pre {
+  color: gold !important;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 464px) {

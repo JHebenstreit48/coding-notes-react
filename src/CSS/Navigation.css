@@ -1,88 +1,80 @@
 .nav-css {
+    position: fixed;
+    top: 0; /* Start from the top of the viewport */
+    left: 0;
+    height: 100%;
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the top/start */
+    width: 250px;
     background-color: rgb(130, 21, 198);
-    /* Full-width background */
-    margin: 0;
-    /* Removes default list markers */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    transition: width 0.3s, background-color 0.3s;
+    overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.nav-css.collapsed {
+    width: 50px;
+    background-color: transparent;
+}
+
+.toggleButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 27px;
 }
 
 .nav-link-wrapper {
     display: flex;
-    overflow: scroll;
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    flex-wrap: nowrap;
-    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start; /* Align links to the start */
+    width: 100%;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
 }
 
 .nav-button {
-    flex-wrap: nowrap;
-    /* Prevents buttons from wrapping */
-    flex-grow: 0;
-    /* Prevents each button from growing to fill space */
-    text-decoration: none;
-    font-size: 22px;
-    /* Font size for readability */
-    text-align: center;
-    /* Centers text within each button */
-    text-shadow: 2px 3px 3px black;
-    padding: 0;
-    width: 120px;
+    display: flex;
+    justify-content: flex-start; /* Align content to the start */
+    align-items: center;
+    width: 100%;
+    padding: 10px; /* Consistent padding for spacing */
+    margin: 0; /* Remove margin */
+    cursor: pointer;
 }
 
 .nav-button a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgb(9, 188, 248);
     text-decoration: none;
-    border: 2px solid rgba(0, 255, 255, 0);
-    /* Allows for padding adjustments */
-    flex-wrap: nowrap;
-    flex-direction: row;
-    padding: 10px 2px;
-    width: 130px;
+    width: 100%;
+    padding: 10px 15px; /* Consistent padding */
     box-sizing: border-box;
 }
 
 .nav-button a:hover {
     color: rgb(214, 143, 29);
-    border: 2px solid rgb(0, 255, 255);
-    border-bottom: 2px solid rgba(0, 255, 255, 0);
-    text-shadow: 2px 3px 3px black;
-    padding: 10px 2px;
 }
 
-.nav-button a:active {
-    color: blue;
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px; /* Indent for subpages */
+    margin-top: 0; /* Remove top margin */
 }
 
-/* Additional spacing control between links */
-.nav-button:not(:last-child) {
-    margin-right: 10px;
-    /* Minimal space between nav items */
+.dropdown a {
+    padding: 5px 15px;
+    color: #ccc;
+    text-decoration: none;
 }
 
-.scroll-arrow {
-    display: block;
-    width: 40px;
-    /* Width of the arrow buttons */
-    /* height: 40px; Height of the arrow buttons */
-    cursor: pointer;
-    position: relative;
-    color: rgb(9, 188, 248);
-    font-weight: bold;
-}
-
-.scroll-arrow:hover {
+.dropdown a:hover {
     color: rgb(214, 143, 29);
-}
-
-/* Optional: Hide scrollbar visually */
-.nav-container::-webkit-scrollbar {
-    display: none;
 }
