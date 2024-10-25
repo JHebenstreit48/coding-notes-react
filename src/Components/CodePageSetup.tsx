@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import '../CSS/Card.css';
+import rehypeRaw from 'rehype-raw';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import rehypeHighlight from 'rehype-highlight';
@@ -17,7 +18,7 @@ const PageSetupCode = ({ markdownContentCode }: PageSetupCodeProps) => {
                 <div className="markdownContentCode">
                     <ReactMarkdown
                         children={markdownContentCode}
-                        rehypePlugins={[rehypeHighlight]}
+                        rehypePlugins={[rehypeHighlight, rehypeRaw]}
                         components={{
                             code({ className, children, ...props }) {
                                 const match = /language-(\w+)/.exec(className || '');

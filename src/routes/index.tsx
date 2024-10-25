@@ -18,6 +18,7 @@ import Python from "../pages/Python";
 import MernAndAuth from "../pages/MernAndAuth";
 import APIs from "../pages/API.tsx";
 import MongoDBCode from "../pages/MongoDBCode.tsx";
+import ServerCode from "../pages/ServerCode.tsx";
 
 export const router = createBrowserRouter([
 
@@ -61,6 +62,10 @@ export const router = createBrowserRouter([
             {
                 path: '/servers',
                 element: <Servers />,
+            },
+            {
+                path: '/servers/servercode',
+                element: <ServerCode />,
             },
             {
                 path: '/apis',
