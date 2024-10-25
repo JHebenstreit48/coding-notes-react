@@ -1,9 +1,7 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
-import PageSetupCode from "../Components/CodePageSetup";
 import mernAndAuthNotesMkdn from "../MernAndAuth/MERNAndAuthNotes";
-import mernAndAuthNotesWithCodeMkdn from "../MernAndAuth/MernAndAuthNotesWithCode";
 
 
 export default function MernAndAuth() {
@@ -16,9 +14,6 @@ export default function MernAndAuth() {
             <PageSetup
             markdownContent={mernAndAuthNotesMkdn}            
              />
-            <PageSetupCode
-            markdownContentCode={mernAndAuthNotesWithCodeMkdn}
-            />
 
         </>
     );
