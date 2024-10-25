@@ -16,6 +16,7 @@ import MongoDB from "../pages/MongoDB";
 import Python from "../pages/Python";
 import MernAndAuth from "../pages/MernAndAuth";
 import APIs from "../pages/API.tsx";
+import MongoDBCode from "../pages/MongoDBCode.tsx";
 
 export const router = createBrowserRouter([
 
@@ -75,6 +76,10 @@ export const router = createBrowserRouter([
             {
                 path: '/mongodb',
                 element: <MongoDB />,
+            },
+            {
+                path: '/mongodb/mongodbcode',
+                element: <MongoDBCode />,
             },
             {
                 path: '/mern',

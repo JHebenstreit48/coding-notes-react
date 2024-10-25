@@ -1,72 +1,137 @@
-import { Link, useLocation } from 'react-router-dom'
-import '../CSS/Navigation.css'
-import { useRef } from "react"
-
-interface NavigationLinks {
-    to: string
-    pageTitle: string
-}
-
-const ListItems = ({ to, pageTitle, isActive }: NavigationLinks & { isActive: boolean }) => {
-    return (
-        <div className={`nav-button ${isActive ? 'active' : ''}`}>
-            <Link to={to}>{pageTitle}</Link>
-        </div>
-    )
-}
-
-export default function Navigation() {
-    const currentTab = useLocation().pathname;
-    const navRef = useRef<HTMLDivElement>(null);
-
-    const navLinks = [
-        { pageTitle: 'HTML', path: '/' },
-        { pageTitle: 'CSS', path: '/css' },
-        { pageTitle: 'Git', path: '/git' },
-        { pageTitle: 'JavaScript', path: '/javascript' },
-        { pageTitle: 'Node.JS', path: '/node' },
-        { pageTitle: 'TypeScript', path: '/typescript' },
-        { pageTitle: 'Servers', path: '/servers' },
-        { pageTitle: 'APIs', path: '/apis' },
-        { pageTitle: 'PostgreSQL', path: '/postgresql' },
-        { pageTitle: 'React', path: '/react' },
-        { pageTitle: 'React TS', path: '/reactandtypescript' },
-        { pageTitle: 'React FS', path: '/fullstackreact' },
-        { pageTitle: 'MongoDB', path: '/mongodb' },
-        { pageTitle: 'MERN', path: '/mern' },
-        { pageTitle: 'Python', path: '/python' },
-    ]
-
-    const scroll = (scrollOffset: number) => {
-        if (navRef.current) {
-            navRef.current.scrollLeft += scrollOffset
-        }
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import '../CSS/Navigation.css';
+// Define an array of page objects with subpages
+const pages = [
+    { 
+      name: 'HTML', 
+      path: '/', 
+      subpages: [{ name: 'HTML Code Notes', path: '/html/codenotes' }]
+    },
+    { 
+      name: 'CSS', 
+      path: '/css', 
+      subpages: [{ name: 'CSS Code Notes', path: '/css/codenotes' }]
+    },
+    { 
+      name: 'Git', 
+      path: '/git', 
+      subpages: [{ name: 'Git Code Notes', path: '/git/codenotes' }]
+    },
+    { 
+      name: 'JavaScript', 
+      path: '/javascript', 
+      subpages: [{ name: 'JavaScript Code Notes', path: '/javascript/codenotes' }]
+    },
+    { 
+      name: 'Node JS', 
+      path: '/node', 
+      subpages: [{ name: 'Node.JS Code Notes', path: '/node/codenotes' }]
+    },
+    { 
+      name: 'TypeScript', 
+      path: '/typescript', 
+      subpages: [{ name: 'TypeScript Code Notes', path: '/typescript/codenotes' }]
+    },
+    { 
+      name: 'Servers', 
+      path: '/servers', 
+      subpages: [{ name: 'Servers Code Notes', path: '/servers/codenotes' }]
+    },
+    { 
+      name: 'APIs', 
+      path: '/apis', 
+      subpages: [{ name: 'API Code Notes', path: '/apis/codenotes' }]
+    },
+    { 
+      name: 'PostgreSQL', 
+      path: '/postgresql', 
+      subpages: [{ name: 'PostgreSQL Code Notes', path: '/postgresql/codenotes' }]
+    },
+    { 
+      name: 'React', 
+      path: '/react', 
+      subpages: [{ name: 'React Code Notes', path: '/react/codenotes' }]
+    },
+    { 
+      name: 'React and TypeScript', 
+      path: '/reactandtypescript', 
+      subpages: [{ name: 'React TS Code Notes', path: '/reactandtypescript/codenotes' }]
+    },
+    { 
+      name: 'Full Stack React', 
+      path: '/fullstackreact', 
+      subpages: [{ name: 'React FS Code Notes', path: '/fullstackreact/codenotes' }]
+    },
+    { 
+      name: 'MongoDB', 
+      path: '/mongodb', 
+      subpages: [
+        { name: 'MongoDB Code Notes', path: '/mongodb/mongodbcode' },
+      ]
+    },
+    { 
+      name: 'MERN', 
+      path: '/mern', 
+      subpages: [{ name: 'MERN Code Notes', path: '/mern/codenotes' }]
+    },
+    { 
+      name: 'Python', 
+      path: '/python', 
+      subpages: [{ name: 'Python Code Notes', path: '/python/codenotes' }]
     }
-
+  ];
+  
+  const Navigation = () => {
+    // State to handle sidebar collapse
+    const [isCollapsed, setIsCollapsed] = useState(false);
+  
+    // State to manage the visibility of dropdowns
+    const [isDropdownOpen, setIsDropdownOpen] = useState<string | null>(null);
+  
+    // Toggle sidebar collapse
+    const toggleSidebar = () => {
+      setIsCollapsed(!isCollapsed);
+      if (!isCollapsed) {
+        setIsDropdownOpen(null); // Close all dropdowns when collapsing
+      }
+    };
+  
+    // Handle dropdown visibility
+    const handleDropdownClick = (menu: string) => {
+      if (!isCollapsed) {
+        setIsDropdownOpen(isDropdownOpen === menu ? null : menu);
+      }
+    };
+  
     return (
-        <>
-            <div className="nav-container">
-                <div className="nav-css">
-                    <div>
-                        <button className="btn scroll-arrow left-arrow" onClick={() => scroll(-200)}>&lt;</button>
-                    </div>
-
-                    <div ref={navRef} className="nav-link-wrapper">
-                        {navLinks.map(link => (
-                            <ListItems
-                                key={link.pageTitle}
-                                to={link.path}
-                                pageTitle={link.pageTitle}
-                                isActive={currentTab === link.path}
-                            />
-                        ))}
-                    </div>
-
-                    <div>
-                        <button className="btn scroll-arrow right-arrow" onClick={() => scroll(200)}>&gt;</button>
-                    </div>
+      <div className={`nav-css ${isCollapsed ? 'collapsed' : ''}`}>
+        {/* Button to toggle sidebar */}
+        <button className="toggleButton" onClick={toggleSidebar}>
+        <i className={`fas ${isCollapsed ? 'fa-bars' : 'fa-bars'}`}></i>
+        </button>
+  
+        <div className="nav-link-wrapper">
+          {pages.map((page) => (
+            <div key={page.name}>
+              {/* Main page link */}
+              <div className="nav-button" onClick={() => handleDropdownClick(page.name)}>
+                <Link to={page.path}>{!isCollapsed && page.name}</Link>
+              </div>
+  
+              {/* Subpages, visible only when expanded */}
+              {isDropdownOpen === page.name && !isCollapsed && (
+                <div className="dropdown">
+                  {page.subpages.map((subpage) => (
+                    <Link key={subpage.name} to={subpage.path}>{subpage.name}</Link>
+                  ))}
                 </div>
+              )}
             </div>
-        </>
-    )
-}
+          ))}
+        </div>
+      </div>
+    );
+  };
+  
+  export default Navigation;
