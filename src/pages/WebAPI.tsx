@@ -1,6 +1,6 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
-export default function webAPI() {
+export default function WebAPI() {
 
     return (
 

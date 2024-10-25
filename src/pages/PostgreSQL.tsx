@@ -2,7 +2,7 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 
-export default function postgreSQL() {
+export default function PostgreSQL() {
 
     return (
 

@@ -5,8 +5,8 @@ import '../CSS/Navigation.css';
 const pages = [
     { 
       name: 'HTML', 
-      path: '/', 
-      subpages: [{ name: 'HTML Code Notes', path: '/html/codenotes' }]
+      path: '/html', 
+      subpages: [{ name: 'HTML Code Notes', path: '/htmlcode' }]
     },
     { 
       name: 'CSS', 

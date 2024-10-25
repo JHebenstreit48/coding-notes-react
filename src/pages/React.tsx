@@ -1,7 +1,7 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
-export default function react() {
+export default function React() {
 
     return (
 
