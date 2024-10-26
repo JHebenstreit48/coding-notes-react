@@ -38,7 +38,7 @@ show dbs
 db.collectionName.insertOne ({ key1: value1, key2: value2,})
 \`\`\`
 
-- Calling the following function a model iscompiled for you by Mongoose:  
+- Calling the following function a model is compiled for you by Mongoose:  
 
 \`\`\`bash
 mongoose.model()
@@ -50,7 +50,46 @@ mongoose.model()
 ObjectID
 \`\`\`
 
-- 
+- The following Mongoose method is used to query the database for documents that match a specified set of criteria.
+
+    - It allows you to retrieve data from a collection and filter it based on the criteria you specify.
+    - It is the Mongoose version of a GET request in RESTful routing such as Express JS.
+
+\`\`\`bash
+find()
+\`\`\`
+
+- The following Mongoose method(s) is used to save a new document to the database.
+
+    - This is equivalent to a POST request in RESTful routing such as Express JS.
+    - There are some differences between the following two methods.
+    - The first method mentioned below is used for incremental creation and modification of documents before saving them to the database.
+    - The second method mentioned below is used to create and save a document in one step or fell swoop.
+
+\`\`\`bash
+save()
+create()
+\`\`\`
+
+
+
+
+- The following Mongoose method is used to update a document in the database.
+
+    - This is equivalent to a PUT request in RESTful routing such as Express JS.
+
+\`\`\`bash
+update()
+\`\`\`
+
+- The following Mongoose method is used to delete a single document that matches the filter criteria.
+
+    - This is equivalent to a DELETE request in RESTful routing such as Express JS.
+
+\`\`\`bash
+delete()
+\`\`\`
+
 `;
 
 export default mongoDBNoteswithCodeMkdn;

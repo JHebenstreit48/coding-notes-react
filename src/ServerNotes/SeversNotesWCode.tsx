@@ -26,136 +26,60 @@ const ServerNotesWithCodeMkdn = `
 .delete()
 \`\`\`
 
+- The following Express method is middleware used to parse, (make it readable by the server), incoming JSON data within the request body.
+
+\`\`\`bash
+express.json()
+\`\`\`
+
+- The following <span class="emphasis">Express method</span> is used to <span class="emphasis">read</span> the <span class="emphasis">raw</span> incoming <span class="emphasis">request</span> data and <span class="emphasis">store</span> it in a <span class="emphasis">buffer object</span>.
+
+    - In other words, it takes <span class="emphasis">incoming data</span>, of <span class="emphasis">various types</span>, and reads it as it <span class="emphasis">as written</span> then it <span class="emphasis">stores</span> it in a <span class="emphasis">buffer</span> object.
+
+\`\`\`bash
+express.raw()
+\`\`\`
+
+- The following code example you do <span class="emphasis">NOT</span> have an answer immediately from the user and have to wait for the response/answer.
+
+\`\`\`bash
+inquirer.prompt
+\`\`\`
+
+- Promises use the following methods to handle asynchronous operations and can lead to nested structures and return new promises in each step.
+
+\`\`\`bash
+.then()
+
+.catch()
+\`\`\`
+
+- You can keep chaining the following methods as much as you want until the promise is resolved.
+
+\`\`\`bash
+.then()
+\`\`\`
+
+- With the following code, if any error is thrown at all during the promise chain it skips anything else in the .then() chain and jumps immediately to the following
+
+\`\`\`bash
+.catch()
+\`\`\`
+
+- The following JavaScript API/tool can perform all of the CRUD operations.  
+
+    - It also defaults to a GET request.
+
+\`\`\`bash
+fetch()
+\`\`\`
+
+- The following method takes a Response interface, reads it to completion, then parses the body text as JSON and returns it as a JavaScript object.
+
+\`\`\`bash
+json()
+\`\`\`
 
 `;
 
 export default ServerNotesWithCodeMkdn;
-
-//   {
-//     content: [
-//       { text: 'with the following code example, you', emphasis: false },
-//       { text: 'DO NOT', emphasis: true },
-//       { text: 'have an answer', emphasis: false },
-//       { text: 'immediately', emphasis: true },
-//       { text: 'from the', emphasis: false },
-//       { text: 'user', emphasis: true },
-//       { text: 'and have to', emphasis: false },
-//       { text: 'wait', emphasis: true },
-//       { text: 'for the', emphasis: false },
-//       { text: 'response/answer', emphasis: true },
-//       { text: 'inquirer.prompt', code: true },
-
-//     ],
-//   },
-//   {
-//     content: [
-//       { text: 'Promises', emphasis: true },
-//       { text: 'use the following', emphasis: false },
-//       { text: 'methods', emphasis: true },
-//       { text: 'to handle', emphasis: false },
-//       { text: 'asynchronous operations', emphasis: true },
-//       { text: 'and can lead to', emphasis: false },
-//       { text: 'nested structures', emphasis: true },
-//       { text: 'and return', emphasis: false },
-//       { text: 'new promises', emphasis: true },
-//       { text: 'in each step', emphasis: false },
-//       { text: '.then()', code: true },
-//       { text: '.catch()', code: true },
-
-
-//     ],
-//   },
-//   {
-//     content: [
-//       { text: 'You can keep', emphasis: false },
-//       { text: 'chaining', emphasis: true },
-//       { text: 'the following', emphasis: false },
-//       { text: 'methods', emphasis: true },
-//       { text: 'as much as we want until the', emphasis: false },
-//       { text: 'promise', emphasis: true },
-//       { text: 'is', emphasis: false },
-//       { text: 'resolved', emphasis: true },
-//       { text: '.then()', code: true },
-//     ],
-//   },
-//   {
-//     content: [
-//       { text: 'With the following code, if', emphasis: false },
-//       { text: 'any error', emphasis: true },
-//       { text: 'is thrown at all', emphasis: false },
-//       { text: 'during', emphasis: true },
-//       { text: 'the', emphasis: false },
-//       { text: 'promise', emphasis: true },
-//       { text: 'chain it', emphasis: false },
-//       { text: 'skips', emphasis: true },
-//       { text: 'anything else in the', emphasis: false },
-//       { text: '.then()', emphasis: true },
-//       { text: 'chain and jumps', emphasis: false },
-//       { text: 'immediately', emphasis: true },
-//       { text: 'to the following code block', emphasis: false },
-//       { text: '.catch()', code: true },
-
-//     ],
-//   },
-//   {
-//     content: [
-//       { text: 'the following', emphasis: false },
-//       { text: 'JavaScript API/tool', emphasis: true },
-//       { text: 'can perform', emphasis: false },
-//       { text: 'all', emphasis: true },
-//       { text: 'of the', emphasis: false },
-//       { text: 'CRUD', emphasis: true },
-//       { text: 'operations', emphasis: false },
-//       { text: 'fetch()', code: true },
-//     ],
-//   },
-//   {
-//     content: [
-//       { text: 'the following also', emphasis: false },
-//       { text: 'defaults', emphasis: true },
-//       { text: 'to a', emphasis: false },
-//       { text: 'GET request', emphasis: true },
-//       { text: 'fetch()', code: true },
-//     ],
-//   },
-//   {
-//     content: [
-//       { text: 'The following', emphasis: false },
-//       { text: 'method', emphasis: true },
-//       { text: 'takes a', emphasis: false },
-//       { text: 'Response interface,', emphasis: true },
-//       { text: 'reads it to', emphasis: false },
-//       { text: 'completion,', emphasis: true },
-//       { text: 'then', emphasis: false},
-//       { text: 'parses', emphasis: true },
-//       { text: 'the', emphasis: false },
-//       { text: 'body text', emphasis: true },
-//       { text: 'as', emphasis: false },
-//       { text: 'JSON', emphasis: true },
-//       { text: 'and', emphasis: false },
-//       { text: 'returns', emphasis: true },
-//       { text: 'it as a', emphasis: false },
-//       { text: 'JavaScript object', emphasis: true },
-//       { text: 'json()', code: true },
-
-
-
-//     ],
-//   },
-//   {
-//     content: [
-//       { text: '', emphasis: true },
-//       { text: '', emphasis: false },
-//       { text: '', emphasis: true },
-//       { text: '', emphasis: false },
-//     ],
-//   },
-//   {
-//     content: [
-//       { text: '', emphasis: true },
-//       { text: '', emphasis: false },
-//       { text: '', emphasis: true },
-//       { text: '', emphasis: false },
-//     ],
-//   },
-// ];
