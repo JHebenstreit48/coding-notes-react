@@ -75,6 +75,11 @@ const pages = [
       path: '/mern', 
       subpages: [{ name: 'MERN Code Notes', path: '/mern/codenotes' }]
     },
+    {
+      name: 'Testing',
+      path: '/testing',
+      subpages: [{ name: 'Testing Code Notes', path: '/testing/codenotes' }]
+    },
     { 
       name: 'Python', 
       path: '/python', 

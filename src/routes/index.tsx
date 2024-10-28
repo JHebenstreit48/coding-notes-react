@@ -14,8 +14,9 @@ import ReactAndTypeScript from "../pages/ReactandTypeScript";
 import NodeJS from "../pages/Node";
 import FullStackReact from "../pages/FullStackReact";
 import MongoDB from "../pages/MongoDB";
-import Python from "../pages/Python";
 import MernAndAuth from "../pages/MernAndAuth";
+import Testing from "../pages/Testing";
+import Python from "../pages/Python";
 import APIs from "../pages/API.tsx";
 import MongoDBCode from "../pages/MongoDBCode.tsx";
 import ServerCode from "../pages/ServerCode.tsx";
@@ -98,6 +99,10 @@ export const router = createBrowserRouter([
             {
                 path: '/mern',
                 element: <MernAndAuth />,
+            },
+            {
+                path: '/testing',
+                element: <Testing />,
             },
             {
                 path: '/python',
