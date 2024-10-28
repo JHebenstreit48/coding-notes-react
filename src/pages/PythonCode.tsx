@@ -1,7 +1,7 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
-import PageSetup from "../Components/PageSetup";
-import pythonNotesMkdn from "../PythonNotes/PythonNotes";
+import pythonNotesWithCodeMkdn from "../PythonNotes/PythonNotesWithCode";
+import PageSetupCode from "../Components/CodePageSetup";
 
 
 
@@ -13,8 +13,8 @@ export default function Python() {
         
             <h1 className="Header">Python</h1>
             <Navigation />
-            <PageSetup
-                markdownContent={pythonNotesMkdn}
+            <PageSetupCode
+                markdownContentCode={pythonNotesWithCodeMkdn}
             />
 
         </>
