@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import '../CSS/Navigation.css';
 // Define an array of page objects with subpages
+
 const pages = [
     { 
       name: 'HTML', 
@@ -79,6 +80,11 @@ const pages = [
       name: 'Testing',
       path: '/testing',
       subpages: [{ name: 'Testing Code Notes', path: '/testing/codenotes' }]
+    },
+    {
+      name: 'Deployment CI/CD',
+      path: '/deploymentcicd',
+      subpages: [{ name: 'Deployment CI/CD Code Notes', path: '/deploymentcicd/codenotes' }]
     },
     { 
       name: 'Python', 

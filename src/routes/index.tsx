@@ -20,6 +20,7 @@ import Python from "../pages/Python";
 import APIs from "../pages/API.tsx";
 import MongoDBCode from "../pages/MongoDBCode.tsx";
 import ServerCode from "../pages/ServerCode.tsx";
+import DeploymentCICD from "../pages/DeploymentCI-CD.tsx";
 
 export const router = createBrowserRouter([
 
@@ -103,6 +104,10 @@ export const router = createBrowserRouter([
             {
                 path: '/testing',
                 element: <Testing />,
+            },
+            {
+                path: 'DeploymentCICD',
+                element: <DeploymentCICD />,
             },
             {
                 path: '/python',
