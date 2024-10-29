@@ -1,10 +1,9 @@
 import Navigation from "../Components/Navigation";
 import PageSetup from "../Components/PageSetup";
 import "../CSS/Header.css";
-import HTMLNotesMkdn from "../HTMLNotes/HTMLNotes.tsx";
 
-
-export default function HTMLNotes() {
+const HTML = () => {
+    const markdownFilePath = "/src/HTMLNotes/HTMLNotes.md";
 
     return (
 
@@ -12,9 +11,12 @@ export default function HTMLNotes() {
             <h1 className="Header">HTML</h1>
             <Navigation />
             <PageSetup
-            markdownContent={HTMLNotesMkdn}            
+                filePath={markdownFilePath}
+            markdownContent="markdownContent"            
              />
         </>
     );
 
 }
+
+export default HTML;

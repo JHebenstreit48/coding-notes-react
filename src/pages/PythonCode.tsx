@@ -1,23 +1,23 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
-import pythonNotesWithCodeMkdn from "../PythonNotes/PythonNotesWithCode";
-import PageSetupCode from "../Components/CodePageSetup";
+import CodePageSetup from "../Components/CodePageSetup.tsx";
 
-
-
-export default function Python() {
+const PythonCode = () => {
+    const markdownFilePath = "/src/PythonNotes/PythonNotesWithCode.md";
 
     return (
 
         <>
         
-            <h1 className="Header">Python</h1>
+            <h1 className="Header">Python Code Notes</h1>
             <Navigation />
-            <PageSetupCode
-                markdownContentCode={pythonNotesWithCodeMkdn}
+            <CodePageSetup
+                filePath={markdownFilePath}
+                markdownContentCode="markdownContentCode"
             />
 
         </>
     );
+};
 
-}
+export default PythonCode;

@@ -1,11 +1,9 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
-import pythonNotesMkdn from "../PythonNotes/PythonNotes";
 
-
-
-export default function Python() {
+const  Python = () => {
+    const markdownFilePath = '/src/PythonNotes/PythonNotes.md';
 
     return (
 
@@ -14,10 +12,13 @@ export default function Python() {
             <h1 className="Header">Python</h1>
             <Navigation />
             <PageSetup
-                markdownContent={pythonNotesMkdn}
+                filePath={markdownFilePath}
+                markdownContent="markdownContent"
             />
 
         </>
     );
 
-}
+};
+
+export default Python;

@@ -89,7 +89,7 @@ const pages = [
     { 
       name: 'Python', 
       path: '/python', 
-      subpages: [{ name: 'Python Code Notes', path: '/python/codenotes' }]
+      subpages: [{ name: 'Python Code Notes', path: '/python/pythoncode' }]
     }
   ];
   
