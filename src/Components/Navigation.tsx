@@ -42,7 +42,7 @@ const pages = [
     { 
       name: 'APIs', 
       path: '/apis', 
-      subpages: [{ name: 'API Code Notes', path: '/apis/codenotes' }]
+      subpages: [{ name: 'APIs Code Notes', path: '/apis/apicode' }]
     },
     { 
       name: 'PostgreSQL', 

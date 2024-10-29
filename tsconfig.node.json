@@ -17,7 +17,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "types": ["./notes.d.ts"]
+    "types": ["./src/notes.d.ts"],
   },
   "include": ["vite.config.ts"]
 }

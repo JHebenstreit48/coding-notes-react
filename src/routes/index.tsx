@@ -21,6 +21,7 @@ import APIs from "../pages/API.tsx";
 import MongoDBCode from "../pages/MongoDBCode.tsx";
 import ServerCode from "../pages/ServerCode.tsx";
 import DeploymentCICD from "../pages/DeploymentCI-CD.tsx";
+import APICode from "../pages/APICode.tsx";
 
 export const router = createBrowserRouter([
 
@@ -72,6 +73,10 @@ export const router = createBrowserRouter([
             {
                 path: '/apis',
                 element: <APIs />,
+            },
+            {
+                path: '/apis/apicode',
+                element: <APICode />,
             },
             {
                 path: '/postgresql',
