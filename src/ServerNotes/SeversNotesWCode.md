@@ -1,10 +1,9 @@
-const ServerNotesWithCodeMkdn = `
 
 - The following <span class="secondEmphasis">HTTP request method</span> <span class="emphasis">creates</span> new <span class="emphasis">data</span> or <span class="emphasis">resources</span> on a <span class="emphasis">server</span>.
 
-\`\`\`bash
+```bash
 .post()
-\`\`\`
+```
 
 - The following <span class="secondEmphasis">HTTP request method</span> <span class="emphasis">retrieves </span> or <span class="emphasis"> requests</span> a <span class="emphasis">resource</span> from the <span class="emphasis">server</span>.
 
@@ -48,11 +47,11 @@ inquirer.prompt
 
 - Promises use the following methods to handle asynchronous operations and can lead to nested structures and return new promises in each step.
 
-\`\`\`bash
+```bash
 .then()
 
 .catch()
-\`\`\`
+```
 
 - You can keep chaining the following methods as much as you want until the promise is resolved.
 
@@ -79,7 +78,3 @@ fetch()
 \`\`\`bash
 json()
 \`\`\`
-
-`;
-
-export default ServerNotesWithCodeMkdn;
