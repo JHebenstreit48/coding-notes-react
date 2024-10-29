@@ -1,9 +1,3 @@
-// Define the types for each text part and for the list item
-
-// Define the functional component with TypeScript and use the default export function syntax
-
-const HTMLNotesMkdn = `
-
 - Hypertext Markup Language (HTML) is one of the three cornerstone languages.  
 
   - It is the standard markup language for documents designed to be displayed in a web browser.  
@@ -24,8 +18,3 @@ const HTMLNotesMkdn = `
   - UTF-8, ISO-8859-1, ANSI(Windows-1252), ASCII
 
 - HTML attributes are words or pieces of data that modify the behavior or appearance of an element.
-
-`;
-
-export default HTMLNotesMkdn;
-

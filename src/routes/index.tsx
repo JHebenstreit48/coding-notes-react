@@ -22,6 +22,7 @@ import MongoDBCode from "../pages/MongoDBCode.tsx";
 import ServerCode from "../pages/ServerCode.tsx";
 import DeploymentCICD from "../pages/DeploymentCI-CD.tsx";
 import APICode from "../pages/APICode.tsx";
+import PythonCode from "../pages/PythonCode.tsx";
 
 export const router = createBrowserRouter([
 
@@ -117,7 +118,11 @@ export const router = createBrowserRouter([
             {
                 path: '/python',
                 element: <Python />,
-            }
+            },
+            {
+                path: '/python/pythoncode',
+                element: <PythonCode />,
+            },
         ],
     },
 ]);

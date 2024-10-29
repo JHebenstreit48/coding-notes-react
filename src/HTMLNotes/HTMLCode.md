@@ -1,14 +1,10 @@
-// Define the types for each text part and for the list item
+- The following code snippet is an HTML tag that contains information or metadata that helps the browser to display / render the webpage correctly.
 
-// Define the functional component with TypeScript and use the default export function syntax
+```bash
+<head>
+```
 
-const HTMLNotesWithCodeMkdn = `
-
-`;
-
-export default HTMLNotesWithCodeMkdn;
-
-//   {
+   <!-- {
 //     content: [
 //       { text: 'The following element contains', emphasis: false },
 //       { text: 'information', emphasis: true },
@@ -136,4 +132,4 @@ export default HTMLNotesWithCodeMkdn;
 //       { text: '', emphasis: false },
 //     ],
 //   },
-// ];
+// ]; -->
