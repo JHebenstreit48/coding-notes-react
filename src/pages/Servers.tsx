@@ -1,8 +1,9 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
-import ServerNotesMkdn from "../ServerNotes/ServersNotes";
-export default function Servers() {
+
+const Servers = () => {
+    const markdownFilePath = '/src/ServerNotes/ServerNotes.md';
 
     return (
 
@@ -10,8 +11,11 @@ export default function Servers() {
             <h1 className="Header">Servers</h1>
             <Navigation />
             <PageSetup
-                markdownContent={ServerNotesMkdn}
+                filePath={markdownFilePath}
+                markdownContent="markdownContent"
             />
         </>
     );
-}
+};
+
+export default Servers;

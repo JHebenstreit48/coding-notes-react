@@ -1,13 +1,11 @@
-const ServerNotesMkdn = `
-
-- Fetch API will make requests to specific API endpoints and process the response.
+- <span class="emphasis">Fetch API</span> will make <span class="emphasis">requests</span> to specific API endpoints and process the response.
 
 - HTTP methods are a set of request methods that indicate the desired action to be performed on a resource.
 
 - HTTP methods perform the following actions of: Create, Read, Updated, and Delete.  
+
     - This is known as the CRUD method.
 <br></br>
-
 - Express.js is a lightweight framework for Node.js that allows you to write APIs handlers, HTTP requests, and implement middleware in your server-side applications.
 
 - Frameworks follow a strict set of instructions on how to implement them.
@@ -25,7 +23,3 @@ const ServerNotesMkdn = `
 - Asychronous code is where any real-world time is introduced to the application, which causes some kind of delay.
 
 - Async/await is usually preferred/recommended because it uses cleaner syntax compared to using .then() and .catch().
-
-`;
-
-export default ServerNotesMkdn;
