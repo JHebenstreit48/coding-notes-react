@@ -1,63 +1,61 @@
-const mongoDBNoteswithCodeMkdn = `
-
 - The following commands are used to start the MongoDB shell:  
 
-\`\`\`bash
+```bash
 mongo
 mongosh
-\`\`\`
+```
 
 - The following command is for Mongo Driver:  
 
-\`\`\`bash
+```bash
 mongod
-\`\`\`  
+```  
 
 - You can also type the following command in the shell to get a list of other commands:  
 
-\`\`\`bash
+```bash
 help
-\`\`\`  
+```  
 
 - The following command is used to either create the database or switch to the database if the database already exists:  
 
-\`\`\`bash
+```bash
 use
-\`\`\`  
+```  
 
 - The following command will show a list of all the aviailable databases:  
 
-\`\`\`bash
+```bash
 show databases    
 show dbs
-\`\`\`  
+```  
 
 - The following code is an example of how to create a collection and insert data into a document in one fell swoop:
 
-\`\`\`bash
+```bash
 db.collectionName.insertOne ({ key1: value1, key2: value2,})
-\`\`\`
+```
 
 - Calling the following function a model is compiled for you by Mongoose:  
 
-\`\`\`bash
+```bash
 mongoose.model()
-\`\`\`
+```
 
 - The following MongoDB method returns a 12-byte object ID:
 
-\`\`\`bash
+```bash
 ObjectID
-\`\`\`
+```
 
 - The following Mongoose method is used to query the database for documents that match a specified set of criteria.
 
     - It allows you to retrieve data from a collection and filter it based on the criteria you specify.
     - It is the Mongoose version of a GET request in RESTful routing such as Express JS.
 
-\`\`\`bash
+```bash
 find()
-\`\`\`
+```
 
 - The following Mongoose method(s) is used to save a new document to the database.
 
@@ -66,10 +64,10 @@ find()
     - The first method mentioned below is used for incremental creation and modification of documents before saving them to the database.
     - The second method mentioned below is used to create and save a document in one step or fell swoop.
 
-\`\`\`bash
+```bash
 save()
 create()
-\`\`\`
+```
 
 
 
@@ -78,18 +76,14 @@ create()
 
     - This is equivalent to a PUT request in RESTful routing such as Express JS.
 
-\`\`\`bash
+```bash
 update()
-\`\`\`
+```
 
 - The following Mongoose method is used to delete a single document that matches the filter criteria.
 
     - This is equivalent to a DELETE request in RESTful routing such as Express JS.
 
-\`\`\`bash
+```bash
 delete()
-\`\`\`
-
-`;
-
-export default mongoDBNoteswithCodeMkdn;
+```
