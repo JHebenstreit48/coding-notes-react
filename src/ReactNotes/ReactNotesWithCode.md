@@ -1,36 +1,16 @@
-import { ListItem } from '../Components/Types';
+- The best practice to have the most up-to-date version of Vite is to use the following command in the terminal:
 
-// Define the types for each text part and for the list item
+```bash
+npm create vite@latest
+```
 
-// Define the functional component with TypeScript and use the default export function syntax
+- The following code is an HTML <a> tag under the hood:
+  - This code comes from React Router DOM.
 
-const ReactItemsWithCode: ListItem[] = [
-  {
-    content: [
-      { text: 'The', emphasis: false },
-      { text: 'best practice to have the most', emphasis: true },
-      { text: 'up-to-date', emphasis: false },
-      { text: 'version of', emphasis: true },
-      { text: 'Vite', emphasis: false },
-    ],
-  },
-  {
-    content: [
-      { text: 'Enter the following commind in the', emphasis: false },
-      { text: 'terminal:', code: true },
-      { text: 'npx create vite@latest', emphasis: false },
-    ],
-  },
-  {
-    content: [
-      { text: 'The following code is an HTML', emphasis: false },
-      { text: '<a>', emphasis: true },
-      { text: 'tag under the hood. It comes from React Router DOM.', emphasis: false },
-      { text: 'Link', code: true },
-    ],
-  },
-  {
-    content: [
+```bash
+<Link></Link>
+```
+
       { text: 'The parent HTML tag always has to have the following', emphasis: false },
       { text: 'attribute', emphasis: true },
       { text: 'to identify an', emphasis: false },
@@ -106,56 +86,3 @@ const ReactItemsWithCode: ListItem[] = [
       { text: 'You would enter the following to make sure that the project is', emphasis: false },
       { text: 'not nested', emphasis: true },
       { text: '? Project name: > .', code: true },
-    ],
-  },
-  {
-    content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
-  {
-    content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
-  {
-    content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
-  {
-    content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
-  {
-    content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
-  {
-    content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
-];
-
-export default ReactItemsWithCode;

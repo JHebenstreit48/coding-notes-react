@@ -1,13 +1,22 @@
 import Navigation from "../Components/Navigation";
+import PageSetup from "../Components/PageSetup";
 import "../CSS/Header.css";
-export default function NodeJS() {
+
+const Node = () => {
+    const markdownFilePath = '/src/NodeNotes/NodeNotes.md';
 
     return (
 
         <>
-            <h1 className="Header">Node JS</h1>
+            <h1 className="Header">Node</h1>
             <Navigation />
+            <PageSetup 
+            filePath={markdownFilePath}
+            markdownContent="markdownContent
+            "/>
         </>
     );
 
-}
+};
+
+export default Node;

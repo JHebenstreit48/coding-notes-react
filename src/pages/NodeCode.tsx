@@ -2,14 +2,14 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
-const TestingCode = () => {
-    const markdownFilePath = '/src/TestingNotes/TestingNotesWithCode.md';
+const NodeCode = () => {
+    const markdownFilePath = '/src/NodeNotes/NodeNotesWithCode.md';
 
     return (
 
         <>
 
-            <h1 className="Header">Testing Code</h1>
+            <h1 className="Header">Node Code Notes</h1>
             <Navigation />
             <CodePageSetup
                 filePath={markdownFilePath}
@@ -21,4 +21,4 @@ const TestingCode = () => {
     );
 };
 
-export default TestingCode;
+export default NodeCode;

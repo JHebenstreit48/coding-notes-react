@@ -2,14 +2,14 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
-const TestingCode = () => {
-    const markdownFilePath = '/src/TestingNotes/TestingNotesWithCode.md';
+const ReactFullStackCode = () => {
+    const markdownFilePath = '/src/ReactFullStackNotes/ReactFullStackNotesWithCode.md';
 
     return (
 
         <>
 
-            <h1 className="Header">Testing Code</h1>
+            <h1 className="Header">React Full-Stack Code</h1>
             <Navigation />
             <CodePageSetup
                 filePath={markdownFilePath}
@@ -21,4 +21,4 @@ const TestingCode = () => {
     );
 };
 
-export default TestingCode;
+export default ReactFullStackCode;
