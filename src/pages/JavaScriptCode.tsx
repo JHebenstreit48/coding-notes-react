@@ -12,7 +12,7 @@ const JavascriptCode = () => {
             <Navigation />
             <CodePageSetup
                 filePath={markdownFilePath}
-            markdownContentCode="markdownContentCode"
+                markdownContentCode="markdownContentCode"
             />
         </>
     );

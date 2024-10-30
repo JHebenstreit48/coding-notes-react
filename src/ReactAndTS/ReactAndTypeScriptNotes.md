@@ -1,7 +1,4 @@
-import { ListItem } from '../Components/Types';
 
-const items: ListItem[] = [
-  {
     content: [
       { text: 'TypeScript', emphasis: false },
       { text: 'generics', emphasis: true },
@@ -177,31 +174,4 @@ const items: ListItem[] = [
       { text: 'boost efficiency', emphasis: true },
     ],
   },
-  {
-    content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
-  {
-    content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
-  {
-    content: [
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-      { text: '', emphasis: true },
-      { text: '', emphasis: false },
-    ],
-  },
   
-];
-
-export default items;

@@ -1,7 +1,3 @@
-import { ListItem } from '../Components/Types';
-
-const fullStackReactItemsWithCode: ListItem[] = [
-    {
         content: [
           { text: 'In order to install', emphasis: false },
           { text: 'Sequelize', emphasis: true },
@@ -69,8 +65,3 @@ const fullStackReactItemsWithCode: ListItem[] = [
             { text: 'decimalNumbers: true', code: true },
             { text: `}`, code: true },
             { text: `});`, code: true },
-        ],
-    },
-];
-
-export default fullStackReactItemsWithCode;

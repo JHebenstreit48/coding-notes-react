@@ -1,11 +1,9 @@
+import PageSetup from "../Components/PageSetup";
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
-import PageSetup from "../Components/PageSetup";
-import deploymentNotesMkdn from "../DeploymentCICD/DeploymentCICDNotes";
 
-
-
-export default function DeploymentCICD() {
+const DeploymentCICD = () => {
+    const markdownFilePath = '/src/DeploymentCICD/DeploymentCICDNotes.md';
 
     return (
 
@@ -14,10 +12,13 @@ export default function DeploymentCICD() {
             <h1 className="Header">Deployment CI/CD</h1>
             <Navigation />
             <PageSetup
-                markdownContent={deploymentNotesMkdn}
+                filePath={markdownFilePath}
+                markdownContent="markdownContent"
             />
 
         </>
     );
 
-}
+};
+
+export default DeploymentCICD;

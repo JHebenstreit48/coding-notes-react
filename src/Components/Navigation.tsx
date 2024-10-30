@@ -12,12 +12,12 @@ const pages = [
     { 
       name: 'CSS', 
       path: '/css', 
-      subpages: [{ name: 'CSS Code Notes', path: '/css/codenotes' }]
+      subpages: [{ name: 'CSS Code Notes', path: '/css/csscode' }]
     },
     { 
       name: 'Git', 
       path: '/git', 
-      subpages: [{ name: 'Git Code Notes', path: '/git/codenotes' }]
+      subpages: [{ name: 'Git Code Notes', path: '/git/gitcode' }]
     },
     { 
       name: 'JavaScript', 
@@ -25,14 +25,14 @@ const pages = [
       subpages: [{ name: 'JavaScript Code Notes', path: '/javascript/javascriptcode' }]
     },
     { 
-      name: 'Node JS', 
+      name: 'Node', 
       path: '/node', 
-      subpages: [{ name: 'Node.JS Code Notes', path: '/node/codenotes' }]
+      subpages: [{ name: 'Node.JS Code Notes', path: '/node/nodecode' }]
     },
     { 
       name: 'TypeScript', 
       path: '/typescript', 
-      subpages: [{ name: 'TypeScript Code Notes', path: '/typescript/codenotes' }]
+      subpages: [{ name: 'TypeScript Code Notes', path: '/typescript/typescriptcode' }]
     },
     { 
       name: 'Servers', 
@@ -47,22 +47,22 @@ const pages = [
     { 
       name: 'PostgreSQL', 
       path: '/postgresql', 
-      subpages: [{ name: 'PostgreSQL Code Notes', path: '/postgresql/codenotes' }]
+      subpages: [{ name: 'PostgreSQL Code Notes', path: '/postgresql/postgresqlcode' }]
     },
     { 
       name: 'React', 
       path: '/react', 
-      subpages: [{ name: 'React Code Notes', path: '/react/codenotes' }]
+      subpages: [{ name: 'React Code Notes', path: '/react/reactcode' }]
     },
     { 
       name: 'React and TypeScript', 
       path: '/reactandtypescript', 
-      subpages: [{ name: 'React TS Code Notes', path: '/reactandtypescript/codenotes' }]
+      subpages: [{ name: 'React TS Code Notes', path: '/reactandtypescript/reactandtypescriptcode' }]
     },
     { 
-      name: 'Full Stack React', 
-      path: '/fullstackreact', 
-      subpages: [{ name: 'React FS Code Notes', path: '/fullstackreact/codenotes' }]
+      name: 'React Full-Stack', 
+      path: '/reactfullstack', 
+      subpages: [{ name: 'React Full Stack Code', path: '/reactfullstack/reactfullstackcode' }]
     },
     { 
       name: 'MongoDB', 
@@ -74,17 +74,17 @@ const pages = [
     { 
       name: 'MERN', 
       path: '/mern', 
-      subpages: [{ name: 'MERN Code Notes', path: '/mern/codenotes' }]
+      subpages: [{ name: 'MERN Code Notes', path: '/mern/merncode' }]
     },
     {
       name: 'Testing',
       path: '/testing',
-      subpages: [{ name: 'Testing Code Notes', path: '/testing/codenotes' }]
+      subpages: [{ name: 'Testing Code Notes', path: '/testing/testingcode' }]
     },
     {
       name: 'Deployment CI/CD',
       path: '/deploymentcicd',
-      subpages: [{ name: 'Deployment CI/CD Code Notes', path: '/deploymentcicd/codenotes' }]
+      subpages: [{ name: 'Deployment CI/CD Code Notes', path: '/deploymentcicd/deploymentcicdcode' }]
     },
     { 
       name: 'Python', 

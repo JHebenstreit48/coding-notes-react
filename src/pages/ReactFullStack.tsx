@@ -2,13 +2,13 @@ import Navigation from "../Components/Navigation";
 import PageSetup from "../Components/PageSetup";
 import "../CSS/Header.css";
 
-const CSS = () => {
-    const markdownFilePath = '/src/CSSNotes/CSSNotes.md';
+const ReactFullStack = () => {
+    const markdownFilePath = '/src/ReactFullStackNotes/ReactFullStackNotes.md';
 
     return (
 
         <>
-            <h1 className="Header">CSS</h1>
+            <h1 className="Header">React Full-Stack</h1>
             <Navigation />
             <PageSetup
                 filePath={markdownFilePath}
@@ -20,4 +20,4 @@ const CSS = () => {
 
 };
 
-export default CSS;
+export default ReactFullStack;

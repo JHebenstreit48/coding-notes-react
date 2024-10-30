@@ -1,12 +1,9 @@
 import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
-import testingNotesMkdn from "../TestingNotes/TestingNotes";
 
-
-
-export default function Python() {
-
+const Testing = () => {
+    const markdownFilePath = '/src/TestingNotes/TestingNotes.md';
     return (
 
         <>
@@ -14,10 +11,13 @@ export default function Python() {
             <h1 className="Header">Testing</h1>
             <Navigation />
             <PageSetup
-                markdownContent={testingNotesMkdn}
+                filePath={markdownFilePath}
+                markdownContent="markdownContent"
             />
 
         </>
     );
 
-}
+};
+
+export default Testing;
