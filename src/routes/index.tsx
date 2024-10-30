@@ -25,7 +25,7 @@ import Python from "../pages/Python.tsx";
 import PythonCode from "../pages/PythonCode.tsx";
 import React from "../pages/React.tsx";
 import ReactCode from "../pages/ReactCode.tsx";
-import ReactAndTypeScript from "../pages/ReactAndTypeScript.tsx";
+import ReactAndTypeScript from "../pages/ReactandTypeScript.tsx";
 import ReactAndTypeScriptCode from "../pages/ReactAndTypeScriptCode.tsx";
 import ReactFullStack from "../pages/ReactFullStack.tsx";
 import ReactFullStackCode from "../pages/ReactFullStackCode.tsx";
