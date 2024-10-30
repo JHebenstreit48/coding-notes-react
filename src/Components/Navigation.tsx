@@ -22,7 +22,7 @@ const pages = [
     { 
       name: 'JavaScript', 
       path: '/javascript', 
-      subpages: [{ name: 'JavaScript Code Notes', path: '/javascript/codenotes' }]
+      subpages: [{ name: 'JavaScript Code Notes', path: '/javascript/javascriptcode' }]
     },
     { 
       name: 'Node JS', 

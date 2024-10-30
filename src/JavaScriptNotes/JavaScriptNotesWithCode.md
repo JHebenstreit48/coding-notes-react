@@ -1,18 +1,10 @@
-import { ListItem } from '../Components/Types';
+- When you use the following code before the name of a function, you can change the name of the function when you import it into another file:
 
-const javascriptItemsWithCode: ListItem[] = [
-    {
-        content: [
-          { text: 'When you use the following code before the name of a', emphasis: false },
-          { text: 'function', emphasis: true },
-          { text: 'you can', emphasis: false },
-          { text: 'change', emphasis: true },
-          { text: 'the name when you', emphasis: false},
-          { text: 'import', emphasis: true },
-          { text: 'the function into another file.', emphasis: false },
-          { text: 'export default function', code: true },
-        ],
-      },
+```bash
+export default function
+```
+
+
       {
         content: [
           { text: 'When', emphasis: false },
@@ -94,6 +86,3 @@ const javascriptItemsWithCode: ListItem[] = [
           { text: 'charAt(0)', code: true },
         ],
       },
-];
-
-export default javascriptItemsWithCode;

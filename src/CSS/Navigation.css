@@ -102,6 +102,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(119, 0, 255);
+    text-shadow: rgb(197, 162, 6) 1px 1px 1px;
     text-decoration: none;
     width: 100%;
     padding: 10px 15px; /* Consistent padding */

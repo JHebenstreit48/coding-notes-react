@@ -1,5 +1,3 @@
-const mongoDBNotesMkdn = `
-
 - <span class="emphasis">NoSQL</span> databases like <span class="emphasis">MongoDB</span> are a <span class="emphasis">non-relational</span> database or <span class="secondEmphasis">non-relational database management system (DBMS)</span>.
 
 - <span class="emphasis">MongoDB</span> is an <span class=emphasis>open-source</span> database and uses <span class="emphasis">documents</span>, <span class="emphasis">objects</span>, or <span class="emphasis">arrays</span> instead of <span class="emphasis">tables</span> and <span class="emphasis">rows</span> to <span class="emphasis">store </span><span class="secondEmphasis">data</span>. 
@@ -56,7 +54,3 @@ const mongoDBNotesMkdn = `
   - A 3-byte incrementing counter  
 
 - 
-
-`;
-
-export default mongoDBNotesMkdn;

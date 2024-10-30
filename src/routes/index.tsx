@@ -23,6 +23,7 @@ import ServerCode from "../pages/ServerCode.tsx";
 import DeploymentCICD from "../pages/DeploymentCI-CD.tsx";
 import APICode from "../pages/APICode.tsx";
 import PythonCode from "../pages/PythonCode.tsx";
+import JavascriptCode from "../pages/JavaScriptCode.tsx";
 
 export const router = createBrowserRouter([
 
@@ -54,6 +55,10 @@ export const router = createBrowserRouter([
             {
                 path: '/javascript',
                 element: <JavaScript />,
+            },
+            {
+                path: '/javascript/javascriptcode',
+                element: <JavascriptCode />,
             },
             {
                 path: '/node',

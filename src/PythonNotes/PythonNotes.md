@@ -7,14 +7,17 @@
     - <span class="emphasis">Flask</span>
 
 - Some companies that use Python:
-    - Netflix
-    - Spotify
-    - Google
-    - Instagram
-    - Facebook
-    - Amazon
 
-- Python uses text casing known as snake casing. This is where all letters are lowercase or uppercase and words are separated by underscores.
+    - <span class="emphasis">Netflix</span>
+    - <span class="emphasis">Spotify</span>
+    - <span class="emphasis">Google</span>
+    - <span class="emphasis">Instagram</span>
+    - <span class="emphasis">Facebook</span>
+    - <span class="emphasis">Amazon</span>
+
+- <span class="emphasis">Python</span> uses <span class="emphasis">text casing</span> known as <span class="emphasis">snake casing</span>.  
+
+    - This is where all letters are <span class="emphasis">lowercase</span> or <span class="emphasis">uppercase</span> and words are <span class="emphasis">separated</span> by <span class="emphasis">underscores</span>.
 
 - Python and JavaScript share the following similarities:
     - Both use primitive data types and strings
@@ -23,5 +26,9 @@
     - Both use arithmetic and conditional operators
     - Both use method chaining
     - Both use fuction arguments and return statements
+
+- A dictionary in Python is equivalent to an object in JavaScript.
+
+
 
 - 
