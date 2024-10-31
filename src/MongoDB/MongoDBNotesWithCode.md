@@ -69,9 +69,6 @@ save()
 create()
 ```
 
-
-
-
 - The following Mongoose method is used to update a document in the database.
 
     - This is equivalent to a PUT request in RESTful routing such as Express JS.
@@ -86,4 +83,20 @@ update()
 
 ```bash
 delete()
+```
+
+- The following Mongoose operator adds a value to an array unless the value is already present, in which it does nothing to the array.
+
+```bash
+{ $addToSet: { <field1>: <value1>, ... } }
+```
+
+- The following Mongoose operator adds a specified value to an array:
+    - If the field is absent in the document to update it adds the array field with the value as is.
+    - If the field is not an array, the operation will fail
+    - If the value is an array it appends the whole array as a single element
+
+```bash
+{ $push: { <field1>: <value1>, ... } }
+
 ```
