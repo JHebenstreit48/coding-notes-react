@@ -1,4 +1,4 @@
-- When you use the following code before the name of a function, you can change the name of the function when you import it into another file:
+When you use the following code before the name of a function, you can change the name of the function when you import it into another file:
 
 ```bash
 export default function

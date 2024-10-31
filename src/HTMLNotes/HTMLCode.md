@@ -1,10 +1,10 @@
-- The following code snippet is an HTML tag that contains information or metadata that helps the browser to display / render the webpage correctly.
+The following code snippet is an HTML tag that contains information or metadata that helps the browser to display / render the webpage correctly.
 
 ```bash
 <head>
 ```
 
-- There are multiple types of elements including, but not limited to:
+There are multiple types of elements including, but not limited to:
 
 ```bash
 <p>
@@ -15,35 +15,35 @@
 <img>
 ```
 
-- Common types of elements that are used to divide content into sections are:
+Common types of elements that are used to divide content into sections are:
 
 ```bash
 <div>
 <section>
 ```
 
-- The following element represents the container for the visible content shown to the end-user"
+The following element represents the container for the visible content shown to the end-user"
 
 ```bash
 <body>
 
 ```
 
-- The following tag is used to tell the browser what document type to expect.  
+The following tag is used to tell the browser what document type to expect.  
 
-   - It is also considered a declaration and is NOT case-sensitive:
+- It is also considered a declaration and is NOT case-sensitive:
 
 ```bash
 <!DOCTYPE html>
 ```
 
-- The following tag contains the metadata for the webpage.  
+The following tag contains the metadata for the webpage.  
 
 ```bash
 <meta>
 ```
 
-- The previously mentioned tag may contain the following attributes:
+The previously mentioned tag may contain the following attributes:
 
 ```bash
    charset
@@ -52,19 +52,18 @@
    name
 ```
 
-- The following meta tag attribute sets the character encoding for the document:
+The following meta tag attribute sets the character encoding for the document:
 
 ```bash
-charset=""
+charset="<insert character encoding here>"
 ```
 
-- The following tag is used to embed executable code or data into the document:
+The following tag is used to embed executable code or data into the document:
 
-   -This tag is typically used for JavaScript files.
+- This tag is typically used for JavaScript files.
 
 ```bash
 <script>
 ```
 
-- 
 
