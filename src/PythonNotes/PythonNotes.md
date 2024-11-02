@@ -39,3 +39,5 @@ List items are one of 4 built-in data types in Python used to store collections 
 - <span class="emphasis">Dictionaries</span>
 
 List items are indexed starting at a 0 index just like in JavaScript
+
+
