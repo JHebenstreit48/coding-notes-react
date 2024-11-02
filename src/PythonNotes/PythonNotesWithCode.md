@@ -11,15 +11,15 @@ The following <span class="emphasis">function</span> is used to <span class="emp
 round()
 ```
 
-The following function is used to print out a line of code to the console:
+The following <span class="emphasis">function</span> is used to <span class="emphasis">print</span> out a line of code to the <span class="emphasis">console</span>:
 
-- It is the equivalent of the console.log() in JavaScript.
+- It is the <span class="emphasis">equivalent</span> of the <span class="emphasis">console.log()</span> in <span class="emphasis">JavaScript</span>.
 
 ```bash
 print()
 ```
 
-The following code is the Python equivalent of what to do when you want to create a string literal:
+The following code is the Python <span class="emphasis">equivalent</span> of what to do when you want to <span class="emphasis">create</span> a <span class="secondEmphasis">string literal</span>:
 
 ```bash
 (f"{}")
@@ -27,13 +27,13 @@ print(f"Hello, my name is {name} and I am {age} years old.")
 
 ```
 
-The following method is used to convert a number or a string to a floating-point number:
+The following <span class="emphasis">method</span> is used to <span class="emphasis">convert</span> a <span class="emphasis">number</span> or a <span class="emphasis">string</span> to a <span class="emphasis">floating-point</span> <span class="secondEmphasis">number</span>:
 
 ```bash
 float()
 ```
 
-The following operator is used to invert the truth value of Boolean expressions:
+The following <span class="emphasis">operator</span> is used to <span class="emphasis">invert</span> the <span class="emphasis">truth</span> <span class="emphasis">value</span> of a <span class="emphasis">Boolean</span> <span class="secondEmphasis">expression</span>:
 
 - This is the Python <span class="emphasis">equivalent</span> of using an <span class="secondEmphasis">!</span> in <span class="emphasis">JavaScript</span>.
 
@@ -47,7 +47,7 @@ The following <span class="emphasis">built-in</span> Python <span class="emphasi
 .lower()
 ```
 
-The following method capitalizes the first letter in each word:
+The following <span class="emphasis">method</span> <span class="secondEmphasis">capitalizes</span> the <span class="emphasis">first letter</span> in each <span class="emphasis">word</span>:
 
 ```bash
 .title()
@@ -101,3 +101,21 @@ The following method removes the element at the specified position from a list o
 ```bash
 pop()
 ```
+
+The following method updates the current set by adding items from another iterable, such as a set, list, tuple, or dictionary.
+
+- It also removes any duplicates, ensuring that all the elements in the original set occur only once.
+
+```bash
+update()
+```
+
+The following is the shorthand way to right a variable name for a dataframe. 
+
+- a DataFrame is a data structure constructed with rows and columns that resembles a spreadsheet or SQL table.
+
+```bash
+df
+```
+
+
