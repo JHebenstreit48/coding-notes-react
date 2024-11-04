@@ -1,12 +1,12 @@
 <span class="emphasis">Python</span> is a <span class="emphasis">high-level</span>, <span class="emphasis">interpreted</span>, <span class="emphasis">interactive</span> and <span class="emphasis">object-oriented</span><span class="secondEmphasis"> scripting language</span>.
 
-Python is open-sourced and can be used to create a variety of applications, including web applications, desktop applications, and even mobile applications.
+Python is <span class="emphasis">open-sourced</span> and can be used to create a <span class="secondEmphasis">variety</span> of <span class="emphasis">applications</span>, including <span class="emphasis">web</span>, <span class="emphasis">desktop</span>, and <span class="emphasis">mobile</span>.
 
-Python has two popular backend frameworks:
+Python has <span class="emphasis">two</span> popular <span class="emphasis">backend</span> <span class="secondEmphasis">frameworks</span>:
 - <span class="emphasis">Django</span>
 - <span class="emphasis">Flask</span>
 
-Some companies that use Python:
+Some <span class="emphasis">companies</span> that use Python:
 
 - <span class="emphasis">Netflix</span>
 - <span class="emphasis">Spotify</span>
@@ -19,18 +19,18 @@ Some companies that use Python:
 
 - This is where all letters are <span class="emphasis">lowercase</span> or <span class="emphasis">uppercase</span> and words are <span class="emphasis">separated</span> by <span class="emphasis">underscores</span>.
 
-Python and JavaScript share the following <span class="emphasis">similarities</span>:
+<span class="emphasis">Python</span> and <span class="emphasis">JavaScript</span> share the following <span class="emphasis">similarities</span> :
 
 - Both use <span class="emphasis">primitive</span> <span class="secondEmphasis">data types</span> and <span class="emphasis">strings</span>
 - Both use <span class="emphasis">conditionals statments</span>
 - Both use <span class="emphasis">while loops</span>
 - Both use <span class="emphasis">arithmetic</span> and <span class="emphasis">conditional operators</span>
 - Both use <span class="emphasis">method chaining</span>
-- Both use fuction <span class="emphasis">arguments and <span class="emphasis">return</span> statements.
+- Both use fuction <span class="emphasis">arguments</span> and <span class="emphasis">return</span> statements.
 
 A <span class="emphasis">dictionary</span> in Python is <span class="emphasis">equivalent</span> to an <span class="emphasis">object</span> in <span class="emphasis">JavaScript</span>.
 
-List items are one of 4 built-in data types in Python used to store collections of data.
+<span class="emphasis">List items</span> are one of <span class="emphasis">4</span> <span class="secondEmphasis">built-in</span> <span class="emphasis">data types</span> in Python used to store <span class="emphasis">collections</span> of <span class="emphasis">data</span>.
 
 - The <span class="emphasis">4</span> <span class="secondEmphasis">data types</span> that <span class="emphasis">store</span> <span class="secondEmphasis">collections</span> of <span class="emphasis">data</span> are:
 - <span class="emphasis">Lists</span>
@@ -38,6 +38,6 @@ List items are one of 4 built-in data types in Python used to store collections 
 - <span class="emphasis">Sets</span>
 - <span class="emphasis">Dictionaries</span>
 
-List items are indexed starting at a 0 index just like in JavaScript
+<span class="emphasis">List items</span> are <span class="emphasis">indexed</span> starting at a <span class="secondEmphasis">0</span> just like in <span class="emphasis">JavaScript</span>.
 
 

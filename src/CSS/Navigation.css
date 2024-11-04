@@ -101,11 +101,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(119, 0, 255);
-    text-shadow: rgb(197, 162, 6) 1px 1px 1px;
+    color: rgb(144, 47, 255);
+    text-shadow: rgb(0, 0, 0) 5px 3px 2px;
     text-decoration: none;
     width: 100%;
-    padding: 10px 15px; /* Consistent padding */
+    padding: 0.5rem; /* Consistent padding */
     box-sizing: border-box;
     margin: 0 auto; /* Remove margin */
 }
