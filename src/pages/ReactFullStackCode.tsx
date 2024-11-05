@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const ReactFullStackCode = () => {
-    const markdownFilePath = '/src/ReactFullStackNotes/ReactFullStackNotesWithCode.md';
+    const markdownFilePath = '../ReactFullStackNotes/ReactFullStackNotesWithCode.md';
 
     return (
 

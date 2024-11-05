@@ -3,7 +3,7 @@ import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
 
 const MongoDB = () => {
-    const markdownFilePath = "/src/MongoDB/MongoDBNotes.md";
+    const markdownFilePath = "./MongoDB/MongoDBNotes.md";
 
     return (
 

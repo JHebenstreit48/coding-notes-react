@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const ReactAndTypeScriptCode = () => {
-    const markdownFilePath = '/src/ReactAndTS/ReactAndTypeScriptNotesWithCode.md';
+    const markdownFilePath = '../ReactAndTS/ReactAndTypeScriptNotesWithCode.md';
 
     return (
 

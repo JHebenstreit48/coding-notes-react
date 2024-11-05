@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const TypeScriptCode = () => {
-    const markdownFilePath = '/src/TypeScriptNotes/TypeScriptNotesWithCode.md';
+    const markdownFilePath = '../TypeScriptNotes/TypeScriptNotesWithCode.md';
 
     return (
 

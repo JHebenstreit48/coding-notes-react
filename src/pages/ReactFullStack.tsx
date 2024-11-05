@@ -3,7 +3,7 @@ import PageSetup from "../Components/PageSetup";
 import "../CSS/Header.css";
 
 const ReactFullStack = () => {
-    const markdownFilePath = '/src/ReactFullStackNotes/ReactFullStackNotes.md';
+    const markdownFilePath = './ReactFullStackNotes/ReactFullStackNotes.md';
 
     return (
 

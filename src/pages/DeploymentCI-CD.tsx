@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const DeploymentCICD = () => {
-    const markdownFilePath = '/src/DeploymentCICD/DeploymentCICDNotes.md';
+    const markdownFilePath = './DeploymentCICD/DeploymentCICDNotes.md';
 
     return (
 

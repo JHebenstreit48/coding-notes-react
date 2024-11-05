@@ -4,7 +4,7 @@ import "../CSS/Header.css";
 
 
 const HTMLCode = () => {
-    const markdownFilePath = '/src/HTMLNotes/HTMLCode.md';
+    const markdownFilePath = '../HTMLNotes/HTMLCode.md';
 
     return (
 
