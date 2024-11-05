@@ -3,16 +3,16 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const CSSCode = () => {
-    const markdownFilePath = '/src/CSSNotes/CSSNotesWithCode.md';
+    const CSSCodeMkdn = '../CSSNotes/CSSCode.md';
 
     return (
 
         <>
 
-            <h1 className="Header">CSS Code Notes</h1>
+            <h1 className="Header">CSS Code</h1>
             <Navigation />
             <CodePageSetup
-                filePath={markdownFilePath}
+                filePath={CSSCodeMkdn}
                 markdownContentCode="markdownContentCode"
             />
 

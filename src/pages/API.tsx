@@ -3,7 +3,7 @@ import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
 
 const APIs = () => {
-    const markdownFilePath = '/src/APINotes/APINotes.md';
+    const markdownFilePath = './APINotes/APINotes.md';
 
     return (
 

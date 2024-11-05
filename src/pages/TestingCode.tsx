@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const TestingCode = () => {
-    const markdownFilePath = '/src/TestingNotes/TestingNotesWithCode.md';
+    const markdownFilePath = '../TestingNotes/TestingNotesWithCode.md';
 
     return (
 

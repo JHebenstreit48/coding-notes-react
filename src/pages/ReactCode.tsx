@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const ReactCode = () => {
-    const markdownFilePath = '/src/ReactNotes/ReactNotesWithCode.md';
+    const markdownFilePath = '../ReactNotes/ReactNotesWithCode.md';
 
     return (
 

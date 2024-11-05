@@ -4,7 +4,7 @@ import "../CSS/Header.css";
 
 
 const PostgreSQL = () => {
-    const markdownFilePath = '/src/PostgreSQL/PostgreSQLNotes.md';
+    const markdownFilePath = './PostgreSQL/PostgreSQLNotes.md';
 
     return (
 

@@ -3,7 +3,7 @@ import Navigation from '../Components/Navigation';
 import '../CSS/Header.css';
 
 const APICode = () => {
-    const markdownFilePath = '/src/APINotes/APINotesWithCode.md';
+    const markdownFilePath = '../APINotes/APINotesWithCode.md';
 
     return (
         <>

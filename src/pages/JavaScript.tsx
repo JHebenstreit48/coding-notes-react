@@ -3,7 +3,7 @@ import PageSetup from "../Components/PageSetup";
 import "../CSS/Header.css";
 
 const Javascript = () => {
-    const markdownFilePath = "/src/JavascriptNotes/JavascriptNotes.md";
+    const markdownFilePath = "./JavaScriptNotes/JavaScriptNotes.md";
 
     return (
 

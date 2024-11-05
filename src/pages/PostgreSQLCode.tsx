@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const PostgreSQLCode = () => {
-    const markdownFilePath = '/src/PostgreSQL/PostgreSQLNotesWithCode.md';
+    const markdownFilePath = '../PostgreSQL/PostgreSQLNotesWithCode.md';
 
     return (
 

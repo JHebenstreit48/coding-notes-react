@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const MernAndAuthCode = () => {
-    const markdownFilePath = '/src/MernAndAuth/MernAndAuthNotesWithCode.md';
+    const markdownFilePath = '../MernAndAuth/MernAndAuthNotesWithCode.md';
 
     return (
 

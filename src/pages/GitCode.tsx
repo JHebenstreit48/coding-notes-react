@@ -3,7 +3,7 @@ import CodePageSetup from "../Components/CodePageSetup";
 import "../CSS/Header.css";
 
 const GitCode = () => {
-    const markdownFilePath = '/src/GitNotes/GitNotesWithCode.md';
+    const markdownFilePath = '../GitNotes/GitNotesWithCode.md';
 
     return (
 

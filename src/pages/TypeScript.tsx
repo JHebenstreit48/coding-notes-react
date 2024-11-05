@@ -3,7 +3,7 @@ import PageSetup from "../Components/PageSetup";
 import "../CSS/Header.css";
 
 const Typescript = () => {
-    const markdownFilePath = '/src/TypeScriptNotes/TypeScriptNotes.md';
+    const markdownFilePath = './TypeScriptNotes/TypeScriptNotes.md';
 
     return (
 
