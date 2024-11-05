@@ -125,6 +125,8 @@
     padding: 5px 15px;
     color: rgb(9, 182, 38);
     text-decoration: none;
+    text-align: center;
+    width: 10rem;
 }
 
 .dropdown a:hover {
