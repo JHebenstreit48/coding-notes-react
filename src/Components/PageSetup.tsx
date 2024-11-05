@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { ReactNode, useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import '../CSS/Card.css';
 
 interface PageSetupProps {
     filePath?: string;
-    markdownContent?: string;
+    markdownContent?: ReactNode;
 }
 
 const loadMarkdown = async (filePath: string) => {
