@@ -40,4 +40,12 @@ A <span class="emphasis">dictionary</span> in Python is <span class="emphasis">e
 
 <span class="emphasis">List items</span> are <span class="emphasis">indexed</span> starting at a <span class="secondEmphasis">0</span> just like in <span class="emphasis">JavaScript</span>.
 
+In Python a dunder is a shorthand term for a double underscore.
+
+- They are methods that have double underscores at the beginning and end of their names.
+
+- These methods provide a way to define specific behaviors for built-in operations or functionalities in Python classes.
+
+
+
 

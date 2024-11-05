@@ -112,10 +112,34 @@ update()
 
 The following is the shorthand way to right a variable name for a dataframe. 
 
-- a DataFrame is a data structure constructed with rows and columns that resembles a spreadsheet or SQL table.
+- A Data Frame is a data structure constructed with rows and columns that resembles a spreadsheet or SQL table.
 
 ```bash
 df
+```
+
+The following function is used to combine multiple iterables (e.g., lists, tuples, strings) element-wise into a single iterable of tuples.
+
+```bash
+zip()
+```
+
+The following function retrieves the index of a tuple, list, or dictionary if needed to update an indices for a future operation.
+
+```bash
+enumerate()
+```
+
+The following function converts a value into a string.
+
+```bash
+str()
+```
+
+The following function returns the number of items in an object:
+
+```bash
+len()
 ```
 
 
