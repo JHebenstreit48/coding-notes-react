@@ -1,4 +1,3 @@
-# Testing
 <span class="emphasis">Hypertext Markup Language</span> <span class="secondEmphasis">(HTML)</span> is one of the <span class="emphasis">three</span> cornerstone <span class="emphasis">languages</span>.  
 
 It is the standard markup language for documents designed to be displayed in a web browser.  
