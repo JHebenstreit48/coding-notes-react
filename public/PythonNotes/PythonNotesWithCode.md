@@ -2,7 +2,7 @@ The following code is how you can run a Python file in the terminal with its cur
 
 - <span class="emphasis">NOTE </span>: It may end up being one or the other. 
 
-```bash
+```shell
 python3 python_file_name.py
 python python_file_name.py
 ```
@@ -11,14 +11,14 @@ python python_file_name.py
 
 The following <span class="emphasis">keyword</span> is used to <span class="emphasis">define</span> a <span class="emphasis">function </span>:
 
-```bash
+```python
 def
 def myfuntion():
 ```
 
 The following <span class="emphasis">function</span> is used to <span class="emphasis">round</span> a <span class="emphasis">number</span> to a <span class="emphasis">specified</span> number of <span class="secondEmphasis">decimal places</span>:
 
-```bash
+```python
 round()
 ```
 
@@ -26,13 +26,13 @@ The following <span class="emphasis">function</span> is used to <span class="emp
 
 - It is the <span class="emphasis">equivalent</span> of the <span class="emphasis">console.log()</span> in <span class="emphasis">JavaScript</span>.
 
-```bash
+```python
 print()
 ```
 
 The following code is the Python <span class="emphasis">equivalent</span> of what to do when you want to <span class="emphasis">create</span> a <span class="secondEmphasis">string literal</span>:
 
-```bash
+```python
 (f"{}")
 print(f"Hello, my name is {name} and I am {age} years old.")
 
@@ -40,7 +40,7 @@ print(f"Hello, my name is {name} and I am {age} years old.")
 
 The following <span class="emphasis">method</span> is used to <span class="emphasis">convert</span> a <span class="emphasis">number</span> or a <span class="emphasis">string</span> to a <span class="emphasis">floating-point</span> <span class="secondEmphasis">number</span>:
 
-```bash
+```python
 float()
 ```
 
@@ -48,19 +48,19 @@ The following <span class="emphasis">operator</span> is used to <span class="emp
 
 - This is the Python <span class="emphasis">equivalent</span> of using an <span class="secondEmphasis">!</span> in <span class="emphasis">JavaScript</span>.
 
-```bash
+```python
 not
 ```
 
 The following <span class="emphasis">built-in</span> Python <span class="emphasis">method</span> is used to <span class="emphasis">lowercase</span> <span class="secondEmphasis">strings</span>:
 
-```bash
+```python
 .lower()
 ```
 
 The following <span class="emphasis">method</span> <span class="secondEmphasis">capitalizes</span> the <span class="emphasis">first letter</span> in each <span class="emphasis">word</span>:
 
-```bash
+```python
 .title()
 ```
 
@@ -68,7 +68,7 @@ The following <span class="emphasis">method</span> <span class="secondEmphasis">
 
 - <span class="emphasis">List</span> items are <span class="emphasis">ordered</span>, <span class="emphasis">changeable</span>, and allow <span class="emphasis">duplicate values</span>.
 
-```bash
+```python
 [ 1, 2, 3, 4, 5 ]
 [ 'item1', 'item2', 'item3' ]
 [1, 'item2', 3.14, True]
@@ -76,7 +76,7 @@ The following <span class="emphasis">method</span> <span class="secondEmphasis">
 
 The following are <span class="emphasis">methods</span> you can use in <span class="emphasis">lists</span>:
 
-```bash
+```python
 append()
 clear()
 copy()
@@ -94,7 +94,7 @@ sort()
 
 - <span class="emphasis">Tuples</span> are <span class="emphasis">ordered</span> and <span class="emphasis">unchangeable</span>.
 
-```bash
+```python
 ( "item1", "item2", "item3" )
 ```
 
@@ -103,13 +103,13 @@ The following method defines how to slice an objects sequence:
 
 - Specificially where you can start and end slicing an object.
 
-```bash
+```python
 slice()
 ```
 
 The following method removes the element at the specified position from a list or dictionary
 
-```bash
+```python
 pop()
 ```
 
@@ -117,7 +117,7 @@ The following method updates the current set by adding items from another iterab
 
 - It also removes any duplicates, ensuring that all the elements in the original set occur only once.
 
-```bash
+```python
 update()
 ```
 
@@ -125,31 +125,31 @@ The following is the shorthand way to right a variable name for a dataframe.
 
 - A Data Frame is a data structure constructed with rows and columns that resembles a spreadsheet or SQL table.
 
-```bash
+```python
 df
 ```
 
 The following function is used to combine multiple iterables (e.g., lists, tuples, strings) element-wise into a single iterable of tuples.
 
-```bash
+```python
 zip()
 ```
 
 The following function retrieves the index of a tuple, list, or dictionary if needed to update an indices for a future operation.
 
-```bash
+```python
 enumerate()
 ```
 
 The following function converts a value into a string.
 
-```bash
+```python
 str()
 ```
 
 The following function returns the number of items in an object:
 
-```bash
+```python
 len()
 ```
 
@@ -157,13 +157,13 @@ The following statement is the python equivalent of a try catch block:
 
 - It ensures resources are closed after processing them.
 
-```bash
+```python
 with
 ```
 
 The following function retrieves the next items from an iterator, such as a list, tuple, or dictionary:
 
-```bash
+```python
 next()
 ```
 

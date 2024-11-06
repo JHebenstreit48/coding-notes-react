@@ -52,6 +52,7 @@ const CodePageSetup: React.FC<CodePageSetupProps> = ({ filePath, markdownContent
             case 'react':
             case 'shell':
             case 'cypress':
+            case 'python':
                 return darkGrayBackgroundTheme;
             default:
                 return darkGrayBackgroundTheme; // Fallback theme for other languages
