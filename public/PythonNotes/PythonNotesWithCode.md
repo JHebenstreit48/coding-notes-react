@@ -1,3 +1,14 @@
+The following code is how you can run a Python file in the terminal with its current version"
+
+- <span class="emphasis">NOTE </span>: It may end up being one or the other. 
+
+```bash
+python3 python_file_name.py
+python python_file_name.py
+```
+
+- For example <span class="emphasis">python</span> make work for you or <span class="emphasis">python3</span> may work.
+
 The following <span class="emphasis">keyword</span> is used to <span class="emphasis">define</span> a <span class="emphasis">function </span>:
 
 ```bash
@@ -142,4 +153,17 @@ The following function returns the number of items in an object:
 len()
 ```
 
+The following statement is the python equivalent of a try catch block:
+
+- It ensures resources are closed after processing them.
+
+```bash
+with
+```
+
+The following function retrieves the next items from an iterator, such as a list, tuple, or dictionary:
+
+```bash
+next()
+```
 

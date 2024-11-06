@@ -6,7 +6,7 @@ Python has <span class="emphasis">two</span> popular <span class="emphasis">back
 - <span class="emphasis">Django</span>
 - <span class="emphasis">Flask</span>
 
-Some <span class="emphasis">companies</span> that use Python:
+The following are some <span class="emphasis">companies</span> that use Python:
 
 - <span class="emphasis">Netflix</span>
 - <span class="emphasis">Spotify</span>
@@ -40,13 +40,15 @@ A <span class="emphasis">dictionary</span> in Python is <span class="emphasis">e
 
 <span class="emphasis">List items</span> are <span class="emphasis">indexed</span> starting at a <span class="secondEmphasis">0</span> just like in <span class="emphasis">JavaScript</span>.
 
-In Python a dunder is a shorthand term for a double underscore.
+In Python a <span class="emphasis">dunder is a <span class="emphasis">shorthand term for a <span class="emphasis">double underscore.
 
-- They are methods that have double underscores at the beginning and end of their names.
+- They are <span class="emphasis">methods</span> that have <span class="emphasis">double underscores</span> at the <span class="emphasis">beginning</span> and <span class="emphasis">end</span> of their names.
 
-- These methods provide a way to define specific behaviors for built-in operations or functionalities in Python classes.
+- These <span class="emphasis">methods</span> provide a way to <span class="emphasis">define</span> <span class="secondEmphasis">specific behaviors</span> for <span class="emphasis">built-in</span> <span class="secondEmphasis">operations</span> or <span class="secondEmphasis">functionalities</span> in Python <span class="emphasis">classes</span>.
 
-Pip is the Python version of a third-party package installer just like Node is for JavaScript and TypeScript
+<span class="emphasis">Pip</span> is the <span class="emphasis">Python</span> version of a <span class="emphasis">third-party</span> <span class="secondEmphasis">package installer</span> just like <span class="emphasis">Node</span> is for <span class="secondEmphasis">JavaScript</span> and <span class="secondEmphasis">TypeScript</span>
+
+
 
 
 

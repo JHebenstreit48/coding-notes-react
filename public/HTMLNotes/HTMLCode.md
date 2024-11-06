@@ -1,4 +1,4 @@
-The following code snippet is an HTML tag that contains information or metadata that helps the browser to display / render the webpage correctly.
+The following code is an HTML tag that contains information or metadata that helps the browser to display / render the webpage correctly.
 
 ```bash
 <head>
@@ -54,8 +54,10 @@ The previously mentioned tag may contain the following attributes:
 
 The following meta tag attribute sets the character encoding for the document:
 
+- This is just an example. There are more than just one type of character encoding.
+
 ```bash
-charset="<insert character encoding here>"
+charset="UTF-8"
 ```
 
 The following tag is used to embed executable code or data into the document:
