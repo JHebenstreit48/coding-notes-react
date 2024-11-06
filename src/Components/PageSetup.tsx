@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
-import '../CSS/Card.css';
+import '../CSS/NotesCard.css';
 
 interface PageSetupProps {
     filePath?: string;
@@ -29,13 +29,20 @@ const PageSetup: React.FC<PageSetupProps> = ({ filePath }) => {
                 <ReactMarkdown
                     rehypePlugins={[rehypeRaw]}
                     components={{
-                        span: ({ node, ...props }) => <span {...props} />,
-                    }}
-                >
-                    {markdownContent || ''}
-                </ReactMarkdown>
-            </div>
+                         // Apply the codeSnip class to code snippets only
+                    code(props) {
+                        return <code className="codeSnip" {...props} />;
+                    },
+                    // Retain existing structure for emphasis and secondEmphasis classes
+                    span(props) {
+                        return <span {...props} />;
+                    },
+                }}
+            >
+                {markdownContent || ''}
+            </ReactMarkdown>
         </div>
+    </div>
     );
 };
 

@@ -1,13 +1,13 @@
 
 The following <span class="secondEmphasis">HTTP request method</span> <span class="emphasis">creates</span> new <span class="emphasis">data</span> or <span class="emphasis">resources</span> on a <span class="emphasis">server</span>.
 
-```bash
+```javascript
 .post()
 ```
 
 The following <span class="secondEmphasis">HTTP request method</span> <span class="emphasis">retrieves </span> or <span class="emphasis"> requests</span> a <span class="emphasis">resource</span> from the <span class="emphasis">server</span>.
 
-```bash
+```javascript
 .get()
 ```
 
