@@ -17,3 +17,5 @@ In vanilla HTML if using an external sytlesheet you would reference it in the ``
 You can use CSS Media queries to set the styling for how a webpage looks on devices of various screen sizes.
 
 -This is measured using the pixel width of the screen.
+
+- Use can either set a minimum width of pixels or a maximum width.

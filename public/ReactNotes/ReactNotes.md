@@ -15,3 +15,9 @@ State is a built-in React object that is used to contain data or information abo
 A components state can change over time in response to user actions.
 
 Whenever a component's state changes, the component re-renders.
+
+If you want to use Markdown in React and want it to render on the webpage. You should put the .md files inside your public folder. 
+
+- This will allow the markdown to render on the webpage when you deploy it.
+
+- If you keep it in the source(src) folder it will render when you test it locally, but will not display on the deployed version of the webpage.
