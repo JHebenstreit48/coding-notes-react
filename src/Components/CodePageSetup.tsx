@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism'; // Change theme as needed
+import { materialLight } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import '../CSS/NotesWithCodeCard.css';
 
 interface CodePageSetupProps {
     filePath: string;
@@ -15,6 +16,24 @@ const loadMarkdown = async (filePath: string) => {
     return response.text();
 };
 
+// Customized theme to use dark gray background for HTML and CSS
+const darkGrayBackgroundTheme = {
+    ...materialLight,
+    'pre[class*="language-"]': {
+        ...materialLight['pre[class*="language-"]'],
+        background: 'rgb(29, 31, 33)', // Set to dark gray background
+        boxShadow: 'none',             // Remove drop shadow
+        padding: '0',                  // Remove padding
+    },
+    'code[class*="language-"]': {
+        ...materialLight['code[class*="language-"]'],
+        background: 'rgb(29, 31, 33)', // Dark gray background for inline code
+        boxShadow: 'none',             // Remove drop shadow
+        padding: '0',
+        color: '#fff',                 // Set text color for contrast
+    }
+};
+
 const CodePageSetup: React.FC<CodePageSetupProps> = ({ filePath, markdownContentCode }) => {
     const [markdownContent, setMarkdownContent] = useState('');
 
@@ -24,6 +43,21 @@ const CodePageSetup: React.FC<CodePageSetupProps> = ({ filePath, markdownContent
         }
     }, [filePath]);
 
+    // Function to dynamically select theme based on language
+    const selectTheme = (language: string) => {
+        switch (language) {
+            case 'html':
+            case 'css':
+            case 'javascript':
+            case 'react':
+            case 'shell':
+            case 'cypress':
+                return darkGrayBackgroundTheme;
+            default:
+                return darkGrayBackgroundTheme; // Fallback theme for other languages
+        }
+    };
+
     return (
         <div className="card">
             <h2 className="card-header">Notes With Code</h2>
@@ -31,23 +65,22 @@ const CodePageSetup: React.FC<CodePageSetupProps> = ({ filePath, markdownContent
                 <ReactMarkdown
                     rehypePlugins={[rehypeRaw]}
                     components={{
-                        
                         code({ className, children, ...props }) {
                             const language = className ? className.replace('language-', '') : '';
                             return (
                                 <SyntaxHighlighter
-                                    style={oneDark}
+                                    style={selectTheme(language)} // Apply dynamic theme based on language
                                     language={language}
                                     PreTag="div"
-                                    {...props}>
-
-                                    {String(children).replace(/\n$/, '')}
+                                    {...props}
+                                >
+                                    {String(children).trim()}
                                 </SyntaxHighlighter>
                             );
                         },
                     }}
                 >
-                    {markdownContent}
+                    {markdownContent || ''}
                 </ReactMarkdown>
             </div>
         </div>

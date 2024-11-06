@@ -1,0 +1,112 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    box-shadow: 6px 10px #888888;
+    line-height: 2rem;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2rem;
+    background-color: 
+  rgb(87, 81, 81);
+  }
+  
+  .card-header {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(56, 4, 56),
+      rgb(123, 1, 160),
+      rgb(195, 0, 255)
+    );
+    display: flex;
+    width: 100%;
+    margin: 0 0 4rem 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: rgb(255, 214, 10);
+    text-shadow: 2px 3px 3px black;
+  }
+  
+  .markdownContent {
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(6, 159, 248);
+    text-shadow: 1px 2px 1px black;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  
+  .markdownContent ul {
+    margin-top: 0;
+    padding-left: 3rem;
+  }
+  
+  .markdownContent p {
+    margin-bottom: 1rem;
+  }
+  
+  .markdownContent li {
+    margin-bottom: 1rem;
+  }
+  
+  .emphasis {
+    color: rgb(243, 175, 28);
+    font-size: 23px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .secondEmphasis {
+    color: rgb(47, 185, 20);
+    font-size: 23px;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .markdownContentCode {
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(6, 159, 248);
+    text-shadow: 1px 2px 1px black;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  
+  .markdownContentCode ul {
+    margin-top: 0;
+    padding-left: 3rem;
+  }
+  
+  .markdownContentCode p {
+    margin-bottom: 1rem;
+  }
+  
+  .markdownContentCode li {
+    margin-bottom: 1rem;
+  }
+
+  .markdownContentCode div {
+    border-radius: 0.3em;
+    padding: 17px !important;                   /* Set consistent padding */
+  }
+
+
+  @media only screen and (max-width: 464px) {
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 85%;
+      margin-bottom: 50px;
+    }
+  }
