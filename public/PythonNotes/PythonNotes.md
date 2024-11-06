@@ -46,6 +46,10 @@ In Python a dunder is a shorthand term for a double underscore.
 
 - These methods provide a way to define specific behaviors for built-in operations or functionalities in Python classes.
 
+Pip is the Python version of a third-party package installer just like Node is for JavaScript and TypeScript
+
+
+
 
 
 
