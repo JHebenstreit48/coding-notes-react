@@ -28,6 +28,10 @@ To keep track of notes on various coding languages and topics.
 ## Contributions
 
 I used videos of the class sessions, ChatGPT, GitHub CoPilot, resources from W3Schools, Codecademy and various other online sources. Even assistance from fellow programmers.
+
+[Python Raise keyword](https://www.w3schools.com/python/ref_keyword_raise.asp)
+[Python sys.exit](https://www.google.com/search?q=sys.exit+python&oq=sys.exit+python&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQgzMDM1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)
+
 ## Tests
 
 I just used npm run dev to see what the website looked like as I made changes to it.

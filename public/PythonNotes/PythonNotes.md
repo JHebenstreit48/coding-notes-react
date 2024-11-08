@@ -48,6 +48,26 @@ In Python a <span class="emphasis">dunder is a <span class="emphasis">shorthand 
 
 <span class="emphasis">Pip</span> is the <span class="emphasis">Python</span> version of a <span class="emphasis">third-party</span> <span class="secondEmphasis">package installer</span> just like <span class="emphasis">Node</span> is for <span class="secondEmphasis">JavaScript</span> and <span class="secondEmphasis">TypeScript</span>
 
+A try...except block in Python serves a similar function to a try...catch block in JavaScript/TypeScript
+
+- They are both ways of handling errors during code execution
+
+- If an exception occurs within the try block, the code inside the corresponding except block is executed.
+
+The try...except error catching code block can be broken down in the following ways:
+
+- The try block lets you test a block of code for errors
+
+- The except block lets you handle the error
+
+- The else block lets you execute code where there is no error.
+
+- The finally block lets you execute code, regardless of the result of the try and except blocks
+
+Classes in Python function in a similar way to classes in JavaScript/TypeScript.
+
+
+
 
 
 

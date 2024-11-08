@@ -13,7 +13,7 @@ The following <span class="emphasis">keyword</span> is used to <span class="emph
 
 ```python
 def
-def myfuntion():
+def my_funtion():
 ```
 
 The following <span class="emphasis">function</span> is used to <span class="emphasis">round</span> a <span class="emphasis">number</span> to a <span class="emphasis">specified</span> number of <span class="secondEmphasis">decimal places</span>:
@@ -74,20 +74,46 @@ The following <span class="emphasis">method</span> <span class="secondEmphasis">
 [1, 'item2', 3.14, True]
 ```
 
-The following are <span class="emphasis">methods</span> you can use in <span class="emphasis">lists</span>:
+<!-- ```python
+.count()
+.extend()
+.index()
+.insert()
+.pop()
+.remove()
+.reverse()
+.sort()
+``` -->
+
+This method adds a single item to the end of the existing list:
 
 ```python
-append()
-clear()
-copy()
-count()
-extend()
-index()
-insert()
-pop()
-remove()
-reverse()
-sort()
+.append()
+```
+
+- i.e.
+
+```python
+# Create a list
+fruits = ["apple", "banana"]
+
+# Append a new fruit to the list
+fruits.append("cherry")
+
+# Print the updated list
+print(fruits)  # Output: ['apple', 'banana', 'cherry']
+```
+
+This method removes all items from a list:
+
+```python
+.clear()
+```
+
+This method creates a shallow copy of a list:
+
+```python
+.copy()
 ```
 
 <span class="emphasis">Tuples</span> are another <span class="emphasis">data type</span> that <span class="emphasis">stores</span> multiple <span class="emphasis">items</span> in a single <span class="emphasis">variable</span>, but within <span class="emphasis">parenthesis</span>:
@@ -166,4 +192,83 @@ The following function retrieves the next items from an iterator, such as a list
 ```python
 next()
 ```
+
+The following keyword is used to raise an exception:
+
+- You can define what kind of error to raise, and the text to print to the user.
+
+```python
+raise
+```
+
+- ie.
+
+```python
+x = -1
+
+if x < 0:
+  raise Exception("Sorry, no numbers below zero")
+```
+
+The following function is used to exit a program when an error occurs.
+
+```python
+sys.exit()
+```
+
+You define a class in Python by using the following syntax.
+
+- The class keyword is first followed by the class name
+
+```python
+class myClass:
+```
+
+The following keyword is used with Python classes as a placeholder to prevent errors from being thrown while working on running executing empty sections of code.
+
+```python
+pass
+```
+
+In the following code. The portion before the parenthesis functions as a constructor for the class.
+
+- Then adding the parenthesis makes that constructor also a method.
+
+```python
+__init__()
+```
+
+The following variable/parameter can use another name but that might confuses other developers.
+
+- The following variable/parameter name is what is the most widely accepted name in Python.
+
+- This variable/parameter is the equivalent of using this keyword in JavaScript/TypeScript.
+
+```python
+self
+```
+
+- The following is a full example of using self in Python:
+
+```python
+# Define the Car class
+class Car:
+    # Constructor to initialize car attributes
+    def __init__(self, make, model, year):
+        self.make = make  # Car make (e.g., Toyota)
+        self.model = model  # Car model (e.g., Corolla)
+        self.year = year  # Car year (e.g., 2021)
+
+    # Method to display car info
+    def display_info(self):
+        print(f"{self.year} {self.make} {self.model}")
+
+# Create a Car object
+my_car = Car("Toyota", "Corolla", 2021)
+
+# Display car info
+my_car.display_info()
+```
+
+
 
