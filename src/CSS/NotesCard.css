@@ -59,6 +59,21 @@ rgb(87, 81, 81);
   margin-bottom: 1rem;
 }
 
+.singleBullet ul {
+  display: inline-block;
+  column-count: 2;
+  width: 39rem;
+  color: rgb(47, 185, 20);
+}
+
+.singleBullet2 ul {
+  display: inline-block;
+  margin-left: 5rem;
+  column-count: 2;
+  width: 30rem;
+  color: rgb(47, 185, 20);
+}
+
 .emphasis {
   color: rgb(243, 175, 28);
   font-size: 23px;
