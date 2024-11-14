@@ -1,3 +1,5 @@
+## Cypress
+
 The following command in Cypress will visit a specified URL, which then allows you to interact with elements on the page.
 
 ```typescript
