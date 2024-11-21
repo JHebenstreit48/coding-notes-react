@@ -43,3 +43,17 @@ The following cy object method that is used to select one or more elements from 
 ```typescript
 cy.get()
 ```
+
+To run Cypress in an IDE like VS Code. You would run the following command.
+
+```shell
+npx cypress open
+```
+
+You can run the following command to install Cypress as a dev dependency
+
+```shell
+npm install cypress --save-dev
+npm i cypress --save-dev
+npm i cypress -D
+```
