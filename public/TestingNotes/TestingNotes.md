@@ -14,4 +14,8 @@ Cypress files are saved with the <span class="emphasis">.cy.ts</span> <span clas
 
 - The .cy indicates that you are using Cypress for testing and the .ts indicates it is being saved into a TypeScript file.
 
+In Cypress testing fixtures are a fancy way to say your mock data.
+
+You typically should install Cypress as a developer(dev) dependency.
+
 

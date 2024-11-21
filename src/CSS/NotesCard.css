@@ -14,17 +14,15 @@
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 2rem;
-  background-color: 
-rgb(87, 81, 81);
+  background-color:
+    rgb(87, 81, 81);
 }
 
 .card-header {
-  background-image: linear-gradient(
-    to bottom,
-    rgb(56, 4, 56),
-    rgb(123, 1, 160),
-    rgb(195, 0, 255)
-  );
+  background-image: linear-gradient(to bottom,
+      rgb(56, 4, 56),
+      rgb(123, 1, 160),
+      rgb(195, 0, 255));
   display: flex;
   width: 100%;
   margin: 0 0 4rem 0;
@@ -44,6 +42,12 @@ rgb(87, 81, 81);
   text-shadow: 1px 2px 1px black;
   line-height: 1.5;
   font-size: 20px;
+}
+
+.markdownContent hr {
+  border: 2px solid rgb(6, 159, 248);
+  opacity: 1;
+  box-shadow: 2px 2px 2px black;
 }
 
 .markdownContent ul {

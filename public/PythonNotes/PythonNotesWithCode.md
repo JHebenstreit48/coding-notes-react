@@ -269,6 +269,12 @@ my_car = Car("Toyota", "Corolla", 2021)
 # Display car info
 my_car.display_info()
 ```
+The following method is used to check if all the characters in a string are digits.
+
+```python
+isdigit()
+```
+
 
 
 

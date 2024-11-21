@@ -37,10 +37,6 @@ The following are some <span class="emphasis">companies</span> that use Python:
 - Both use <span class="emphasis">method chaining</span>
 - Both use fuction <span class="emphasis">arguments</span> and <span class="emphasis">return</span> statements.
 
-A <span class="emphasis">dictionary</span> in Python is <span class="emphasis">equivalent</span> to an <span class="emphasis">object</span> in <span class="emphasis">JavaScript</span>.
-
-<span class="emphasis">List items</span> are one of <span class="emphasis">4</span> <span class="secondEmphasis">built-in</span> <span class="emphasis">data types</span> in Python used to store <span class="emphasis">collections</span> of <span class="emphasis">data</span>.
-
 The <span class="emphasis">4</span> <span class="secondEmphasis">data types</span> that <span class="emphasis">store</span> <span class="secondEmphasis">collections</span> of <span class="emphasis">data</span> are:
 
 <span class="singleBullet2">
@@ -52,7 +48,26 @@ The <span class="emphasis">4</span> <span class="secondEmphasis">data types</spa
 
 </span>
 
-<span class="emphasis">List items</span> are <span class="emphasis">indexed</span> starting at a <span class="secondEmphasis">0</span> just like in <span class="emphasis">JavaScript</span>.
+# Dictionaries
+---
+
+A <span class="emphasis">dictionary</span> in Python is <span class="emphasis">equivalent</span> to an <span class="emphasis">object</span> in <span class="emphasis">JavaScript</span>.
+
+# Lists
+---
+
+<span class="emphasis">List items</span> are one of <span class="emphasis">4</span> <span class="secondEmphasis">built-in</span> <span class="emphasis">data types</span> in Python used to store <span class="emphasis">collections</span> of <span class="emphasis">data</span>.
+
+- <span class="emphasis">Lists</span> are used to store multiple items in a single variable
+
+- Lists are created using square brackets. 
+
+    i.e.
+    - [ ]
+
+- <span class="emphasis">List items</span> are <span class="emphasis">indexed</span> starting at a <span class="secondEmphasis">0</span> just like in <span class="emphasis">JavaScript</span>.
+
+---
 
 In Python a <span class="emphasis">dunder is a <span class="emphasis">shorthand term for a <span class="emphasis">double underscore.
 
@@ -79,6 +94,10 @@ The try...except error catching code block can be broken down in the following w
 - The finally block lets you execute code, regardless of the result of the try and except blocks
 
 Classes in Python function in a similar way to classes in JavaScript/TypeScript.
+
+You can access a value in a dictionary using its key by placing the key inside square brackets [] after teh dictionary variable
+
+
 
 
 
