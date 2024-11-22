@@ -6,18 +6,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 16rem;
+    width: 20rem;
     background-color: rgb(38, 38, 39);
     margin: 0;
     padding: 0;
     transition: width 0.3s, background-color 0.3s;
     overflow-y: auto; /* Enables vertical scrolling */
     z-index: 15;
-}
-
-/* Hide the scrollbar initially */
-.nav-css::-webkit-scrollbar {
-    width: 0;
 }
 
 .nav-css.collapsed {
@@ -29,51 +24,6 @@
 .nav-css.collapsed .nav-link-wrapper,
 .nav-css.collapsed .home-button {
     display: none; /* Hide the Home button and accordion items */
-}
-
-.nav-css.collapsed .toggleButton {
-    display: block; /* Ensure the toggle button is visible */
-}
-
-/* Show a thin scrollbar on hover */
-.nav-css:hover {
-    scrollbar-width: thin; /* Firefox: Show thin scrollbar on hover */
-}
-
-.nav-css:hover::-webkit-scrollbar {
-    width: 8px; /* WebKit: Set thin scrollbar width on hover */
-}
-
-/* Make the scrollbar thumb more rounded */
-.nav-css::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent thumb */
-    border-radius: 50px; /* Makes the thumb fully rounded */
-    background-clip: padding-box;
-    border: 2px solid transparent; /* Adds space around the thumb */
-}
-
-/* Make the scrollbar track transparent */
-.nav-css::-webkit-scrollbar-track {
-    background: transparent; /* Fully transparent track */
-    box-shadow: none; /* Remove any shadow */
-    margin: 8px 0; /* Adds vertical margin to prevent top/bottom clipping */
-}
-
-/* Completely hide the top and bottom arrows in WebKit-based browsers */
-.nav-css::-webkit-scrollbar-button {
-    width: 0;
-    height: 0;
-    display: none; /* Hides both top and bottom arrows */
-}
-
-/* Firefox: Make scrollbar thumb rounded and track transparent */
-.nav-css {
-    scrollbar-width: none; /* Hides scrollbar by default */
-}
-
-.nav-css:hover {
-    scrollbar-width: thin; /* Shows thin scrollbar in Firefox */
-    scrollbar-color: rgba(255, 255, 255, 0.3) transparent; /* Semi-transparent thumb and transparent track */
 }
 
 .toggleButton {
@@ -90,62 +40,67 @@
     z-index: 5;
 }
 
+.nav-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .home-button {
-    color: white;
-}
-
-.nav-link-wrapper {
+    color: rgb(9, 174, 230);
+    margin: 0 auto 1rem auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 100%;
-    margin: 0; /* Remove margin */
-    padding: 0; /* Remove padding */
+    padding: 1rem 2rem;
+    border: 2px solid rgb(9, 174, 230);
+    width: 4rem;
+    border-radius: 1rem;
 }
 
-.nav-button {
-    display: flex;
-    justify-content: center; /* Align content to the start */
-    align-items: center;
-    width: 100%;
-    padding: 10px; /* Consistent padding for spacing */
-    margin: 0; /* Remove margin */
-    cursor: pointer;
+.accordion {
+    --bs-accordion-bg: transparent; /* Set the accordion background to transparent */
+    --bs-accordion-border-color: rgb(9, 174, 230); /* Remove border color */
 }
 
-.nav-button a {
+.accordion-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(144, 47, 255);
-    text-shadow: rgb(0, 0, 0) 5px 3px 2px;
-    text-decoration: none;
-    width: 100%;
-    padding: 0.5rem; /* Consistent padding */
-    box-sizing: border-box;
-    margin: 0 auto; /* Remove margin */
-}
-
-.nav-button a:hover {
-    color: rgb(214, 143, 29);
-}
-
-.dropdown {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px; /* Indent for subpages */
-    margin-top: 0; /* Remove top margin */
-}
-
-.dropdown a {
-    padding: 5px 15px;
-    color: rgb(9, 182, 38);
-    text-decoration: none;
+    border: 1px solid rgb(9, 174, 230); /* Add border around each button */
+    color: rgb(9, 174, 230); /* Text color */
+    text-align: center; /* Center-align text */
+    font-size: 1rem; /* Adjust text size */
+    background-color: transparent !important; /* Remove background */
+    border-radius: 11px;
+    width: 15rem
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: rgb(9, 174, 230) !important;
+  }
+  
+  .accordion-item {
+    margin-bottom: 10px; /* Add spacing between accordion items */
+    border: none; /* Add a border to accordion items */
+  }
+  
+  .accordion-body {
+    color: rgb(9, 174, 230);
+    border: none; /* Remove border */
+    padding: 10px;
+    font-size: 1rem;
     text-align: center;
-    width: 10rem;
-}
-
-.dropdown a:hover {
-    color: rgb(214, 143, 29);
-}
+  }
+  
+  .accordion-button::after {
+    content: '\f107'; /* FontAwesome down arrow */
+    font-family: "Font Awesome 5 Free"; /* Ensure FontAwesome is used */
+    font-weight: 900; /* Use the bold variant */
+    color: rgb(9, 174, 230); /* Arrow color */
+    position: absolute; /* Position the arrow absolutely */
+    right: 15px; /* Move the arrow to the right of the button */
+    font-size: 0.8rem; /* Adjust arrow size */
+    line-height: 1; /* Prevent line height issues */
+  }

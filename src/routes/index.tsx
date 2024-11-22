@@ -129,19 +129,19 @@ export const router = createBrowserRouter([
                 element: <ReactCode />,
             },
             {
-                path: '/reactandtypescript',
+                path: '/react/reactandtypescript',
                 element: <ReactAndTypeScript />,
             },
             {
-                path: '/reactandtypescript/reactandtypescriptcode',
+                path: '/react/reactandtypescriptcode',
                 element: <ReactAndTypeScriptCode />,
             },
             {
-                path: '/reactfullstack',
+                path: '/react/reactfullstack',
                 element: <ReactFullStack />,
             },
             {
-                path: '/reactfullstack/reactfullstackcode',
+                path: '/react/reactfullstackcode',
                 element: <ReactFullStackCode />,
             },
             {
@@ -169,7 +169,7 @@ export const router = createBrowserRouter([
                 element: <TestingCode />,
             },
             {
-                path: 'DeploymentCICD',
+                path: '/deploymentcicd',
                 element: <DeploymentCICD />,
             },
             {
