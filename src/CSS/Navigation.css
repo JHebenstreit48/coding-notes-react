@@ -85,6 +85,16 @@
     margin-bottom: 10px; /* Add spacing between accordion items */
     border: none; /* Add a border to accordion items */
   }
+
+  .accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+  }
+
+  .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
   
   .accordion-body {
     color: rgb(9, 174, 230);
