@@ -1,4 +1,3 @@
-import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
 
@@ -9,7 +8,6 @@ const APIs = () => {
 
         <>
             <h1 className="Header">APIs</h1>
-            <Navigation />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

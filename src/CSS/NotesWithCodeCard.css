@@ -16,6 +16,7 @@
     padding-bottom: 2rem;
     background-color: 
   rgb(87, 81, 81);
+  z-index: 1;
   }
   
   .card-header {
