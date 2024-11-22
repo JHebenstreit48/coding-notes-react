@@ -67,18 +67,32 @@ const pages = [
   },
   {
     name: 'React',
-    path: '/react',
-    subpages: [{ name: 'React Code Notes', path: '/react/reactcode' }]
-  },
-  {
-    name: 'React and TypeScript',
-    path: '/reactandtypescript',
-    subpages: [{ name: 'React TS Code Notes', path: '/reactandtypescript/reactandtypescriptcode' }]
-  },
-  {
-    name: 'React Full-Stack',
-    path: '/reactfullstack',
-    subpages: [{ name: 'React Full Stack Code', path: '/reactfullstack/reactfullstackcode' }]
+    subpages: [
+      {
+        name: 'React Notes',
+        path: '/react',
+      },
+      {
+        name: 'React Code Notes',
+        path: '/react/reactcode',
+      },
+      {
+        name: 'React and TypeScript',
+        path: '/react/reactandtypescript',
+      },
+      {
+        name: 'Reace and TypeScript Code',
+        path: '/react/reactandtypescriptcode',
+      },
+      {
+        name: 'React Full Stack',
+        path: '/react/reactfullstack',
+      },
+      {
+        name: 'React Full Stack Code',
+        path: '/react/reactfullstackcode',
+      },
+    ],
   },
   {
     name: 'MongoDB',

@@ -1,9 +1,8 @@
 import Navigation from "../Components/Navigation";
 import PageSetup from "../Components/PageSetup";
-import "../CSS/Header.css";
 
 const ReactFullStack = () => {
-    const markdownFilePath = './ReactFullStackNotes/ReactFullStackNotes.md';
+    const markdownFilePath = '../public/ReactFullStackNotes/ReactFullStackNotes.md';
 
     return (
 

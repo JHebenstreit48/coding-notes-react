@@ -1,9 +1,8 @@
 import Navigation from "../Components/Navigation";
 import PageSetup from "../Components/PageSetup";
-import "../CSS/Header.css";
 
 const ReactAndTypeScript = () => {
-    const markdownFilePath = "./ReactAndTS/ReactAndTypeScriptNotes.md";
+    const markdownFilePath = "../public/ReactAndTS/ReactAndTypeScriptNotes.md";
 
     return (
 
