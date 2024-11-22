@@ -39,7 +39,7 @@ const pages = [
       },
       {
         name: 'Git Code Notes',
-        path: '/git/gitcode', 
+        path: '/git/gitcode',
       },
     ],
   },
@@ -53,8 +53,8 @@ const pages = [
       {
         name: 'JavaScript Code Notes',
         path: '/javascript/javascriptcode',
-       },
-      ],
+      },
+    ],
   },
   {
     name: 'Node',
@@ -76,7 +76,8 @@ const pages = [
         name: 'TypeScript Notes',
         path: '/typescript',
       },
-      { name: 'TypeScript Code Notes',
+      {
+        name: 'TypeScript Code Notes',
         path: '/typescript/typescriptcode',
       },
     ],
@@ -101,7 +102,8 @@ const pages = [
         name: 'APIs Notes',
         path: '/apis',
       },
-      { name: 'APIs Code Notes',
+      {
+        name: 'APIs Code Notes',
         path: '/apis/apicode',
       },
     ],
@@ -150,20 +152,42 @@ const pages = [
   },
   {
     name: 'MongoDB',
-    path: '/mongodb',
     subpages: [
-      { name: 'MongoDB Code Notes', path: '/mongodb/mongodbcode' },
-    ]
+      {
+        name: 'MongoDB Notes',
+        path: '/mongodb',
+      },
+      {
+        name: 'MongoDB Code Notes',
+        path: '/mongodb/mongodbcode',
+      },
+    ],
   },
   {
     name: 'MERN',
-    path: '/mern',
-    subpages: [{ name: 'MERN Code Notes', path: '/mern/merncode' }]
+    subpages: [
+      {
+        name: 'MERN Notes',
+        path: '/mern',
+      },
+      {
+        name: 'MERN Code Notes',
+        path: '/mern/merncode',
+       },
+      ],
   },
   {
     name: 'Testing',
-    path: '/testing',
-    subpages: [{ name: 'Testing Code Notes', path: '/testing/testingcode' }]
+    subpages: [
+      {
+        name: 'Testing Notes',
+        path: '/testing',
+      },
+      { 
+        name: 'Testing Code Notes',
+        path: '/testing/testingcode',
+      },
+    ],
   },
   {
     name: 'Deployment CI/CD',
@@ -175,13 +199,21 @@ const pages = [
       {
         name: 'Deployment CI/CD Code Notes',
         path: '/deploymentcicd/deploymentcicdcode',
-       },
-      ],
+      },
+    ],
   },
   {
     name: 'Python',
-    path: '/python',
-    subpages: [{ name: 'Python Code Notes', path: '/python/pythoncode' }]
+    subpages: [
+      {
+        name: 'Python Notes',
+        path: '/python',
+      },
+      {
+        name: 'Python Code Notes',
+        path: '/python/pythoncode',
+      },
+    ],
   }
 ];
 
@@ -211,63 +243,63 @@ const Navigation = () => {
       </button>
 
       <div className={`nav-css ${isCollapsed ? 'collapsed' : ''}`}>
-      {/* Toggle Button */}
-      <button className="toggleButton" onClick={toggleSidebar}>
-        <i className={`fas ${isCollapsed ? 'fa-bars' : 'fa-times'}`}></i>
-      </button>
+        {/* Toggle Button */}
+        <button className="toggleButton" onClick={toggleSidebar}>
+          <i className={`fas ${isCollapsed ? 'fa-bars' : 'fa-times'}`}></i>
+        </button>
 
-      {/* Navigation Content */}
-      {!isCollapsed && (
-        <div className="nav-content">
-          {/* Home Button */}
-          <div className="home-button">
-            <Link to="/" className="nav-link" onClick={closeSidebar}>
-              Home
-            </Link>
-          </div>
+        {/* Navigation Content */}
+        {!isCollapsed && (
+          <div className="nav-content">
+            {/* Home Button */}
+            <div className="home-button">
+              <Link to="/" className="nav-link" onClick={closeSidebar}>
+                Home
+              </Link>
+            </div>
 
-          {/* Accordion for Pages */}
-          <div id="accordionExample" className="accordion">
-            {pages.map((page, index) => (
-              <div key={page.name} className="accordion-item">
-                <h2 className="accordion-header">
-                  <button
-                    className="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target={`#collapse${index}`}
-                    aria-expanded="false"
-                    aria-controls={`collapse${index}`}
+            {/* Accordion for Pages */}
+            <div id="accordionExample" className="accordion">
+              {pages.map((page, index) => (
+                <div key={page.name} className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={`#collapse${index}`}
+                      aria-expanded="false"
+                      aria-controls={`collapse${index}`}
+                    >
+                      {page.name}
+                    </button>
+                  </h2>
+                  <div
+                    id={`collapse${index}`}
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
                   >
-                    {page.name}
-                  </button>
-                </h2>
-                <div
-                  id={`collapse${index}`}
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div className="accordion-body">
-                    {page.subpages.map((subpage) => (
-                      <p key={subpage.name}>
-                        <Link
-                          to={subpage.path}
-                          className="nav-link"
-                          onClick={closeSidebar}
-                        >
-                          {subpage.name}
-                        </Link>
-                      </p>
-                    ))}
+                    <div className="accordion-body">
+                      {page.subpages.map((subpage) => (
+                        <p key={subpage.name}>
+                          <Link
+                            to={subpage.path}
+                            className="nav-link"
+                            onClick={closeSidebar}
+                          >
+                            {subpage.name}
+                          </Link>
+                        </p>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
-  </div>
   );
 }
 
