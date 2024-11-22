@@ -1,16 +1,14 @@
 import CodePageSetup from "../Components/CodePageSetup";
-import Navigation from "../Components/Navigation";
 import "../CSS/Header.css";
 
 const DeploymentCICDCode = () => {
-    const markdownFilePath = '../DeploymentCICD/DeploymentCICDNotesWithCode.md';
+    const markdownFilePath = '/DeploymentCICD/DeploymentCICDNotesWithCode.md';
 
     return (
 
         <>
 
             <h1 className="Header">Deployment CI-CD Code</h1>
-            <Navigation />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

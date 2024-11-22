@@ -1,5 +1,3 @@
-import Navigation from "../Components/Navigation";
-import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
 
 const Testing = () => {
@@ -9,7 +7,6 @@ const Testing = () => {
         <>
         
             <h1 className="Header">Testing</h1>
-            <Navigation />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

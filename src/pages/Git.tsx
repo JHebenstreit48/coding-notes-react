@@ -2,7 +2,7 @@ import PageSetup from "../Components/PageSetup";
 import "../CSS/Header.css";
 
 const Git = () => {
-    const markdownFilePath = './GitNotes/GitNotes.md';
+    const markdownFilePath = '/GitNotes/GitNotes.md';
 
     return (
 
