@@ -32,38 +32,92 @@ const pages = [
   },
   {
     name: 'Git',
-    path: '/git',
-    subpages: [{ name: 'Git Code Notes', path: '/git/gitcode' }]
+    subpages: [
+      {
+        name: 'Git Notes',
+        path: '/git',
+      },
+      {
+        name: 'Git Code Notes',
+        path: '/git/gitcode', 
+      },
+    ],
   },
   {
     name: 'JavaScript',
-    path: '/javascript',
-    subpages: [{ name: 'JavaScript Code Notes', path: '/javascript/javascriptcode' }]
+    subpages: [
+      {
+        name: 'JavaScript Notes',
+        path: '/javascript',
+      },
+      {
+        name: 'JavaScript Code Notes',
+        path: '/javascript/javascriptcode',
+       },
+      ],
   },
   {
     name: 'Node',
-    path: '/node',
-    subpages: [{ name: 'Node.JS Code Notes', path: '/node/nodecode' }]
+    subpages: [
+      {
+        name: 'Node.JS Notes',
+        path: '/node',
+      },
+      {
+        name: 'Node.JS Code Notes',
+        path: '/node/nodecode',
+      },
+    ],
   },
   {
     name: 'TypeScript',
-    path: '/typescript',
-    subpages: [{ name: 'TypeScript Code Notes', path: '/typescript/typescriptcode' }]
+    subpages: [
+      {
+        name: 'TypeScript Notes',
+        path: '/typescript',
+      },
+      { name: 'TypeScript Code Notes',
+        path: '/typescript/typescriptcode',
+      },
+    ],
   },
   {
     name: 'Servers',
-    path: '/servers',
-    subpages: [{ name: 'Servers Code Notes', path: '/servers/servercode' }]
+    subpages: [
+      {
+        name: 'Servers Notes',
+        path: '/servers',
+      },
+      {
+        name: 'Servers Code Notes',
+        path: '/servers/servercode',
+      },
+    ],
   },
   {
     name: 'APIs',
-    path: '/apis',
-    subpages: [{ name: 'APIs Code Notes', path: '/apis/apicode' }]
+    subpages: [
+      {
+        name: 'APIs Notes',
+        path: '/apis',
+      },
+      { name: 'APIs Code Notes',
+        path: '/apis/apicode',
+      },
+    ],
   },
   {
     name: 'PostgreSQL',
-    path: '/postgresql',
-    subpages: [{ name: 'PostgreSQL Code Notes', path: '/postgresql/postgresqlcode' }]
+    subpages: [
+      {
+        name: 'PostgreSQL Notes',
+        path: '/postgresql',
+      },
+      {
+        name: 'PostgreSQL Code Notes',
+        path: '/postgresql/postgresqlcode',
+      },
+    ],
   },
   {
     name: 'React',
@@ -113,8 +167,16 @@ const pages = [
   },
   {
     name: 'Deployment CI/CD',
-    path: '/deploymentcicd',
-    subpages: [{ name: 'Deployment CI/CD Code Notes', path: '/deploymentcicd/deploymentcicdcode' }]
+    subpages: [
+      {
+        name: 'Deployment CI/CD Notes',
+        path: '/deploymentcicd',
+      },
+      {
+        name: 'Deployment CI/CD Code Notes',
+        path: '/deploymentcicd/deploymentcicdcode',
+       },
+      ],
   },
   {
     name: 'Python',

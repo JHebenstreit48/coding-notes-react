@@ -2,7 +2,7 @@ import PageSetup from "../Components/PageSetup";
 import "../CSS/Header.css";
 
 const HTML = () => {
-    const markdownFilePath = "./HTMLNotes/HTMLNotes.md";
+    const markdownFilePath = "../public/HTMLNotes/HTMLNotes.md";
 
     return (
 
