@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import ErrorPage from "../pages/Error.tsx";
 import APIs from "../pages/API.tsx";
@@ -35,6 +35,7 @@ import Testing from "../pages/Testing.tsx";
 import TestingCode from "../pages/TestingCode.tsx";
 import TypeScript from "../pages/TypeScript.tsx";
 import TypeScriptCode from "../pages/TypeScriptCode.tsx";
+import Home from "../pages/Home.tsx";
 
 export const router = createBrowserRouter([
 
@@ -44,8 +45,8 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: '/',
-                element: <Navigate to='/html' replace />,
+                index: true,
+                element: <Home />,
             },
             {
                 path: '/html',

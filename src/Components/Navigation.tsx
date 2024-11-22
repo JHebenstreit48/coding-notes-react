@@ -6,13 +6,29 @@ import '../CSS/Navigation.css';
 const pages = [
   {
     name: 'HTML',
-    path: '/html',
-    subpages: [{ name: 'HTML Code Notes', path: '/htmlcode' }]
+    subpages: [
+      {
+        name: 'HTML Notes',
+        path: '/html'
+      },
+      {
+        name: 'HTML Code Notes',
+        path: '/htmlcode'
+      },
+    ]
   },
   {
     name: 'CSS',
-    path: '/css',
-    subpages: [{ name: 'CSS Code Notes', path: '/css/csscode' }]
+    subpages: [
+      {
+        name: 'CSS Notes',
+        path: '/css'
+      },
+      {
+        name: 'CSS  Code Notes',
+        path: '/css/csscode'
+      },
+    ],
   },
   {
     name: 'Git',
@@ -99,26 +115,13 @@ const Navigation = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   // State to manage the visibility of dropdowns
-  const [isDropdownOpen, setIsDropdownOpen] = useState<string | null>(null);
-
-  // Toggle sidebar collapse
   const toggleSidebar = () => {
     setIsCollapsed(!isCollapsed);
-
-    if (!isCollapsed) {
-      setIsDropdownOpen(null); // Close all dropdowns when collapsing
-
-    }
-
   };
 
-  // Handle dropdown visibility
-  const handleDropdownClick = (menu: string) => {
-
-    if (!isCollapsed) {
-      setIsDropdownOpen(isDropdownOpen === menu ? null : menu);
-    }
-  };
+  const closeSidebar = () => {
+    setIsCollapsed(true);
+  }
 
   return (
 
@@ -131,39 +134,65 @@ const Navigation = () => {
 
       </button>
 
-      <div className="nav-link-wrapper">
+      <div className={`nav-css ${isCollapsed ? 'collapsed' : ''}`}>
+      {/* Toggle Button */}
+      <button className="toggleButton" onClick={toggleSidebar}>
+        <i className={`fas ${isCollapsed ? 'fa-bars' : 'fa-times'}`}></i>
+      </button>
 
-        {pages.map((page) => (
-
-          <div key={page.name}>
-            {/* Main page link */}
-            <div className="nav-button" onClick={() => handleDropdownClick(page.name)}>
-
-              <Link to={page.path}>{!isCollapsed && page.name}</Link>
-
-            </div>
-
-            {/* Subpages, visible only when expanded */}
-            {isDropdownOpen === page.name && !isCollapsed && (
-
-              <div className="dropdown">
-
-                {page.subpages.map((subpage) => (
-                  <Link key={subpage.name} to={subpage.path}>{subpage.name}</Link>
-                ))}
-
-              </div>
-
-            )}
-
+      {/* Navigation Content */}
+      {!isCollapsed && (
+        <div className="nav-content">
+          {/* Home Button */}
+          <div className="home-button">
+            <Link to="/" className="nav-link" onClick={closeSidebar}>
+              Home
+            </Link>
           </div>
 
-        ))}
-
-      </div>
-
+          {/* Accordion for Pages */}
+          <div id="accordionExample" className="accordion">
+            {pages.map((page, index) => (
+              <div key={page.name} className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target={`#collapse${index}`}
+                    aria-expanded="false"
+                    aria-controls={`collapse${index}`}
+                  >
+                    {page.name}
+                  </button>
+                </h2>
+                <div
+                  id={`collapse${index}`}
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    {page.subpages.map((subpage) => (
+                      <p key={subpage.name}>
+                        <Link
+                          to={subpage.path}
+                          className="nav-link"
+                          onClick={closeSidebar}
+                        >
+                          {subpage.name}
+                        </Link>
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
+  </div>
   );
-};
+}
 
 export default Navigation;
