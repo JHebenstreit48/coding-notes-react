@@ -1,4 +1,3 @@
-import "../CSS/Header.css";
 import PageSetup from "../Components/PageSetup";
 
 const MernAndAuth = () => {

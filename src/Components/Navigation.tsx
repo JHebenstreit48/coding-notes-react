@@ -190,14 +190,14 @@ const pages = [
     ],
   },
   {
-    name: 'Deployment CI/CD',
+    name: 'CI/CD Ops',
     subpages: [
       {
-        name: 'Deployment CI/CD Notes',
+        name: 'CI/CD Ops Notes',
         path: '/deploymentcicd',
       },
       {
-        name: 'Deployment CI/CD Code Notes',
+        name: 'CI/CD Ops Code',
         path: '/deploymentcicd/deploymentcicdcode',
       },
     ],

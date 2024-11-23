@@ -15,11 +15,13 @@
   z-index: 10;
 }
 
-@media only screen and (max-width: 464px) {
+@media only screen and (max-width: 390px) {
   .Header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     width: 100%;
+    font-size: 3rem;
   }
 }

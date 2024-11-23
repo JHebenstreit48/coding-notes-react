@@ -1,5 +1,4 @@
 import CodePageSetup from "../Components/CodePageSetup";
-import "../CSS/Header.css";
 
 
 const HTMLCode = () => {

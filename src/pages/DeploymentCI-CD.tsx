@@ -1,5 +1,4 @@
 import PageSetup from "../Components/PageSetup";
-import "../CSS/Header.css";
 
 const DeploymentCICD = () => {
     const markdownFilePath = '/DeploymentCICD/DeploymentCICDNotes.md';
@@ -8,7 +7,7 @@ const DeploymentCICD = () => {
 
         <>
         
-            <h1 className="Header">Deployment CI/CD</h1>
+            <h1 className="Header">CD Workflow</h1>
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

@@ -114,3 +114,29 @@
     font-size: 0.8rem; /* Adjust arrow size */
     line-height: 1; /* Prevent line height issues */
   }
+
+  @media only screen and (max-width: 390px) {
+    .nav-css {
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; /* Vertically align */
+      align-items: center; /* Horizontally align */
+      margin: 0 auto;
+      width: 100%; /* Match header width */
+  }
+    .toggleButton {
+      margin: 2.2rem auto;
+      position: absolute;
+      padding: 0;
+      top: 0px; /* Adjust for smaller screens */
+      left: 0px;
+    }
+    i.fa-bars {
+      padding-left: 1.3rem;
+    }
+    .home-button {
+      display: flex;
+      font-size: 1rem;
+      margin: 28rem auto 2rem auto;
+    }
+  }
