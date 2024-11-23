@@ -1,224 +1,228 @@
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import '../CSS/Navigation.css';
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import "../CSS/Navigation.css";
 // Define an array of page objects with subpages
 
 const pages = [
   {
-    name: 'HTML',
-    subpages: [
-      {
-        name: 'HTML Notes',
-        path: '/html'
-      },
-      {
-        name: 'HTML Code Notes',
-        path: '/htmlcode'
-      },
-    ]
+    name: "Home",
+    subpages: [],
   },
+
   {
-    name: 'CSS',
+    name: "HTML",
     subpages: [
       {
-        name: 'CSS Notes',
-        path: '/css'
+        name: "HTML Notes",
+        path: "/html",
       },
       {
-        name: 'CSS  Code Notes',
-        path: '/css/csscode'
+        name: "HTML Code Notes",
+        path: "/htmlcode",
       },
     ],
   },
   {
-    name: 'Git',
+    name: "CSS",
     subpages: [
       {
-        name: 'Git Notes',
-        path: '/git',
+        name: "CSS Notes",
+        path: "/css",
       },
       {
-        name: 'Git Code Notes',
-        path: '/git/gitcode',
+        name: "CSS  Code Notes",
+        path: "/css/csscode",
       },
     ],
   },
   {
-    name: 'JavaScript',
+    name: "Git",
     subpages: [
       {
-        name: 'JavaScript Notes',
-        path: '/javascript',
+        name: "Git Notes",
+        path: "/git",
       },
       {
-        name: 'JavaScript Code Notes',
-        path: '/javascript/javascriptcode',
+        name: "Git Code Notes",
+        path: "/git/gitcode",
       },
     ],
   },
   {
-    name: 'Node',
+    name: "JavaScript",
     subpages: [
       {
-        name: 'Node.JS Notes',
-        path: '/node',
+        name: "JavaScript Notes",
+        path: "/javascript",
       },
       {
-        name: 'Node.JS Code Notes',
-        path: '/node/nodecode',
+        name: "JavaScript Code Notes",
+        path: "/javascript/javascriptcode",
       },
     ],
   },
   {
-    name: 'TypeScript',
+    name: "Node",
     subpages: [
       {
-        name: 'TypeScript Notes',
-        path: '/typescript',
+        name: "Node.JS Notes",
+        path: "/node",
       },
       {
-        name: 'TypeScript Code Notes',
-        path: '/typescript/typescriptcode',
+        name: "Node.JS Code Notes",
+        path: "/node/nodecode",
       },
     ],
   },
   {
-    name: 'Servers',
+    name: "TypeScript",
     subpages: [
       {
-        name: 'Servers Notes',
-        path: '/servers',
+        name: "TypeScript Notes",
+        path: "/typescript",
       },
       {
-        name: 'Servers Code Notes',
-        path: '/servers/servercode',
+        name: "TypeScript Code Notes",
+        path: "/typescript/typescriptcode",
       },
     ],
   },
   {
-    name: 'APIs',
+    name: "Servers",
     subpages: [
       {
-        name: 'APIs Notes',
-        path: '/apis',
+        name: "Servers Notes",
+        path: "/servers",
       },
       {
-        name: 'APIs Code Notes',
-        path: '/apis/apicode',
+        name: "Servers Code Notes",
+        path: "/servers/servercode",
       },
     ],
   },
   {
-    name: 'PostgreSQL',
+    name: "APIs",
     subpages: [
       {
-        name: 'PostgreSQL Notes',
-        path: '/postgresql',
+        name: "APIs Notes",
+        path: "/apis",
       },
       {
-        name: 'PostgreSQL Code Notes',
-        path: '/postgresql/postgresqlcode',
+        name: "APIs Code Notes",
+        path: "/apis/apicode",
       },
     ],
   },
   {
-    name: 'React',
+    name: "PostgreSQL",
     subpages: [
       {
-        name: 'React Notes',
-        path: '/react',
+        name: "PostgreSQL Notes",
+        path: "/postgresql",
       },
       {
-        name: 'React Code Notes',
-        path: '/react/reactcode',
-      },
-      {
-        name: 'React and TypeScript',
-        path: '/react/reactandtypescript',
-      },
-      {
-        name: 'Reace and TypeScript Code',
-        path: '/react/reactandtypescriptcode',
-      },
-      {
-        name: 'React Full Stack',
-        path: '/react/reactfullstack',
-      },
-      {
-        name: 'React Full Stack Code',
-        path: '/react/reactfullstackcode',
+        name: "PostgreSQL Code Notes",
+        path: "/postgresql/postgresqlcode",
       },
     ],
   },
   {
-    name: 'MongoDB',
+    name: "React",
     subpages: [
       {
-        name: 'MongoDB Notes',
-        path: '/mongodb',
+        name: "React Notes",
+        path: "/react",
       },
       {
-        name: 'MongoDB Code Notes',
-        path: '/mongodb/mongodbcode',
+        name: "React Code Notes",
+        path: "/react/reactcode",
+      },
+      {
+        name: "React and TypeScript",
+        path: "/react/reactandtypescript",
+      },
+      {
+        name: "Reace and TypeScript Code",
+        path: "/react/reactandtypescriptcode",
+      },
+      {
+        name: "React Full Stack",
+        path: "/react/reactfullstack",
+      },
+      {
+        name: "React Full Stack Code",
+        path: "/react/reactfullstackcode",
       },
     ],
   },
   {
-    name: 'MERN',
+    name: "MongoDB",
     subpages: [
       {
-        name: 'MERN Notes',
-        path: '/mern',
+        name: "MongoDB Notes",
+        path: "/mongodb",
       },
       {
-        name: 'MERN Code Notes',
-        path: '/mern/merncode',
-       },
-      ],
-  },
-  {
-    name: 'Testing',
-    subpages: [
-      {
-        name: 'Testing Notes',
-        path: '/testing',
-      },
-      { 
-        name: 'Testing Code Notes',
-        path: '/testing/testingcode',
+        name: "MongoDB Code Notes",
+        path: "/mongodb/mongodbcode",
       },
     ],
   },
   {
-    name: 'CI/CD Ops',
+    name: "MERN",
     subpages: [
       {
-        name: 'CI/CD Ops Notes',
-        path: '/deploymentcicd',
+        name: "MERN Notes",
+        path: "/mern",
       },
       {
-        name: 'CI/CD Ops Code',
-        path: '/deploymentcicd/deploymentcicdcode',
+        name: "MERN Code Notes",
+        path: "/mern/merncode",
       },
     ],
   },
   {
-    name: 'Python',
+    name: "Testing",
     subpages: [
       {
-        name: 'Python Notes',
-        path: '/python',
+        name: "Testing Notes",
+        path: "/testing",
       },
       {
-        name: 'Python Code Notes',
-        path: '/python/pythoncode',
+        name: "Testing Code Notes",
+        path: "/testing/testingcode",
       },
     ],
-  }
+  },
+  {
+    name: "CI/CD Ops",
+    subpages: [
+      {
+        name: "CI/CD Ops Notes",
+        path: "/deploymentcicd",
+      },
+      {
+        name: "CI/CD Ops Code",
+        path: "/deploymentcicd/deploymentcicdcode",
+      },
+    ],
+  },
+  {
+    name: "Python",
+    subpages: [
+      {
+        name: "Python Notes",
+        path: "/python",
+      },
+      {
+        name: "Python Code Notes",
+        path: "/python/pythoncode",
+      },
+    ],
+  },
 ];
 
 const Navigation = () => {
-
   // State to handle sidebar collapse
   const [isCollapsed, setIsCollapsed] = useState(true);
 
@@ -229,40 +233,39 @@ const Navigation = () => {
 
   const closeSidebar = () => {
     setIsCollapsed(true);
-  }
+  };
 
   return (
-
-    <div className={`nav-css ${isCollapsed ? 'collapsed' : ''}`}>
-
-      {/* Button to toggle sidebar */}
+    <div className={`nav-css ${isCollapsed ? "collapsed" : ""}`}>
+      {/* Toggle Button */}
       <button className="toggleButton" onClick={toggleSidebar}>
-
-        <i className={`fas ${isCollapsed ? 'fa-bars' : 'fa-bars'}`}></i>
-
+        {isCollapsed ? (
+          <i className="menu-icon fas fa-bars " aria-hidden="false"></i>
+        ) : (
+          <i className="close-icon fas fa-times " aria-hidden="false"></i>
+        )}
       </button>
 
-      <div className={`nav-css ${isCollapsed ? 'collapsed' : ''}`}>
-        {/* Toggle Button */}
-        <button className="toggleButton" onClick={toggleSidebar}>
-          <i className={`fas ${isCollapsed ? 'fa-bars' : 'fa-times'}`}></i>
-        </button>
-
-        {/* Navigation Content */}
-        {!isCollapsed && (
-          <div className="nav-content">
-            {/* Home Button */}
-            <div className="home-button">
-              <Link to="/" className="nav-link" onClick={closeSidebar}>
-                Home
-              </Link>
-            </div>
-
-            {/* Accordion for Pages */}
-            <div id="accordionExample" className="accordion">
-              {pages.map((page, index) => (
-                <div key={page.name} className="accordion-item">
-                  <h2 className="accordion-header">
+      {!isCollapsed && (
+        <div className="nav-content">
+          {/* Accordion for Pages */}
+          <div id="accordionExample" className="accordion">
+            {pages.map((page, index) => (
+              <div key={page.name} className="accordion-item">
+                <h2 className="accordion-header">
+                  {/* Check if the page has subpages */}
+                  {page.subpages.length === 0 ? (
+                    // Render the Home button with unique ID
+                    <Link
+                      to="/"
+                      className="accordion-button no-dropdown"
+                      id="home-button"
+                      onClick={closeSidebar}
+                    >
+                      {page.name}
+                    </Link>
+                  ) : (
+                    // Render regular accordion buttons with dropdowns
                     <button
                       className="accordion-button"
                       type="button"
@@ -273,7 +276,11 @@ const Navigation = () => {
                     >
                       {page.name}
                     </button>
-                  </h2>
+                  )}
+                </h2>
+
+                {/* Only render subpages if they exist */}
+                {page.subpages.length > 0 && (
                   <div
                     id={`collapse${index}`}
                     className="accordion-collapse collapse"
@@ -293,14 +300,14 @@ const Navigation = () => {
                       ))}
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                )}
+              </div>
+            ))}
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
-}
+};
 
 export default Navigation;

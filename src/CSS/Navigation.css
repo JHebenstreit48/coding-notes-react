@@ -1,29 +1,18 @@
 .nav-css {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 20rem;
-    background-color: rgb(38, 38, 39);
-    margin: 0;
-    padding: 0;
-    transition: width 0.3s, background-color 0.3s;
-    overflow-y: auto; /* Enables vertical scrolling */
-    z-index: 15;
+  position: fixed; /* No change here */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20rem;
+  background-color: rgb(38, 38, 39);
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
 }
-
 .nav-css.collapsed {
     width: 50px;
     background-color: transparent;
     overflow: hidden;
-}
-
-.nav-css.collapsed .nav-link-wrapper,
-.nav-css.collapsed .home-button {
-    display: none; /* Hide the Home button and accordion items */
 }
 
 .toggleButton {
@@ -32,30 +21,54 @@
     border: none;
     padding: 10px 15px;
     cursor: pointer;
-    width: 100%;
     font-size: 2rem;
-    text-align: center;
-    margin-top: 27px;
-    /* position: fixed; */
-    z-index: 5;
+    position: fixed;
+    margin: 1rem;
 }
 
+/* Styling for Menu Icon (fa-bars) */
+.menu-icon {
+  font-size: 2rem;
+  color: rgb(9, 174, 230); /* Match existing icon color */
+  cursor: pointer;
+  display: block; /* Ensure visibility when collapsed */
+}
+
+/* Hide Menu Icon When Expanded */
+.nav-css:not(.collapsed) .menu-icon {
+  display: none;
+}
+
+/* Styling for Close Icon (fa-times) */
+.close-icon {
+  position: absolute;
+  left: 9rem; /* Center horizontally in a 20rem-wide container */
+  top: 4rem; /* Align above Home button */
+  transform: translateX(-50%); /* Adjust for icon's own width */
+  font-size: 1rem; /* Icon size */
+  color: rgb(9, 174, 230); /* Match theme */
+  cursor: pointer;
+}
+/* Hide Close Icon When Collapsed */
+.nav-css.collapsed .close-icon {
+  display: none;
+}
+
+/* Navigation Content */
 .nav-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10rem; /* Adjust for Home button */
 }
 
-.home-button {
-    color: rgb(9, 174, 230);
-    margin: 0 auto 1rem auto;
-    display: flex;
-    justify-content: center;
-    padding: 1rem 2rem;
-    border: 2px solid rgb(9, 174, 230);
-    width: 4rem;
-    border-radius: 1rem;
+#home-button::after {
+  content: none;
+}
+
+#home-button {
+  text-decoration: none;
 }
 
 .accordion {
@@ -117,13 +130,15 @@
 
   @media only screen and (max-width: 390px) {
     .nav-css {
-      display: flex;
-      flex-direction: column; 
-      justify-content: center; /* Vertically align */
-      align-items: center; /* Horizontally align */
-      margin: 0 auto;
-      width: 100%; /* Match header width */
-  }
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%; /* Ensure full width for small screens */
+      height: 100vh; /* Full viewport height */
+      z-index: 15; /* Ensure it stays above the main content */
+      background-color: rgb(38, 38, 39);
+      overflow: hidden; /* Hide overflow by default */
+    }
     .toggleButton {
       margin: 2.2rem auto;
       position: absolute;
@@ -131,12 +146,29 @@
       top: 0px; /* Adjust for smaller screens */
       left: 0px;
     }
-    i.fa-bars {
-      padding-left: 1.3rem;
+    .nav-content {
+      width: 100%;
+      margin-top: 7rem; /* Leave space for Home and Close button */
+      overflow-y: auto;
+      z-index: 10; /* Keep below .close-icon */
     }
-    .home-button {
-      display: flex;
-      font-size: 1rem;
-      margin: 28rem auto 2rem auto;
+    .menu-icon {
+      font-size: 1.5rem; /* Adjusted for smaller screens */
+      color: rgb(9, 174, 230);
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      top: 1rem; /* Adjusted for smaller screens */
+      left: 1rem; /* Adjusted for smaller screens */
+      z-index: 100; /* Ensure it remains above scrolling content */
     }
+    .close-icon {
+      top: 1rem; /* Place it above the Home button */
+      left: 12.5rem; /* Adjusted to align visually for smaller screens */
+      font-size: 1.5rem;
+      color: rgb(9, 174, 230);
+      cursor: pointer;
+      z-index: 100; /* Ensure it remains above scrolling content */
+    }
+
   }

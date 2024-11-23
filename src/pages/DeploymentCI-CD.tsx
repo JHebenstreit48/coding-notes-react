@@ -7,7 +7,7 @@ const DeploymentCICD = () => {
 
         <>
         
-            <h1 className="Header">CD Workflow</h1>
+            <h1 className="Header">CD/CD Ops</h1>
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
