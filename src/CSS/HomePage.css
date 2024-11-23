@@ -8,30 +8,24 @@
     padding: 0;
 }
 
-.Header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    background-color: rgb(8, 8, 103);
-    height: 7.5rem;
-    text-shadow: 10px 5px 0 black;
-    color: rgb(255, 255, 255);
-    font-size: 60px;
-    padding-bottom: 1rem;
-    z-index: 10;
-}
-
 .siteInfo {
-    margin-top: 20rem; /* Same as .header height */
-    padding: 1rem;
+    margin: 20rem auto; /* Same as .header height */
+    padding: 3rem;
     text-align: center;
-    width: 30rem;
+    width: 50rem;
     color: white;
     font-size: 1.5rem;
     background-color: rgb(87, 81, 81);
     box-shadow: 0px 0px 5px 4px black;
+}
+
+.siteInfoContent {
+    display: flex;
+    width: 40rem;
+    margin: 0 auto 2rem auto;
+    
+}
+
+@media only screen and (max-width: 390px) {
+    
 }
