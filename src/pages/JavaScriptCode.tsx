@@ -1,4 +1,5 @@
 import CodePageSetup from "../Components/CodePageSetup";
+import Header from "../Components/Header";
 
 const JavascriptCode = () => {
     const markdownFilePath = "/JavaScriptNotes/JavaScriptNotesWithCode.md";
@@ -6,7 +7,7 @@ const JavascriptCode = () => {
     return (
 
         <>
-            <h1 className="Header">JavaScript Code</h1>
+             <Header text="JavaScript Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

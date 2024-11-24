@@ -1,4 +1,5 @@
 import CodePageSetup from "../Components/CodePageSetup";
+import Header from "../Components/Header";
 
 const ReactFullStackCode = () => {
     const markdownFilePath = '/ReactFullStackNotes/ReactFullStackNotesWithCode.md';
@@ -7,7 +8,7 @@ const ReactFullStackCode = () => {
 
         <>
 
-            <h1 className="Header">React Full-Stack Code</h1>
+            <Header text="Full-Stack React Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

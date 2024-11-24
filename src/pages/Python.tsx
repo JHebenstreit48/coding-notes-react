@@ -1,3 +1,4 @@
+import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
 const  Python = () => {
@@ -7,7 +8,7 @@ const  Python = () => {
 
         <>
         
-            <h1 className="Header">Python</h1>
+            <Header text="Python" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

@@ -1,4 +1,5 @@
 import CodePageSetup from "../Components/CodePageSetup";
+import Header from "../Components/Header";
 
 const NodeCode = () => {
     const markdownFilePath = '/NodeNotes/NodeNotesWithCode.md';
@@ -7,7 +8,7 @@ const NodeCode = () => {
 
         <>
 
-            <h1 className="Header">Node Code Notes</h1>
+            <Header text="Node JS Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

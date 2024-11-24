@@ -1,4 +1,5 @@
 import CodePageSetup from "../Components/CodePageSetup";
+import Header from "../Components/Header";
 
 const MongoDBCode = () => {
     const markdownFilePath = "/MongoDB/MongoDBNotesWithCode.md";
@@ -6,7 +7,7 @@ const MongoDBCode = () => {
     return (
 
         <>
-            <h1 className="Header">MongoDB</h1>
+             <Header text="MongoDB Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

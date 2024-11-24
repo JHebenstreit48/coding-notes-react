@@ -1,3 +1,4 @@
+import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
 const MongoDB = () => {
@@ -7,7 +8,7 @@ const MongoDB = () => {
 
         <>
         
-            <h1 className="Header">MongoDB</h1>
+            <Header text="MongoDB" />
             <PageSetup
                 filePath={markdownFilePath}
             markdownContent="markdownContent"            

@@ -1,3 +1,4 @@
+import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
 const ReactFullStack = () => {
@@ -6,7 +7,7 @@ const ReactFullStack = () => {
     return (
 
         <>
-            <h1 className="Header">React Full-Stack</h1>
+            <Header text="Full-Stack React" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

@@ -1,4 +1,5 @@
 import CodePageSetup from "../Components/CodePageSetup";
+import Header from "../Components/Header";
 
 const PostgreSQLCode = () => {
     const markdownFilePath = '/PostgreSQL/PostgreSQLNotesWithCode.md';
@@ -7,7 +8,7 @@ const PostgreSQLCode = () => {
 
         <>
 
-            <h1 className="Header">PostgreSQL Code</h1>
+            <Header text="PostgreSQL Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

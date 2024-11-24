@@ -1,4 +1,5 @@
 import CodePageSetup from '../Components/CodePageSetup';
+import Header from '../Components/Header';
 
 const ServerCode = () => {
     const markdownFilePath = '/ServerNotes/SeverNotesWithCode.md';
@@ -6,7 +7,7 @@ const ServerCode = () => {
     return (
         <>
 
-            <h1 className="Header">Servers Code</h1>
+            <Header text="Server Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

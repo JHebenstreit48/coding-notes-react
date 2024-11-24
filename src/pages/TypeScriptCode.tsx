@@ -1,4 +1,5 @@
 import CodePageSetup from "../Components/CodePageSetup";
+import Header from "../Components/Header";
 
 const TypeScriptCode = () => {
     const markdownFilePath = '/TypeScriptNotes/TypeScriptNotesWithCode.md';
@@ -7,7 +8,7 @@ const TypeScriptCode = () => {
 
         <>
 
-            <h1 className="Header">TypeScript Code</h1>
+            <Header text="TypeScript Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"
