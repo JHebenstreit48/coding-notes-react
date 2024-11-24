@@ -1,3 +1,4 @@
+import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 import "../CSS/Header.css";
 
@@ -7,7 +8,7 @@ const CSS = () => {
     return (
 
         <>
-            <h1 className="Header">CSS</h1>
+           <Header text="CSS" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

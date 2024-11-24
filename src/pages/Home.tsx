@@ -1,3 +1,4 @@
+import Header from '../Components/Header';
 import '../CSS/HomePage.css';
 
 const Home = () => {
@@ -5,7 +6,7 @@ const Home = () => {
     return (
 
         <>
-                    <h1 className="Header">Coding Notes</h1>
+                <Header text="Coding Notes" />
 
 
                 <div className='siteInfo'>

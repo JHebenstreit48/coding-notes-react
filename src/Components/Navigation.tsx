@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import "../CSS/Navigation.css";
 // Define an array of page objects with subpages
 
 const pages = [
@@ -198,12 +197,12 @@ const pages = [
     name: "CI/CD Ops",
     subpages: [
       {
-        name: "CI/CD Ops Notes",
-        path: "/deploymentcicd",
+        name: "CI/CD Ops",
+        path: "/cicdops",
       },
       {
         name: "CI/CD Ops Code",
-        path: "/deploymentcicd/deploymentcicdcode",
+        path: "/cicdops/cicdopscode",
       },
     ],
   },
@@ -249,7 +248,7 @@ const Navigation = () => {
       {!isCollapsed && (
         <div className="nav-content">
           {/* Accordion for Pages */}
-          <div id="accordionExample" className="accordion">
+          <div className="accordion">
             {pages.map((page, index) => (
               <div key={page.name} className="accordion-item">
                 <h2 className="accordion-header">

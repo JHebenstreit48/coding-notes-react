@@ -1,13 +1,14 @@
 import CodePageSetup from "../Components/CodePageSetup";
+import Header from "../Components/Header";
 
-const DeploymentCICDCode = () => {
-    const markdownFilePath = '/DeploymentCICD/DeploymentCICDNotesWithCode.md';
+const CICDOpsCode = () => {
+    const markdownFilePath = '/DeploymentCICD/CICDOpsCode.md';
 
     return (
 
         <>
 
-            <h1 className="Header">CI/CD Ops Code</h1>
+            <Header text="CICD Ops Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"
@@ -18,4 +19,4 @@ const DeploymentCICDCode = () => {
     );
 };
 
-export default DeploymentCICDCode;
+export default CICDOpsCode;

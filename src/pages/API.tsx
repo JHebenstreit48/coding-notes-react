@@ -1,4 +1,5 @@
 import "../CSS/Header.css";
+import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
 const APIs = () => {
@@ -7,7 +8,7 @@ const APIs = () => {
     return (
 
         <>
-            <h1 className="Header">APIs</h1>
+            <Header text="API Notes" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
