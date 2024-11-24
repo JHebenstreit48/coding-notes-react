@@ -1,4 +1,5 @@
 import CodePageSetup from "../Components/CodePageSetup.tsx";
+import Header from "../Components/Header.tsx";
 
 const PythonCode = () => {
     const markdownFilePath = "/PythonNotes/PythonNotesWithCode.md";
@@ -7,7 +8,7 @@ const PythonCode = () => {
 
         <>
         
-            <h1 className="Header">Python Code Notes</h1>
+            <Header text="Python Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

@@ -6,8 +6,8 @@ const Home = () => {
     return (
 
         <>
+        
                 <Header text="Coding Notes" />
-
 
                 <div className='siteInfo'>
 

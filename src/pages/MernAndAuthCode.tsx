@@ -1,4 +1,5 @@
 import CodePageSetup from "../Components/CodePageSetup";
+import Header from "../Components/Header";
 
 const MernAndAuthCode = () => {
     const markdownFilePath = '/MernAndAuth/MernAndAuthNotesWithCode.md';
@@ -7,7 +8,7 @@ const MernAndAuthCode = () => {
 
         <>
 
-            <h1 className="Header">MERN and Auth Code</h1>
+             <Header text="Mern Stack Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

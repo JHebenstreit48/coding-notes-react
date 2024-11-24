@@ -1,3 +1,4 @@
+import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
 const Node = () => {
@@ -6,7 +7,7 @@ const Node = () => {
     return (
 
         <>
-            <h1 className="Header">Node</h1>
+             <Header text="Node JS" />
             <PageSetup 
             filePath={markdownFilePath}
             markdownContent="markdownContent

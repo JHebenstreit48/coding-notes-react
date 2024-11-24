@@ -1,3 +1,4 @@
+import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
 const PostgreSQL = () => {
@@ -6,7 +7,7 @@ const PostgreSQL = () => {
     return (
 
         <>
-            <h1 className="Header">PostgreSQL</h1>
+             <Header text="PostgreSQL" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
