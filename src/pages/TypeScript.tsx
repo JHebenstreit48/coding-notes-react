@@ -1,3 +1,4 @@
+import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
 const Typescript = () => {
@@ -6,7 +7,7 @@ const Typescript = () => {
     return (
 
         <>
-            <h1 className="Header">TypeScript</h1>
+            <Header text="TypeScript" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

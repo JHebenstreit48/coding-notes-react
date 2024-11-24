@@ -27,5 +27,10 @@
 }
 
 @media only screen and (max-width: 390px) {
-    
+    .siteInfo {
+        width: 100%;
+    }
+    .siteInfoContent {
+        width: 100%;
+    }
 }

@@ -1,13 +1,14 @@
 import PageSetup from "../Components/PageSetup";
+import Header from "../Components/Header";
 
-const DeploymentCICD = () => {
-    const markdownFilePath = '/DeploymentCICD/DeploymentCICDNotes.md';
+const CICDOps = () => {
+    const markdownFilePath = '/DeploymentCICD/CICDOps.md';
 
     return (
 
         <>
         
-            <h1 className="Header">CD/CD Ops</h1>
+            <Header text="CICD Ops" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -18,4 +19,4 @@ const DeploymentCICD = () => {
 
 };
 
-export default DeploymentCICD;
+export default CICDOps;

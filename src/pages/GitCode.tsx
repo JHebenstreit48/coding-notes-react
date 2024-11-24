@@ -1,4 +1,5 @@
 import CodePageSetup from "../Components/CodePageSetup";
+import Header from "../Components/Header";
 import "../CSS/Header.css";
 
 const GitCode = () => {
@@ -8,7 +9,7 @@ const GitCode = () => {
 
         <>
 
-            <h1 className="Header">Git Code Notes</h1>
+            <Header text="Git Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"

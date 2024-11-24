@@ -5,9 +5,3 @@ body {
     background-size: cover;
     min-height: 100vh;
 }
-
-#root {
-    display: flex; /* Enables flexbox layout for stacking elements */
-    flex-direction: column; /* Stacks header, content, and footer vertically */
-    min-height: 100vh; /* Ensures the container takes the full viewport height */
-}

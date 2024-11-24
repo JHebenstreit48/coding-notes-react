@@ -5,8 +5,6 @@ import APIs from "../pages/API.tsx";
 import APICode from "../pages/APICode.tsx";
 import CSS from "../pages/CSS.tsx";
 import CSSCode from "../pages/CSSCode.tsx";
-import DeploymentCICD from "../pages/DeploymentCI-CD.tsx";
-import DeploymentCICDCode from "../pages/DeploymentCI-CDCode.tsx";
 import Git from "../pages/Git.tsx";
 import GitCode from "../pages/GitCode.tsx";
 import HTML from "../pages/HTML.tsx";
@@ -36,6 +34,8 @@ import TestingCode from "../pages/TestingCode.tsx";
 import TypeScript from "../pages/TypeScript.tsx";
 import TypeScriptCode from "../pages/TypeScriptCode.tsx";
 import Home from "../pages/Home.tsx";
+import CICDOpsCode from "../pages/CICDOpsCode.tsx";
+import CICDOps from "../pages/CICDOps.tsx";
 
 export const router = createBrowserRouter([
 
@@ -169,12 +169,12 @@ export const router = createBrowserRouter([
                 element: <TestingCode />,
             },
             {
-                path: '/deploymentcicd',
-                element: <DeploymentCICD />,
+                path: '/cicdops',
+                element: <CICDOps />,
             },
             {
-                path: '/deploymentcicd/deploymentcicdcode',
-                element: <DeploymentCICDCode />,
+                path: '/cicdops/cicdopscode',
+                element: <CICDOpsCode />,
             },
             {
                 path: '/python',
