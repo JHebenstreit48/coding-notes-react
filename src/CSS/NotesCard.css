@@ -62,19 +62,41 @@
   margin-bottom: 1rem;
 }
 
-.singleBullet ul {
+.bullet1 ul {
   display: inline-block;
   column-count: 2;
-  width: 39rem;
+  width: 45rem;
+  padding-left: 30px !important;
   color: rgb(47, 185, 20);
 }
 
-.singleBullet2 ul {
+.bullet2 ul {
   display: inline-block;
-  margin-left: 5rem;
-  column-count: 2;
+  column-count: 1;
+  width: 36rem; /* Adjust this width as needed */
+  margin-left: 0; /* Reduces the left margin */
+  padding-left: 45px !important; /* Adjust this value to control indentation */
+}
+
+.bullet3 ul {
+  display: inline-block;
+  column-count: 1;
   width: 30rem;
-  color: rgb(47, 185, 20);
+  padding-left: 62px !important;
+}
+
+.bullet4 ul {
+  display: inline-block;
+  column-count: 2;
+  width: 45rem;
+  padding-left: 55px !important;
+}
+
+.bullet5 ul {
+  display: inline-block;
+  column-count: 2;
+  width: 42rem;
+  padding-left: 95px !important;
 }
 
 .emphasis {
@@ -103,12 +125,10 @@
 code.codeSnip {
   font-size: 18px;
   color: rgb(255, 56, 209);
-  background-color: rgb(0, 0, 0);
   padding: 2px 4px;
   line-height: 1.2;
   border-radius: 3px;
   text-align: center;
-  text-shadow: 1px 2px 1px rgb(135, 135, 135);
 }
 
 /* Nullify padding on span.codeSnip to prevent double-styling */
@@ -116,12 +136,65 @@ span.codeSnip {
   padding: 0 !important;
 }
 
-@media only screen and (max-width: 464px) {
+@media only screen and (max-width: 390px) {
   .card {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 85%;
-    margin-bottom: 50px;
+  }
+  .markdownContent {
+    width: 91% !important;
+  }
+ .markdownContent hr {
+  display: inline-block; /* Allows centering when combined with text-align */
+  width: 17rem; /* Adjust width */
+  margin: 3rem auto; /* Adds vertical and horizontal centering */
+  height: 3px; /* Thickness */
+  background-color: rgb(6, 159, 248);
+  border: none; /* Removes default styling */
+}
+  .bullet1 ul {
+    display: inline-block;
+    column-count: 1;
+    width: 18rem;
+    padding-left: 45px !important;
+    color: rgb(47, 185, 20);
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  
+  .bullet2 ul {
+    display: inline-block;
+    column-count: 1;
+    width: 15.5rem; /* Adjust this width as needed */
+    margin-left: 0; /* Reduces the left margin */
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding-left: 45px !important; /* Adjust this value to control indentation */
+  }
+  
+  .bullet3 ul {
+    display: inline-block;
+    column-count: 1;
+    width: 17rem;
+    padding-left: 76px !important;
+    list-style-type: circle;
+  }
+  
+  .bullet4 ul {
+    display: inline-block;
+    column-count: 2;
+    width: 19rem;
+    padding-left: 49px !important;
+  }
+  .bullet5 ul {
+    display: inline-block;
+    column-count: 2;
+    width: 17rem;
+    padding-left: 22px !important;
+  }
+
+  .example {
+    margin-left: 25px;
   }
 }

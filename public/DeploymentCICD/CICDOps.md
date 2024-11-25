@@ -4,7 +4,7 @@
 
 A production ready application will include:
 
-<span class="singleBullet">
+<span class="bullet1">
 
 - Environment configuration
 - Automated testing
@@ -13,9 +13,12 @@ A production ready application will include:
 - Monitoring and logging
 - Documentation
 
+
 </span>
 
 DevOps consists of the following:
+
+<span class="bullet2">
 
 - It is a mindset devoted to collaboration, communication, and integration between developers and operations teams.
 
@@ -23,15 +26,27 @@ DevOps consists of the following:
 
 - It also implies that you/your company ask themselves:
 
+</span>
+
+   <span class="bullet3">
+
    - Does this solution solve my/our problem?
 
    - Is this the tool we need?
 
+   </span>
+
 The goal of DevOps is to foster collaboration and experimentation among teams.
+
+<span class="bullet2">
 
 - It's purpose is to also improve the speed and reliability of projects by automating parts of the development and deployment process.
 
+</span>
+
 You solve problems in DevOps by asking the following questions:
+
+<span class="bullet2">
 
 - Why? = The reasons and motivations behind a strategy.
 
@@ -39,7 +54,11 @@ You solve problems in DevOps by asking the following questions:
 
 - Who? = The people who benefit from the solution
 
+</span>
+
 Standards in DevOps are established norms or guidelines agreed upon as best practices in an industry or company.
+
+<span class="bullet2">
 
 - They are designed to promote efficiency, consistency, and quality.
 
@@ -49,10 +68,23 @@ Rules are strict and non-negotiable requirements.
 
 - They generally don't involve collaboration as they often involve legal, security, and safety concerns.
 
-    - Some examples include password and secret key policies, access control rules, and workplace compliance.
+</span>
 
+<span class="bullet2">
+
+- Some examples include:
+
+<span class="bullet3">
+
+   - password and secret key policies
+   - access control rules
+   - workplace compliance.
+
+</span>
 
 Continuous Integration and Continuous Delivery/Continuous Deployment (CI/CD) is a set of practices and tools.
+
+<span class="bullet2">
 
 - It automates the process of software development, testing, and deployment.
 
@@ -62,7 +94,11 @@ Continuous Integration and Continuous Delivery/Continuous Deployment (CI/CD) is 
 
 - It also shortens the time needed for deployment, thereby increasing productivity, which therefore results in fewer bugs in the product.
 
+</span>
+
 The CI/CD pipleine consists of a continuous integration, delivery, and a deployment phases.
+
+<span class="bullet2">
 
 - Each phase has a particular task or process to perform.
 
@@ -70,9 +106,11 @@ The CI/CD pipleine consists of a continuous integration, delivery, and a deploym
 
 - Companies can define these stages, which make up their workflows.
 
+</span>
+
 The CI/CD Pipleline stages of development are as follows:
 
-<span class="singleBullet">
+<span class="bullet4">
 
 - Code
 
@@ -90,6 +128,8 @@ The CI/CD Pipleline stages of development are as follows:
 
 The Continous integration phase spans between the Code through the Test phase
 
+<span class="bullet2">
+
 - This phase automatically integrates and tests code changes
 
 The Continous Delivery phase spans between the Code and Release phases
@@ -100,4 +140,5 @@ The Continuous Deployment phase spans between the Code and Deployment phase
 
 - This phase automatically releases to the production environment if all tests pass
 
+</span>
 
