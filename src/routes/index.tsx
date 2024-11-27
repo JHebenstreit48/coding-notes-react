@@ -1,6 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
+
 import App from "../App";
+
 import ErrorPage from "../pages/Error.tsx";
+
 import APIs from "../pages/API.tsx";
 import APICode from "../pages/APICode.tsx";
 import CSS from "../pages/CSS.tsx";
@@ -36,6 +39,12 @@ import TypeScriptCode from "../pages/TypeScriptCode.tsx";
 import Home from "../pages/Home.tsx";
 import CICDOpsCode from "../pages/CICDOpsCode.tsx";
 import CICDOps from "../pages/CICDOps.tsx";
+import ReactNative from "../pages/ReactNative.tsx";
+import ReactNativeCode from "../pages/ReactNativeCode.tsx";
+import Vitest from "../pages/VitestTesting.tsx";
+import VitestCode from "../pages/VitestTestingCode.tsx";
+import Cypress from "../pages/CypressTesting.tsx";
+import CypressCode from "../pages/CypressTestingCode.tsx";
 
 export const router = createBrowserRouter([
 
@@ -145,6 +154,14 @@ export const router = createBrowserRouter([
                 element: <ReactFullStackCode />,
             },
             {
+                path: '/react/reactnative',
+                element: <ReactNative />,
+            },
+            {
+                path: '/react/reactnativecode',
+                element: <ReactNativeCode />,
+            },
+            {
                 path: '/mongodb',
                 element: <MongoDB />,
             },
@@ -167,6 +184,22 @@ export const router = createBrowserRouter([
             {
                 path: '/testing/testingcode',
                 element: <TestingCode />,
+            },
+            {
+                path: '/testing/vitesttesting',
+                element: <Vitest />,
+            },
+            {
+                path: '/testing/vitesttestingcode',
+                element: <VitestCode />,
+            },
+            {
+                path: '/testing/cypresstesting',
+                element: <Cypress />,
+            },
+            {
+                path: '/testing/cypresstestingcode',
+                element: <CypressCode />,
             },
             {
                 path: '/cicdops',

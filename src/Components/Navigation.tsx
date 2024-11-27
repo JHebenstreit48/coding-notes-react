@@ -152,6 +152,14 @@ const pages = [
         name: "React Full Stack Code",
         path: "/react/reactfullstackcode",
       },
+      {
+        name: "React Native",
+        path: "/react/reactnative",
+      },
+      {
+        name: "React Native Code",
+        path: "/react/reactnativecode",
+      },
     ],
   },
   {
@@ -190,6 +198,22 @@ const pages = [
       {
         name: "Testing Code Notes",
         path: "/testing/testingcode",
+      },
+      {
+        name: "Vitest Testing",
+        path: "/testing/vitesttesting",
+      },
+      {
+        name: "Vitest Testing Code",
+        path: "/testing/vitesttestingcode",
+      },
+      {
+        name: "Cypress Testing",
+        path: "/testing/cypresstesting",
+      },
+      {
+        name: "Cypress Testing Code",
+        path: "/testing/cypresstestingcode",
       },
     ],
   },

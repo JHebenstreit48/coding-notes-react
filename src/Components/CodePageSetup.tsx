@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { materialLight } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import '../CSS/NotesWithCodeCard.css';
+import '../CSS/Notes.css';
+import '../CSS/NotesWithCode.css'
+
 
 interface CodePageSetupProps {
     filePath: string;

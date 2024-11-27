@@ -1,21 +1,21 @@
 import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
-
-const HTML = () => {
-    const markdownFilePath = "/HTMLNotes/HTMLNotes.md";
+const Cypress = () => {
+    const markdownFilePath = '/CypressTesting/CypressTesting.md';
 
     return (
 
         <>
-        <Header text="HTML" />
+            <Header text="Cypress" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
+
         </>
     );
 
-}
+};
 
-export default HTML;
+export default Cypress;
