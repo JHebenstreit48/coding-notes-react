@@ -2,13 +2,13 @@ import "../CSS/Header.css";
 import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
-const APIs = () => {
-    const markdownFilePath = '/APINotes/API.md';
+const Angular = () => {
+    const markdownFilePath = '/AngularNotes/Angular.md';
 
     return (
 
         <>
-            <Header text="API Notes" />
+            <Header text="Angular" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -18,4 +18,4 @@ const APIs = () => {
 
 };
 
-export default APIs;
+export default Angular;

@@ -7,7 +7,6 @@ const pages = [
     name: "Home",
     subpages: [],
   },
-
   {
     name: "HTML",
     subpages: [
@@ -240,6 +239,45 @@ const pages = [
       {
         name: "Python Code Notes",
         path: "/python/pythoncode",
+      },
+    ],
+  },
+  {
+    name: "Angular",
+    subpages: [
+      {
+        name: "Angular Notes",
+        path: "/angular",
+      },
+      {
+        name: "Angular Code Notes",
+        path: "/angular/angularcode",
+      }
+    ],
+  },
+  {
+    name: "Redux",
+    subpages: [
+      {
+        name: "Redux Notes",
+        path: "/redux",
+      },
+      {
+        name: "Redux Code Notes",
+        path: "/redux/reduxcode",
+      },
+    ],
+  },
+  {
+    name: "Vue",
+    subpages: [
+      {
+        name: "Vue Notes",
+        path: "/vue",
+      },
+      {
+        name: "Vue Code Notes",
+        path: "/vue/vuecode",
       },
     ],
   },
