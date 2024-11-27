@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import App from "../App";
-
 import ErrorPage from "../pages/Error.tsx";
 
 import APIs from "../pages/API.tsx";
@@ -45,6 +44,12 @@ import Vitest from "../pages/VitestTesting.tsx";
 import VitestCode from "../pages/VitestTestingCode.tsx";
 import Cypress from "../pages/CypressTesting.tsx";
 import CypressCode from "../pages/CypressTestingCode.tsx";
+import Angular from "../pages/Angular.tsx";
+import AngularCode from "../pages/AngularCode.tsx";
+import Redux from "../pages/Redux.tsx";
+import ReduxCode from "../pages/ReduxCode.tsx";
+import Vue from "../pages/Vue.tsx";
+import VueCode from "../pages/VueCode.tsx";
 
 export const router = createBrowserRouter([
 
@@ -217,6 +222,30 @@ export const router = createBrowserRouter([
                 path: '/python/pythoncode',
                 element: <PythonCode />,
             },
+            {
+                path: '/angular',
+                element: <Angular />,
+            },
+            {
+                path: '/angular/angularcode',
+                element: <AngularCode />,
+            },
+            {
+                path: '/redux',
+                element: <Redux />,
+            },
+            {
+                path: '/redux/reduxcode',
+                element: <ReduxCode />,
+            },
+            {
+                path: '/vue',
+                element: <Vue />,
+            },
+            {
+                path: '/vue/vuecode',
+                element: <VueCode />,
+            }, 
         ],
     },
 ]);
