@@ -8,15 +8,41 @@ const pages = [
     subpages: [],
   },
   {
-    name: "HTML",
+    name: "Angular",
     subpages: [
       {
-        name: "HTML Notes",
-        path: "/html",
+        name: "Angular Notes",
+        path: "/angular",
       },
       {
-        name: "HTML Code Notes",
-        path: "/htmlcode",
+        name: "Angular Code Notes",
+        path: "/angular/angularcode",
+      }
+    ],
+  },
+  {
+    name: "APIs",
+    subpages: [
+      {
+        name: "APIs Notes",
+        path: "/apis",
+      },
+      {
+        name: "APIs Code Notes",
+        path: "/apis/apicode",
+      },
+    ],
+  },
+  {
+    name: "CI/CD Ops",
+    subpages: [
+      {
+        name: "CI/CD Ops",
+        path: "/cicdops",
+      },
+      {
+        name: "CI/CD Ops Code",
+        path: "/cicdops/cicdopscode",
       },
     ],
   },
@@ -47,6 +73,19 @@ const pages = [
     ],
   },
   {
+    name: "HTML",
+    subpages: [
+      {
+        name: "HTML Notes",
+        path: "/html",
+      },
+      {
+        name: "HTML Code Notes",
+        path: "/html/htmlcode",
+      },
+    ],
+  },
+  {
     name: "JavaScript",
     subpages: [
       {
@@ -56,6 +95,32 @@ const pages = [
       {
         name: "JavaScript Code Notes",
         path: "/javascript/javascriptcode",
+      },
+    ],
+  },
+  {
+    name: "MERN",
+    subpages: [
+      {
+        name: "MERN Notes",
+        path: "/mern",
+      },
+      {
+        name: "MERN Code Notes",
+        path: "/mern/merncode",
+      },
+    ],
+  },
+  {
+    name: "MongoDB",
+    subpages: [
+      {
+        name: "MongoDB Notes",
+        path: "/mongodb",
+      },
+      {
+        name: "MongoDB Code Notes",
+        path: "/mongodb/mongodbcode",
       },
     ],
   },
@@ -73,45 +138,6 @@ const pages = [
     ],
   },
   {
-    name: "TypeScript",
-    subpages: [
-      {
-        name: "TypeScript Notes",
-        path: "/typescript",
-      },
-      {
-        name: "TypeScript Code Notes",
-        path: "/typescript/typescriptcode",
-      },
-    ],
-  },
-  {
-    name: "Servers",
-    subpages: [
-      {
-        name: "Servers Notes",
-        path: "/servers",
-      },
-      {
-        name: "Servers Code Notes",
-        path: "/servers/servercode",
-      },
-    ],
-  },
-  {
-    name: "APIs",
-    subpages: [
-      {
-        name: "APIs Notes",
-        path: "/apis",
-      },
-      {
-        name: "APIs Code Notes",
-        path: "/apis/apicode",
-      },
-    ],
-  },
-  {
     name: "PostgreSQL",
     subpages: [
       {
@@ -121,6 +147,19 @@ const pages = [
       {
         name: "PostgreSQL Code Notes",
         path: "/postgresql/postgresqlcode",
+      },
+    ],
+  },
+  {
+    name: "Python",
+    subpages: [
+      {
+        name: "Python Notes",
+        path: "/python",
+      },
+      {
+        name: "Python Code Notes",
+        path: "/python/pythoncode",
       },
     ],
   },
@@ -162,28 +201,28 @@ const pages = [
     ],
   },
   {
-    name: "MongoDB",
+    name: "Redux",
     subpages: [
       {
-        name: "MongoDB Notes",
-        path: "/mongodb",
+        name: "Redux Notes",
+        path: "/redux",
       },
       {
-        name: "MongoDB Code Notes",
-        path: "/mongodb/mongodbcode",
+        name: "Redux Code Notes",
+        path: "/redux/reduxcode",
       },
     ],
   },
   {
-    name: "MERN",
+    name: "Servers",
     subpages: [
       {
-        name: "MERN Notes",
-        path: "/mern",
+        name: "Servers Notes",
+        path: "/servers",
       },
       {
-        name: "MERN Code Notes",
-        path: "/mern/merncode",
+        name: "Servers Code Notes",
+        path: "/servers/servercode",
       },
     ],
   },
@@ -199,14 +238,6 @@ const pages = [
         path: "/testing/testingcode",
       },
       {
-        name: "Vitest Testing",
-        path: "/testing/vitesttesting",
-      },
-      {
-        name: "Vitest Testing Code",
-        path: "/testing/vitesttestingcode",
-      },
-      {
         name: "Cypress Testing",
         path: "/testing/cypresstesting",
       },
@@ -214,57 +245,26 @@ const pages = [
         name: "Cypress Testing Code",
         path: "/testing/cypresstestingcode",
       },
-    ],
-  },
-  {
-    name: "CI/CD Ops",
-    subpages: [
       {
-        name: "CI/CD Ops",
-        path: "/cicdops",
+        name: "Vitest Testing",
+        path: "/testing/vitesttesting",
       },
       {
-        name: "CI/CD Ops Code",
-        path: "/cicdops/cicdopscode",
+        name: "Vitest Testing Code",
+        path: "/testing/vitesttestingcode",
       },
     ],
   },
   {
-    name: "Python",
+    name: "TypeScript",
     subpages: [
       {
-        name: "Python Notes",
-        path: "/python",
+        name: "TypeScript Notes",
+        path: "/typescript",
       },
       {
-        name: "Python Code Notes",
-        path: "/python/pythoncode",
-      },
-    ],
-  },
-  {
-    name: "Angular",
-    subpages: [
-      {
-        name: "Angular Notes",
-        path: "/angular",
-      },
-      {
-        name: "Angular Code Notes",
-        path: "/angular/angularcode",
-      }
-    ],
-  },
-  {
-    name: "Redux",
-    subpages: [
-      {
-        name: "Redux Notes",
-        path: "/redux",
-      },
-      {
-        name: "Redux Code Notes",
-        path: "/redux/reduxcode",
+        name: "TypeScript Code Notes",
+        path: "/typescript/typescriptcode",
       },
     ],
   },
