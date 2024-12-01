@@ -20,13 +20,70 @@
   margin-bottom: 1rem;
 }
 
-.markdownContentCode div {
-  border-radius: 0.3em;
-  padding: 17px !important; /* Set consistent padding */
+/* Code Block Styling */
+.code-block-wrapper {
+  position: relative;
+  margin-bottom: 1.5rem;
+  border: 1px solid #444;
+  border-radius: 11px;
+  background-color: rgb(29, 31, 33); /* Background for the code block */
+  overflow: hidden; /* Prevents overflow for the block */
 }
 
+.code-block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(40, 44, 52); /* Subtle separation color */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-bottom: 1px solid #444; /* Adds subtle separation line */
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.copy-code-button {
+  background: #444;
+  color: #fff;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.copy-code-button:hover {
+  background: #555;
+}
+
+.code-block-language {
+  font-size: 0.8rem;
+  font-weight: normal;
+  opacity: 0.7;
+  margin-right: auto;
+}
+
+/* Code Styling */
+.markdownContentCode div code {
+  display: block;
+  line-height: 1.5 !important;
+  max-width: 100%; /* Ensures it adapts to container */
+  overflow-x: auto; /* Horizontal scroll only */
+  padding: 0.5rem;
+  background-color: inherit; /* Matches the wrapper's background */
+}
+
+/* Responsive Design */
 @media only screen and (max-width: 390px) {
-  .card-header {
-    font-size: 36px;
+  .code-block-header {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+  }
+
+  .copy-code-button {
+      font-size: 0.7rem;
+      padding: 0.2rem 0.4rem;
   }
 }
