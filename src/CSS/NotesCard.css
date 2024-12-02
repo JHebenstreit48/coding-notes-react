@@ -1,17 +1,14 @@
 .punctuationSymbol {
   color: rgb(255, 56, 209);
-  font-size: 30px;
-  font-style: italic;
-  font-weight: 800;
-  margin-left: 5px;
-  margin-right: 5px;
+  font: italic 800 30px/1 sans-serif;
+  margin: 0 5px;
 }
 
 code.codeSnip {
-  font-size: 18px;
   color: rgb(255, 56, 209);
+  font: normal 18px/1.2 monospace;
   padding: 2px 4px;
-  line-height: 1.2;
+  border: 1px solid transparent;
   border-radius: 3px;
   text-align: center;
 }

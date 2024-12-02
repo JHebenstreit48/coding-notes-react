@@ -3,8 +3,7 @@
   margin: 0 auto;
   color: rgb(6, 159, 248);
   text-shadow: 1px 2px 1px black;
-  line-height: 1.5;
-  font-size: 20px;
+  font: normal 20px/1.5 sans-serif;
 }
 
 .markdownContentCode ul {
@@ -12,10 +11,7 @@
   padding-left: 3rem;
 }
 
-.markdownContentCode p {
-  margin-bottom: 1rem;
-}
-
+.markdownContentCode p,
 .markdownContentCode li {
   margin-bottom: 1rem;
 }
@@ -26,32 +22,30 @@
   margin-bottom: 1.5rem;
   border: 1px solid #444;
   border-radius: 11px;
-  background-color: rgb(29, 31, 33); /* Background for the code block */
-  overflow: hidden; /* Prevents overflow for the block */
+  background-color: rgb(29, 31, 33);
+  overflow: hidden;
 }
 
 .code-block-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(40, 44, 52); /* Subtle separation color */
+  background: rgb(40, 44, 52);
   color: #fff;
+  font: bold 0.9rem/1 sans-serif;
   padding: 0.5rem 1rem;
-  font-size: 0.9rem;
-  font-weight: bold;
-  border-bottom: 1px solid #444; /* Adds subtle separation line */
-  border-top-left-radius: 11px;
-  border-top-right-radius: 11px;
+  border-bottom: 1px solid #444;
+  border-radius: 11px 11px 0 0;
 }
 
 .copy-code-button {
   background: #444;
   color: #fff;
-  border: none;
+  font: normal 0.8rem/1 sans-serif;
+  border: 1px solid transparent;
+  border-radius: 3px;
   padding: 0.25rem 0.5rem;
   cursor: pointer;
-  border-radius: 3px;
-  font-size: 0.8rem;
 }
 
 .copy-code-button:hover {
@@ -59,31 +53,31 @@
 }
 
 .code-block-language {
-  font-size: 0.8rem;
-  font-weight: normal;
+  font: normal 0.8rem/1 sans-serif;
   opacity: 0.7;
   margin-right: auto;
 }
 
-/* Code Styling */
 .markdownContentCode div code {
   display: block;
-  line-height: 1.5 !important;
-  max-width: 100%; /* Ensures it adapts to container */
-  overflow-x: auto; /* Horizontal scroll only */
   padding: 0.5rem;
-  background-color: inherit; /* Matches the wrapper's background */
+  max-width: 100%;
+  line-height: 1.5 !important;
+  overflow-x: auto;
+  background-color: inherit;
 }
 
 /* Responsive Design */
 @media only screen and (max-width: 390px) {
   .code-block-header {
-      font-size: 0.75rem;
-      padding: 0.25rem 0.5rem;
+    font: bold 0.75rem/1 sans-serif;
+    padding: 0.25rem 0.5rem;
   }
 
   .copy-code-button {
-      font-size: 0.7rem;
-      padding: 0.2rem 0.4rem;
+    font: normal 0.7rem/1 sans-serif;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 0.2rem 0.4rem;
   }
 }

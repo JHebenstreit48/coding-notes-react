@@ -24,3 +24,5 @@ Some examples of character encoding are:
 - ASCII
 
 HTML attributes are words or pieces of data that modify the behavior or appearance of an element.
+
+

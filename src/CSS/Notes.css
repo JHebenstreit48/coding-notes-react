@@ -3,50 +3,42 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 13rem auto 8rem auto;
+  margin: 13rem auto 8rem;
   width: 50rem;
   border: 1px solid gray;
   box-shadow: 6px 10px #888888;
   line-height: 2rem;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 2rem;
+  padding: 0 0 2rem;
   background-color: rgb(87, 81, 81);
   z-index: 1;
 }
 
 .card-header {
-  background-image: linear-gradient(
-      to bottom,
-      rgb(56, 4, 56),
-      rgb(123, 1, 160),
-      rgb(195, 0, 255)
+  background: linear-gradient(
+    to bottom,
+    rgb(56, 4, 56),
+    rgb(123, 1, 160),
+    rgb(195, 0, 255)
   );
   display: flex;
   width: 100%;
-  margin: 0 0 4rem 0;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin: 0 0 4rem;
+  padding: 2rem 0;
   align-items: center;
   justify-content: center;
-  font-size: 48px;
+  font: bold 48px/1 'Arial', sans-serif;
   color: rgb(255, 214, 10);
   text-shadow: 2px 3px 3px black;
 }
 
-.emphasis {
+.emphasis,
+.secondEmphasis {
   color: rgb(243, 175, 28);
-  font-size: 23px;
-  font-style: italic;
-  font-weight: bold;
+  font: italic bold 23px 'Arial', sans-serif;
 }
 
 .secondEmphasis {
   color: rgb(47, 185, 20);
-  font-size: 23px;
-  font-style: italic;
-  font-weight: bold;
 }
 
 .markdownContent {
@@ -69,111 +61,56 @@ hr {
   padding-left: 3rem;
 }
 
-.markdownContent p {
-  margin-bottom: 1rem;
-}
-
+.markdownContent p,
 .markdownContent li {
   margin-bottom: 1rem;
 }
 
-.bullet1 ul {
-  display: inline-block;
-  column-count: 2;
-  width: 45rem;
-  padding-left: 30px !important;
-  color: rgb(47, 185, 20);
-}
-
-.bullet2 ul {
-  display: inline-block;
-  column-count: 1;
-  width: 36rem;
-  margin-left: 0;
-  padding-left: 45px !important;
-}
-
-.bullet3 ul {
-  display: inline-block;
-  column-count: 1;
-  width: 30rem;
-  padding-left: 62px !important;
-}
-
+/* Example bullet styles using shorthand */
+.bullet1 ul,
 .bullet4 ul {
   display: inline-block;
   column-count: 2;
   width: 45rem;
-  padding-left: 55px !important;
+  padding-left: 30px !important;
 }
 
-.bullet5 ul {
+.bullet2 ul,
+.bullet3 ul {
   display: inline-block;
-  column-count: 2;
-  width: 42rem;
-  padding-left: 95px !important;
+  column-count: 1;
+  padding-left: 45px !important;
+  margin-left: 0;
+  width: 36rem;
 }
 
 @media only screen and (max-width: 390px) {
   .card {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 22rem;
+    text-align: center;
+    width: 44rem;
+    margin: 13rem 2.7rem 8rem;
+  }
+
+  /* .card-header {
+    font-size: 3rem;
   }
 
   .markdownContent {
-      width: 91% !important;
+    width: 100%;
+    font-size: 1.5rem;
   }
 
-  .markdownContent hr {
-      display: inline-block;
-      width: 17rem;
-      margin: 3rem auto;
-      height: 3px;
-      background-color: rgb(6, 159, 248);
-      border: none;
-  }
-
-  .bullet1 ul {
-      display: inline-block;
-      column-count: 1;
-      width: 18rem;
-      padding-left: 45px !important;
-      color: rgb(47, 185, 20);
-      overflow-wrap: break-word;
-      white-space: normal;
-  }
-
-  .bullet2 ul {
-      display: inline-block;
-      column-count: 1;
-      width: 15.5rem;
-      margin-left: 0;
-      line-height: 1.5;
-      margin-bottom: 0;
-      padding-left: 45px !important;
-  }
-
-  .bullet3 ul {
-      display: inline-block;
-      column-count: 1;
-      width: 17rem;
-      padding-left: 76px !important;
-      list-style-type: circle;
-  }
-
+  .bullet1 ul,
   .bullet4 ul {
-      display: inline-block;
-      column-count: 2;
-      width: 19rem;
-      padding-left: 49px !important;
+    column-count: 1;
+    width: 100%;
+    padding-left: 0;
   }
 
-  .bullet5 ul {
-      display: inline-block;
-      column-count: 2;
-      width: 17rem;
-      padding-left: 22px !important;
-  }
+  .bullet2 ul,
+  .bullet3 ul {
+    column-count: 1;
+    padding-left: 0;
+    width: 100%;
+  } */
 }

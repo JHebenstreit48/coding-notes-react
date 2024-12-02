@@ -146,18 +146,22 @@
     justify-content: center; /* Center .nav-content horizontally */
     align-items: center; /* Align to the top */
     width: 100%;
-}
-.nav-content {
+  }
+  .nav-content {
     overflow-y: auto;
     padding: 0;
     width: 100%; /* Ensure full width */
     margin: 7rem auto 1rem auto; /* Remove margin */
     z-index: 10; /* Keep below .close-icon */
-}
+  }
   .accordion-button {
-    width: 12rem; /* Full width for small screens */
-    margin: 0 auto;
+    width: 20rem; /* Full width for small screens */
     text-align: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+  }
+  .accordion-item {
+    margin: 2rem;
   }
   .menu-icon {
     font-size: 1.5rem; /* Adjusted for smaller screens */
@@ -170,11 +174,13 @@
     z-index: 100; /* Ensure it remains above scrolling content */
   }
   .close-icon {
-    top: 1rem; /* Place it above the Home button */
-    left: 12.5rem; /* Adjusted to align visually for smaller screens */
-    font-size: 1.5rem;
+    position: fixed !important;
+    top: 3rem;
+    left: 25rem;
+    text-align: center;
+    font-size: 2.6rem;
     color: rgb(9, 174, 230);
     cursor: pointer;
-    z-index: 100; /* Ensure it remains above scrolling content */
+    z-index: 100;
   }
 }
