@@ -67,21 +67,28 @@ hr {
 }
 
 /* Example bullet styles using shorthand */
-.bullet1 ul,
-.bullet4 ul {
+.bullet1 ul {
   display: inline-block;
   column-count: 2;
-  width: 45rem;
-  padding-left: 30px !important;
+  width: 40rem;
+  padding-left: 65px !important;
+  color: rgb(12, 217, 231)
 }
 
-.bullet2 ul,
-.bullet3 ul {
+.bullet2 ul {
   display: inline-block;
   column-count: 1;
   padding-left: 45px !important;
   margin-left: 0;
   width: 36rem;
+}
+
+.bullet3 ul {
+  display: inline-block;
+  column-count: 3;
+  width: 40rem;
+  padding-left: 60px !important;
+  color: rgb(12, 217, 231)
 }
 
 @media only screen and (max-width: 390px) {

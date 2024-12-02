@@ -1,5 +1,5 @@
-## Generic HTML Code Notes
-<hr>
+# Basic HTML Code Notes
+---
 
 The following tag is used to tell the browser what document type to expect.  
 
@@ -22,10 +22,10 @@ The following tag is used to tell the browser what document type to expect.
 
 ```
 
-<hr>
+---
 
 ## Head
-<hr>
+---
 
 The following code is an HTML tag that contains information or metadata that helps the browser to display or render the webpage correctly.
 
@@ -72,10 +72,10 @@ To link your HTML page to an external CSS stylesheet you would use the following
 
 - It is linked in the head tag above the title tag and below the meta tag.
 
-<hr>
+---
 
 ## Body
-<hr>
+---
 
 The following element represents the container for the visible content shown to the end-user"
 
@@ -84,7 +84,7 @@ The following element represents the container for the visible content shown to 
 ```
 
 ## HTML Elements
-<hr>
+---
 
 There are multiple types of elements including:
 
@@ -144,7 +144,7 @@ There are multiple types of elements including:
 
 - hr: Is used to insert a thematic break or divider between sections of content. It is a self-closing tag and does not require an ending tag.
 
-<hr>
+---
 
 
 Common types of elements that are used to divide content into sections are:
@@ -154,7 +154,7 @@ Common types of elements that are used to divide content into sections are:
 <section>
 ```
 ## Special Characters
-<hr>
+---
 The following are used to create special characters in HTML:
 
 ```html
@@ -201,7 +201,7 @@ In order they create the following special characters:
 
 &trade; = Trademark Symbol
 
-<hr>
+---
 
 The following HTML tag is used to represent a self-contained, independent piece of content that could be distributed or reused on it's own.
 
