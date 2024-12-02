@@ -1,5 +1,5 @@
-## Generic HTML Code Notes
-<hr>
+# Basic HTML Code Notes
+---
 
 The following tag is used to tell the browser what document type to expect.  
 
@@ -22,10 +22,10 @@ The following tag is used to tell the browser what document type to expect.
 
 ```
 
-<hr>
+---
 
 ## Head
-<hr>
+---
 
 The following code is an HTML tag that contains information or metadata that helps the browser to display or render the webpage correctly.
 
@@ -72,16 +72,19 @@ To link your HTML page to an external CSS stylesheet you would use the following
 
 - It is linked in the head tag above the title tag and below the meta tag.
 
-<hr>
+---
 
 ## Body
-<hr>
+---
 
 The following element represents the container for the visible content shown to the end-user"
 
 ```html
 <body>
 ```
+
+## HTML Elements
+---
 
 There are multiple types of elements including:
 
@@ -102,6 +105,7 @@ There are multiple types of elements including:
 <ol>
 <li>
 <a>
+<hr>
 ```
 
 - With that list in order from how they are listed. This is what each tag's purpose is:
@@ -122,7 +126,7 @@ There are multiple types of elements including:
 
 - h6: The smallest and least important heading on the page.
 
-- input: Used to create a box for user input, like typing your name or selecting a checkbox.
+- input: Is used to create a box for user input, like typing your name or selecting a checkbox.
 
 - label: Describes or names an input field so users know what to enter, like “Name:” next to a text box.
 
@@ -138,6 +142,9 @@ There are multiple types of elements including:
 
 - a: Creates a clickable link that can take you to another page, file, or section.
 
+- hr: Is used to insert a thematic break or divider between sections of content. It is a self-closing tag and does not require an ending tag.
+
+---
 
 
 Common types of elements that are used to divide content into sections are:
@@ -146,8 +153,67 @@ Common types of elements that are used to divide content into sections are:
 <div>
 <section>
 ```
+## Special Characters
+---
+The following are used to create special characters in HTML:
 
+```html
+&rsquo;
 
+&lsquo;
+
+&rdquo;
+
+&ldquo;
+
+&amp;
+
+&gt;
+
+&lt;
+
+&copy;
+
+&reg;
+
+&trade;
+```
+
+In order they create the following special characters:
+
+&rsquo; = Right Single Quote
+
+&lsquo; = Left Single Quote
+
+&rdquo; = Right Double Quote
+
+&ldquo; = Left Double Quote
+
+&amp; = Ampersand
+
+&gt; = Greater Than
+
+&lt; = Less Than
+
+&copy; = Copyright Symbol
+
+&reg; = Registered Symbol
+
+&trade; = Trademark Symbol
+
+---
+
+The following HTML tag is used to represent a self-contained, independent piece of content that could be distributed or reused on it's own.
+
+```html
+<article>
+```
+
+The following HTML tag is used to represent content that is tangentially related to the main content. It's often used for supplementary information or sidebars.
+
+```html
+<aside>
+```
 
 
 

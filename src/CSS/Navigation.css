@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 20rem;
+  width: 25rem;
   background-color: rgb(38, 38, 39);
   z-index: 15;
   display: flex;
@@ -28,10 +28,10 @@
 
 /* Styling for Menu Icon (fa-bars) */
 .menu-icon {
-  font-size: 2rem;
   color: rgb(9, 174, 230); /* Match existing icon color */
   cursor: pointer;
-  display: block; /* Ensure visibility when collapsed */
+  margin-top: 1rem;
+  text-shadow: 4px 5px 4px black;
 }
 
 /* Hide Menu Icon When Expanded */
@@ -42,12 +42,13 @@
 /* Styling for Close Icon (fa-times) */
 .close-icon {
   position: absolute;
-  left: 9rem; /* Center horizontally in a 20rem-wide container */
+  left: 11rem; /* Center horizontally in a 20rem-wide container */
   top: 2rem; /* Align above Home button */
   transform: translateX(-50%); /* Adjust for icon's own width */
-  font-size: 1rem; /* Icon size */
+  font-size: 1.6rem; /* Icon size */
   color: rgb(9, 174, 230); /* Match theme */
   cursor: pointer;
+  text-shadow: 4px 5px 4px black;
 }
 /* Hide Close Icon When Collapsed */
 .nav-css.collapsed .close-icon {
@@ -146,18 +147,22 @@
     justify-content: center; /* Center .nav-content horizontally */
     align-items: center; /* Align to the top */
     width: 100%;
-}
-.nav-content {
+  }
+  .nav-content {
     overflow-y: auto;
     padding: 0;
     width: 100%; /* Ensure full width */
     margin: 7rem auto 1rem auto; /* Remove margin */
     z-index: 10; /* Keep below .close-icon */
-}
+  }
   .accordion-button {
-    width: 12rem; /* Full width for small screens */
-    margin: 0 auto;
+    width: 20rem; /* Full width for small screens */
     text-align: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+  }
+  .accordion-item {
+    margin: 2rem;
   }
   .menu-icon {
     font-size: 1.5rem; /* Adjusted for smaller screens */
@@ -170,11 +175,13 @@
     z-index: 100; /* Ensure it remains above scrolling content */
   }
   .close-icon {
-    top: 1rem; /* Place it above the Home button */
-    left: 12.5rem; /* Adjusted to align visually for smaller screens */
-    font-size: 1.5rem;
+    position: fixed !important;
+    top: 3rem;
+    left: 25rem;
+    text-align: center;
+    font-size: 2.6rem;
     color: rgb(9, 174, 230);
     cursor: pointer;
-    z-index: 100; /* Ensure it remains above scrolling content */
+    z-index: 100;
   }
 }

@@ -14,9 +14,9 @@
 
 @media only screen and (max-width: 390px) {
     .Footer {
-        font-size: 22px; /* Smaller font for small screens */
-        height: 80px; /* Adjusted height */
-        margin-top: auto; /* Still pushes footer to the bottom */
-        margin-bottom: 0;
+        font-size: 3rem;
+        width: 50rem;
+        height: 12rem;
+        padding-bottom: 6rem;
     }
 }

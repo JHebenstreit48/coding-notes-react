@@ -1,3 +1,6 @@
+## CSS Basics
+---
+
 <span class="emphasis">CSS</span> stands for <span class="emphasis">Cascading Style Sheets</span>.
 
 <span class="emphasis">CSS</span> <span class="secondEmphasis">functions</span> as the <span class="emphasis">styling</span> or <span class="emphasis">skin</span> of a <span class="emphasis">webpage</span>.
@@ -14,7 +17,7 @@ You can either embed sytlying into HTML or other document types or use an extern
 
 - Using inline styles excessively may complicate webpage maintenance and readability.
 
-In vanilla HTML if using an external sytlesheet you would reference it in the <span class="codeSnip">```<head>```</span> tag.
+In vanilla HTML if using an external sytlesheet you would reference/link it in the <span class="codeSnip">```<head>```</span> tag.
 
 You must always put a <span class="punctuationSymbol">;</span> at the end of every CSS statement.
 
@@ -37,10 +40,5 @@ Going from the innermost portion of the CSS box model to outer-most portion is a
 - border
 - margin
 
-
-
-
-
-
-
+When you combine a CSS property with a value it is known as a declaration.
 

@@ -1,7 +1,52 @@
 body {
-    background-color: #4158D0;
-    background-image: linear-gradient(180deg, #4158D0 14%, #C850C0 84%, #FFCC70 100%); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+  /* Fallback for unsupported browsers */
+  background-color: #4158d0;
+
+  /* Gradients for older browsers */
+  background: -webkit-linear-gradient(
+    180deg,
+    #4158d0 14%,
+    #c850c0 84%,
+    #ffcc70 100%
+  );
+  background: -moz-linear-gradient(
+    180deg,
+    #4158d0 14%,
+    #c850c0 84%,
+    #ffcc70 100%
+  );
+  background: -o-linear-gradient(
+    180deg,
+    #4158d0 14%,
+    #c850c0 84%,
+    #ffcc70 100%
+  );
+  background: -ms-linear-gradient(
+    180deg,
+    #4158d0 14%,
+    #c850c0 84%,
+    #ffcc70 100%
+  );
+
+  /* Modern browsers */
+  background: linear-gradient(180deg, #4158d0 14%, #c850c0 84%, #ffcc70 100%);
+
+  /* Additional shorthand properties */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Ensure full height */
+  min-height: 100vh;
+}
+
+/* Media Query for screens with max-width of 390px */
+@media only screen and (max-width: 390px) {
+  body {
+    /* Adjust background size or use a simpler color/gradient */
+    background-size: auto; /* Adjust background size for small screens */
+    background-position: center; /* Center background */
+
+    /* Optional: Change the gradient to make it more mobile-friendly */
+    background: linear-gradient(180deg, #4158d0 30%, #ffcc70 100%);
+  }
 }

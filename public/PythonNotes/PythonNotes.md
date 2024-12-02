@@ -4,7 +4,7 @@ Python is <span class="emphasis">open-sourced</span> and can be used to create a
 
 Python has <span class="emphasis">two</span> popular <span class="emphasis">backend</span> <span class="secondEmphasis">frameworks</span>:
 
-<span class="bullet5">
+<span class="bullet3">
 
 - Django
 - Flask
@@ -13,7 +13,7 @@ Python has <span class="emphasis">two</span> popular <span class="emphasis">back
 
 The following are some <span class="emphasis">companies</span> that use Python:
 
-<span class="bullet5">
+<span class="bullet1">
 
 - Netflix
 - Spotify
@@ -47,7 +47,7 @@ The following are some <span class="emphasis">companies</span> that use Python:
 
 The <span class="emphasis">4</span> <span class="secondEmphasis">data types</span> that <span class="emphasis">store</span> <span class="secondEmphasis">collections</span> of <span class="emphasis">data</span> are:
 
-<span class="bullet5">
+<span class="bullet1">
 
 - Lists
 - Tuples

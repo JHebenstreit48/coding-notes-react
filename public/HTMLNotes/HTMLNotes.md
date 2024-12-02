@@ -1,26 +1,65 @@
-<span class="emphasis">Hypertext Markup Language</span> <span class="secondEmphasis">(HTML)</span> is one of the <span class="emphasis">three</span> cornerstone <span class="emphasis">languages</span>.  
+# Basic HTML Notes
 
-It is the <span class="emphasis">standard</span> markup language for <span class="emphasis">documents</span> designed to be displayed in a <span class="emphasis">web browser</span>.  
+---
 
-<span class="emphasis">HTML</span> is used to create the <span class="emphasis">structure</span> of a <span class="emphasis">webpage</span>.
+<span class="emphasis">Hypertext Markup Language</span> <span class="secondEmphasis">(HTML)</span> is one of the <span class="emphasis">three</span> cornerstone <span class="emphasis">languages</span>.
 
-- This is <span class="emphasis">equivalent</span> to how the human body has a <span class="emphasis">skeleton</span> that provides <span class="emphasis">structure</span> and <span class="emphasis">support</span>.
+It is the <span class="emphasis">standard</span> markup language for <span class="emphasis">documents</span> designed to be displayed in a <span class="emphasis">web browser</span>.
 
-It is made up of <span class="emphasis">elements</span> which work together to provide <span class="emphasis">content</span> and the basic <span class="emphasis">framework</span> for all pages on the web.
+Structure of HTML
+<span class="emphasis">HTML</span> is used to create the <span class="emphasis">structure</span> of a <span class="emphasis">webpage</span>, much like how a skeleton provides structure and support for the human body.
 
-There are multiple types of <span class="emphasis">elements</span> including <span class="emphasis">text</span>, <span class="emphasis">image</span>, <span class="emphasis">header</span>, and <span class="emphasis">list</span>.
+HTML is composed of <span class="emphasis">elements</span>, which define the <span class="emphasis">content</span> and framework of a webpage.
 
-<span class="emphasis">Elements</span> are also used to <span class="emphasis">divide</span> the <span class="emphasis">content</span> on the page and to <span class="emphasis">describe</span> the <span class="emphasis">content</span> to <span class="emphasis">browsers</span> and other <span class="emphasis">developers</span>.
+Examples of common <span class="emphasis">elements</span>:
 
-<span class="emphasis">Metadata</span> is <span class="emphasis">data</span> about the<span class="emphasis">webpage</span> that the <span class="emphasis">browser</span> uses to <span class="emphasis">serve</span> the <span class="emphasis">webpage</span> to <span class="emphasis">users</span>.
+<span class="bullet3">
 
-- With the exception of the <span class="codeSnip">```<title>```</span> tag, metadata is not visible to the user.
+- Text
+- Images
+- Headers
+- Lists
+- Dividers
+- Links
 
-Some examples of character encoding are:
+</span>
+
+---
+
+## Metadata
+
+---
+
+<span class="emphasis">Metadata</span> is information about the <span class="emphasis">webpage</span> that helps browsers understand how to serve the page to users.
+
+Notable aspects of metadata:
+
+- The <span><</span>title<span>></span> tag is visible in the browser tab.
+
+- Other metadata, like character encoding, is not visible to users.
+
+Examples of character encodings are:
+
+<span class="bullet1">
 
 - UTF-8
 - ISO-8859-1
-- ANSI(Windows-1252)
+- ANSI (Windows-1252)
 - ASCII
 
-HTML attributes are words or pieces of data that modify the behavior or appearance of an element.
+</span>
+
+---
+
+## Attributes
+
+---
+
+<span class="emphasis">Attributes</span> provide additional information about elements.
+
+Attributes modify the behavior or appearance of elements and are written inside the opening tag. Common examples include:
+
+- <span class="emphasis">id</span> : Unique identifier for an element.
+- <span class="emphasis">class</span> : Assigns CSS styling to an element.
+- <span class="emphasis">src</span> : Specifies the source of an image or external resource.
+- <span class="emphasis">href</span> : Defines the destination of a link.
