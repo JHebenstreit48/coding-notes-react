@@ -15,8 +15,8 @@
 @media only screen and (max-width: 390px) {
     .Footer {
         font-size: 3rem;
-        width: 50rem;
-        height: 12rem;
-        padding-bottom: 6rem;
+        /* width: 50rem; */
+        height: 7rem;
+        padding-bottom: 2rem;
     }
 }
