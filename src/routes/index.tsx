@@ -50,6 +50,8 @@ import Vitest from "../pages/VitestTesting.tsx";
 import VitestCode from "../pages/VitestTestingCode.tsx";
 import Vue from "../pages/Vue.tsx";
 import VueCode from "../pages/VueCode.tsx";
+import Markdown from "../pages/Markdown.tsx";
+import MarkdownCode from "../pages/MarkdownCode.tsx";
 
 export const router = createBrowserRouter([
 
@@ -117,6 +119,14 @@ export const router = createBrowserRouter([
             {
                 path: '/javascript/javascriptcode',
                 element: <JavascriptCode />,
+            },
+            {
+                path: '/markdown',
+                element: <Markdown />,
+            },
+            {
+                path: '/markdown/markdowncode',
+                element: <MarkdownCode />,
             },
             {
                 path: '/mern',

@@ -1,5 +1,4 @@
 # Basic HTML Notes
-
 ---
 
 <span class="emphasis">Hypertext Markup Language</span> <span class="secondEmphasis">(HTML)</span> is one of the <span class="emphasis">three</span> cornerstone <span class="emphasis">languages</span>.
