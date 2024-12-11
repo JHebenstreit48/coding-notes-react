@@ -99,6 +99,19 @@ const pages = [
     ],
   },
   {
+    name: "Markdown",
+    subpages: [
+      {
+        name: "Markdown Notes",
+        path: "/markdown",
+      },
+      {
+        name: "Markdown Code Notes",
+        path: "/markdown/markdowncode",
+      },
+    ],
+  },
+  {
     name: "MERN",
     subpages: [
       {
