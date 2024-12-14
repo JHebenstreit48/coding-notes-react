@@ -153,6 +153,8 @@ Common types of elements that are used to divide content into sections are:
 <div>
 <section>
 ```
+
+---
 ## Special Characters
 ---
 The following are used to create special characters in HTML:
@@ -214,6 +216,29 @@ The following HTML tag is used to represent content that is tangentially related
 ```html
 <aside>
 ```
+---
+## Creating Thumbnails
+---
+
+To create a thumbnail using vanilla or basic HTML. You would add Open Graph meta tags to the head element of you index.html file. 
+
+### Example
+
+```html
+
+    <title>Website Title</title>
+
+    <meta property="og:title" content="Your Website Title">
+    <meta property="og:description" content="A brief description of your website.">
+    <meta property="og:image" content="thumbnail.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:type" content="website">
+
+```
+
+- Just make sure that the path to the file is correct
+
+
 
 
 
