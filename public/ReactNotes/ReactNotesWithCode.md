@@ -54,6 +54,38 @@ function Pet(props) {
 }
 ```
 ---
+## Adding A Website Icon (Favicon)
+---
+
+### Overview
+The favicon is the small icon that appears on the browser tab and represents your website. In React JS, setting up a favicon involves a few simple steps.
+---
+
+### Steps To Add a Favicon  
+
+1. Place Your Favicon in the Public Folder
+Place your favicon file (e.g., favicon.ico, .png, or .svg) in the public folder of your React project.
+
+2. Update the index.html File
+Edit the public/index.html file and add a <link> tag in the <head> section to reference your favicon:
+
+```html
+<link rel="icon" href="/favicon.ico" />
+```
+
+- If you are using a .png or .svg file, ensure the correct file extension is reflected in the href attribute.  
+
+3. Verify the Favicon
+Run your React app with npm start or yarn start.
+Open your browser and check the tab to confirm the favicon is displayed.  
+
+### Notes  
+
+The public folder is used because its files are accessible directly from the root of the website.
+If you replace the favicon later, clear the browser cache to see the updated icon.
+
+
+---
 ## State Management
 ---
 

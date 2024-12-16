@@ -1,18 +1,19 @@
-.nav-css {
-  position: fixed; /* No change here */
+/* Base Styles */
+.navigationMenu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
   top: 0;
   left: 0;
   height: 100%;
   width: 25rem;
   background-color: rgb(38, 38, 39);
   z-index: 15;
-  display: flex;
-  flex-direction: column;
 }
-.nav-css.collapsed {
+
+.navigationMenu.collapsed {
   width: 50px;
   background-color: transparent;
-  overflow: hidden;
 }
 
 .toggleButton {
@@ -26,159 +27,166 @@
   margin: 1rem;
 }
 
-/* Styling for Menu Icon (fa-bars) */
-.menu-icon {
-  color: rgb(9, 174, 230); /* Match existing icon color */
+.menuIcon {
   cursor: pointer;
   margin-top: 1rem;
   text-shadow: 4px 5px 4px black;
 }
 
-/* Hide Menu Icon When Expanded */
-.nav-css:not(.collapsed) .menu-icon {
-  display: none;
-}
-
-/* Styling for Close Icon (fa-times) */
-.close-icon {
+.closeIcon {
   position: absolute;
-  left: 11rem; /* Center horizontally in a 20rem-wide container */
-  top: 2rem; /* Align above Home button */
-  transform: translateX(-50%); /* Adjust for icon's own width */
-  font-size: 1.6rem; /* Icon size */
-  color: rgb(9, 174, 230); /* Match theme */
+  left: 11rem;
+  top: 2rem;
+  transform: translateX(-50%);
+  font-size: 1.6rem;
   cursor: pointer;
   text-shadow: 4px 5px 4px black;
 }
-/* Hide Close Icon When Collapsed */
-.nav-css.collapsed .close-icon {
-  display: none;
-}
 
-/* Navigation Content */
-.nav-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  overflow-y: auto;
-  margin-top: 6rem; /* Adjust for Home button */
-}
-
-#home-button::after {
-  content: none;
-}
-
-.no-dropdown {
-  text-decoration: none;
-}
-
+/* Accordion Buttons */
 .accordion {
-  --bs-accordion-bg: transparent; /* Set the accordion background to transparent */
-  --bs-accordion-border-color: rgb(9, 174, 230); /* Remove border color */
+  margin: 8rem auto;
 }
 
-.accordion-button {
+.accordionItem {
+  margin: 0 auto;
+}
+
+.accordionButton {
+  display: flex;
+  justify-content: center; /* Align arrow to the far right */
+  align-items: center;
+  position: relative;
+  border: 1px solid rgb(9, 174, 230);
+  color: rgb(9, 174, 230);
+  font-size: 1rem;
+  background-color: transparent !important;
+  border-radius: 11px;
+  width: 20rem;
+  padding: 1rem 0;
+  cursor: pointer;
+  margin: 5px auto;
+}
+
+/* Dropdown Arrows */
+.accordionButton::after {
+  content: "\25B2"; /* Up arrow when collapsed */
+  font-size: 0.8rem; /* Keep arrow size consistent */
+  color: rgb(9, 174, 230); /* Match font color */
+  position: absolute;
+  right: 10px; /* Align arrow to the far right */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Change arrow direction when expanded */
+.accordionButton[aria-expanded="true"]::after {
+  content: "\25BC"; /* Down arrow when expanded */
+}
+
+
+/* Home Button */
+#homeButton {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(9, 174, 230); /* Add border around each button */
-  color: rgb(9, 174, 230); /* Text color */
-  text-align: center; /* Center-align text */
-  font-size: 1rem; /* Adjust text size */
-  background-color: transparent !important; /* Remove background */
-  border-radius: 11px;
-  width: 15rem;
-}
-
-.accordion-button:not(.collapsed) {
-  background-color: transparent !important;
-  color: rgb(9, 174, 230) !important;
-}
-
-.accordion-item {
-  margin-bottom: 10px; /* Add spacing between accordion items */
-  border: none; /* Add a border to accordion items */
-}
-
-.accordion-item:first-of-type > .accordion-header .accordion-button {
-  border-top-left-radius: 11px;
-  border-top-right-radius: 11px;
-}
-
-.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
-  border-bottom-right-radius: 11px;
-  border-bottom-left-radius: 11px;
-}
-
-.accordion-body {
+  width: 20rem; /* Same width as accordionButton */
+  padding: 1rem 0;
+  margin: 5px auto;
+  text-decoration: none;
+  border: 1px solid rgb(9, 174, 230);
   color: rgb(9, 174, 230);
-  border: none; /* Remove border */
-  padding: 10px;
+  border-radius: 11px;
+  box-sizing: border-box;
+}
+
+/* Remove Arrow for Home Button */
+#homeButton::after {
+  content: none !important;
+}
+
+/* Subpage Headings */
+.subpageHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
   font-size: 1rem;
-  text-align: center;
+  color: rgb(77, 135, 245);
+  border: 1px solid rgb(9, 174, 230);
+  border-radius: 13px;
+  padding: 10px 0;
+  margin: 0 auto 4px;
+  background-color: transparent;
 }
 
-.accordion-button::after {
-  content: "\f107"; /* FontAwesome down arrow */
-  font-family: "Font Awesome 5 Free"; /* Ensure FontAwesome is used */
-  font-weight: 900; /* Use the bold variant */
-  color: rgb(9, 174, 230); /* Arrow color */
-  position: absolute; /* Position the arrow absolutely */
-  right: 15px; /* Move the arrow to the right of the button */
-  font-size: 0.8rem; /* Adjust arrow size */
-  line-height: 1; /* Prevent line height issues */
+.nestedSubpageHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  color: rgb(9, 174, 230);
+  border: 1px solid rgb(9, 174, 230);
+  margin: 0 auto;
 }
 
+/* Links */
+.navLink {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid rgb(9, 174, 230);
+  width: 12rem;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 14px;
+  color: rgb(133, 5, 252);
+}
+
+/* Responsive Styles */
 @media only screen and (max-width: 390px) {
-  .nav-css {
-    width: 100%; /* Ensure full width for small screens */
-    height: 100%; /* Full viewport height */
+  .navigationMenu {
+    width: 100%;
+    height: 100%;
   }
+
   .toggleButton {
     margin: 2.2rem auto;
     position: absolute;
     padding: 0;
-    top: 0px; /* Adjust for smaller screens */
+    top: 0px;
     left: 0px;
   }
-  .nav-wrapper {
-    display: block;
-    justify-content: center; /* Center .nav-content horizontally */
-    align-items: center; /* Align to the top */
-    width: 100%;
-  }
-  .nav-content {
+
+  .navigationContent {
     overflow-y: auto;
     padding: 0;
-    width: 100%; /* Ensure full width */
-    margin: 7rem auto 1rem auto; /* Remove margin */
-    z-index: 10; /* Keep below .close-icon */
+    width: 100%;
+    margin: 7rem auto 1rem auto;
+    z-index: 10;
   }
-  .accordion-button {
-    width: 20rem; /* Full width for small screens */
+
+  .accordionButton {
+    width: 20rem;
     text-align: center;
     padding: 2rem;
     font-size: 1.4rem;
   }
-  .accordion-item {
-    margin: 2rem;
-  }
-  .menu-icon {
-    font-size: 1.5rem; /* Adjusted for smaller screens */
+
+  .menuIcon {
+    font-size: 1.5rem;
     color: rgb(9, 174, 230);
     cursor: pointer;
-    display: block;
     position: absolute;
-    top: 1rem; /* Adjusted for smaller screens */
-    left: 1rem; /* Adjusted for smaller screens */
-    z-index: 100; /* Ensure it remains above scrolling content */
+    top: 1rem;
+    left: 1rem;
+    z-index: 100;
   }
-  .close-icon {
-    position: fixed !important;
+
+  .closeIcon {
+    position: fixed;
     top: 3rem;
     left: 25rem;
-    text-align: center;
     font-size: 2.6rem;
     color: rgb(9, 174, 230);
     cursor: pointer;
