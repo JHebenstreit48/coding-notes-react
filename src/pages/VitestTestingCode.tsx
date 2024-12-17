@@ -2,7 +2,7 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Header from "../Components/Header";
 
 const VitestCode = () => {
-    const markdownFilePath = '/VitestNotes/VitestNotesCode.md';
+    const markdownFilePath = '/VitestNotes/VitestCode.md';
 
     return (
 

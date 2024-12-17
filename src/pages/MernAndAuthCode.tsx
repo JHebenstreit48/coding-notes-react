@@ -2,7 +2,7 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Header from "../Components/Header";
 
 const MernAndAuthCode = () => {
-    const markdownFilePath = '/MernAndAuth/MernAndAuthNotesWithCode.md';
+    const markdownFilePath = '/MernAndAuth/MernAndAuthCode.md';
 
     return (
 

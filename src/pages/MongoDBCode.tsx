@@ -2,7 +2,7 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Header from "../Components/Header";
 
 const MongoDBCode = () => {
-    const markdownFilePath = "/MongoDB/MongoDBNotesWithCode.md";
+    const markdownFilePath = "/MongoDB/MongoDBCode.md";
 
     return (
 

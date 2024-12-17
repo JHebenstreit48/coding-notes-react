@@ -2,7 +2,7 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Header from "../Components/Header";
 
 const ReactFullStackCode = () => {
-    const markdownFilePath = '/ReactFullStackNotes/ReactFullStackNotesWithCode.md';
+    const markdownFilePath = '/ReactFullStackNotes/ReactFullStackCode.md';
 
     return (
 

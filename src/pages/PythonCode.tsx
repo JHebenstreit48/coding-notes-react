@@ -2,7 +2,7 @@ import CodePageSetup from "../Components/CodePageSetup.tsx";
 import Header from "../Components/Header.tsx";
 
 const PythonCode = () => {
-    const markdownFilePath = "/PythonNotes/PythonNotesWithCode.md";
+    const markdownFilePath = "/PythonNotes/PythonCode.md";
 
     return (
 

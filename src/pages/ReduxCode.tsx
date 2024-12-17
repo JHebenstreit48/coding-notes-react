@@ -2,7 +2,7 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Header from "../Components/Header";
 
 const ReduxCode = () => {
-    const markdownFilePath = '/ReduxNotes/ReduxNotesCode.md';
+    const markdownFilePath = '/ReduxNotes/ReduxCode.md';
 
     return (
 
