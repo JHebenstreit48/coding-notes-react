@@ -1,4 +1,5 @@
 import "../CSS/Header.css";
+import "../CSS/NotesTables.css"
 import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
