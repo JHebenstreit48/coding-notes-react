@@ -2,7 +2,7 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Header from "../Components/Header";
 
 const ReactAndTypeScriptCode = () => {
-    const markdownFilePath = '/ReactAndTS/ReactAndTypeScriptNotesWithCode.md';
+    const markdownFilePath = '/ReactAndTS/ReactAndTypeScriptCode.md';
 
     return (
 

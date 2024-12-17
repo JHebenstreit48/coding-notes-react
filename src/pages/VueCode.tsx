@@ -2,7 +2,7 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Header from "../Components/Header";
 
 const VueCode = () => {
-    const markdownFilePath = '/VueNotes/VueNotesCode.md';
+    const markdownFilePath = '/VueNotes/VueCode.md';
 
     return (
 

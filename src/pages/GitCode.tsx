@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 import "../CSS/Header.css";
 
 const GitCode = () => {
-    const markdownFilePath = '/GitNotes/GitNotesWithCode.md';
+    const markdownFilePath = '/GitNotes/GitCode.md';
 
     return (
 

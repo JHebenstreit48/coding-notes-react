@@ -2,7 +2,7 @@ import CodePageSetup from '../Components/CodePageSetup';
 import Header from '../Components/Header';
 
 const ServerCode = () => {
-    const markdownFilePath = '/ServerNotes/SeverNotesWithCode.md';
+    const markdownFilePath = '/ServerNotes/SeverCode.md';
 
     return (
         <>

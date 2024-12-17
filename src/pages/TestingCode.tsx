@@ -2,7 +2,7 @@ import CodePageSetup from "../Components/CodePageSetup";
 import Header from "../Components/Header";
 
 const TestingCode = () => {
-    const markdownFilePath = '/TestingNotes/TestingNotesWithCode.md';
+    const markdownFilePath = '/TestingNotes/TestingCode.md';
 
     return (
 
