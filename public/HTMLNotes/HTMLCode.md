@@ -1,16 +1,18 @@
-# Basic HTML Code Notes
+# HTML Basics with Code Examples
 ---
 
-The following tag is used to tell the browser what document type to expect.  
+## Document Structure
 
-- It is also considered a declaration and is NOT case-sensitive:
+The following tag is used to tell the browser what <span class="emphasis">document type</span> to expect.  
+- It is also considered a <span class="secondEmphasis">declaration</span> and is <span class="emphasis">not case-sensitive</span>:
 
 ```html
 <!DOCTYPE html>
 ```
 
-```html
+A basic HTML document is structured as follows:
 
+```html
 <html>
   <head>
     <!-- Metadata and links -->
@@ -19,135 +21,169 @@ The following tag is used to tell the browser what document type to expect.
     <!-- Page content -->
   </body>
 </html>
-
 ```
 
 ---
 
 ## Head
----
 
-The following code is an HTML tag that contains information or metadata that helps the browser to display or render the webpage correctly.
+The <span class="emphasis">head</span> tag contains <span class="emphasis">metadata</span> and links that help the browser <span class="secondEmphasis">render the webpage</span> correctly.
 
 ```html
 <head>
 ```
 
-The following tag contains the metadata for the webpage.  
+The <span class="emphasis">meta</span> tag is used to include <span class="secondEmphasis">metadata</span> for the webpage.
 
 ```html
 <meta>
 ```
 
-The previously mentioned tag may contain the following attributes:
+### Meta Tag Attributes
+
+The <span class="emphasis">meta</span> tag may include the following attributes:
 
 ```html
-   charset
-   content
-   http-equiv
-   name
+charset
+content
+http-equiv
+name
 ```
 
-The following meta tag attribute sets the character encoding for the document:
-
-- This is just an example. There are more than just one type of character encoding.
+For example, to set the <span class="emphasis">character encoding</span> for the document, use the following:
 
 ```html
-charset="UTF-8"
+<meta charset="UTF-8">
 ```
 
-The following tag is used to embed executable code or data into the document:
+---
 
-- This tag is typically used for JavaScript files.
+### Linking External Resources
+
+The following tag is used to embed executable code or data into the document, typically for <span class="emphasis">JavaScript files</span>:
 
 ```html
 <script>
 ```
 
-To link your HTML page to an external CSS stylesheet you would use the following tag:
+To link your HTML page to an external <span class="secondEmphasis">CSS stylesheet</span>, use the <span class="emphasis">link</span> tag.  
+- Place it in the <span class="emphasis">head</span> above the <span class="emphasis">title</span> tag.
 
 ```html
-<link>
+<link rel="stylesheet" href="styles.css">
 ```
-
-- It is linked in the head tag above the title tag and below the meta tag.
 
 ---
 
 ## Body
----
 
-The following element represents the container for the visible content shown to the end-user"
+The <span class="emphasis">body</span> element represents the container for all the <span class="emphasis">visible content</span> shown to the end-user.
 
 ```html
 <body>
 ```
 
-## HTML Elements
 ---
 
-There are multiple types of elements including:
+## Common HTML Elements
+
+Here is a list of commonly used <span class="emphasis">HTML elements</span>:
 
 ```html
+<p> <textarea> <h1> <h2> <h3> <h4> <h5> <h6> <input> <label>
+<header> <img> <ul> <ol> <li> <a> <hr>
+```
+
+### Purpose of Each Tag:
+
+- <span><</span>p<span>></span>: Used to write a <span class="secondEmphasis">block of text</span>, like a paragraph.
+  
+```html
 <p>
+```
+
+
+- <span><</span>textarea<span>></span> : Creates a box for users to type <span class="emphasis">multiple lines of text</span>.
+
+```html
 <textarea>
+```
+
+- <span><</span>h1<span>></span> : The largest and most <span class="emphasis">important heading</span>.
+
+```html
 <h1>
+```
+
+- <span><</span>h2<span>></span> - <span><</span>h6<span>></span> : Smaller headings used for <span class="secondEmphasis">sub-sections</span>.
+
+```html
 <h2>
 <h3>
 <h4>
 <h5>
 <h6>
+```
+
+- <span><</span>input<span>></span> : Creates a box for <span class="emphasis">user input</span>.
+
+```html
 <input>
+```
+
+- <span><</span>label<span>></span>: Describes an input field, e.g., "Name:".
+
+```html
 <label>
+```
+
+- <span><</span>header<span>></span> : Represents the <span class="secondEmphasis">top section</span> of a page.
+
+```html
 <header>
+```
+
+- <span><</span>img<span>></span> : Displays a picture or graphic.
+
+```html
 <img>
+```
+
+- <span><</span>ul<span>></span> : Creates a <span class="emphasis">bullet list</span>.
+
+```html
 <ul>
+```
+
+- <span><</span>ol<span>></span> : Creates a <span class="secondEmphasis">numbered list</span>.
+
+```html
 <ol>
+```
+
+- <span><</span>li<span>></span> : Represents each individual <span class="emphasis">list item</span>.
+
+```html
 <li>
+```
+
+- <span><</span>a<span>></span> : Creates a <span class="emphasis">clickable link</span>.
+
+```html
 <a>
+```
+
+- <span><</span>hr<span>></span> : Inserts a <span class="secondEmphasis">divider</span> between content.
+
+```html
 <hr>
 ```
 
-- With that list in order from how they are listed. This is what each tag's purpose is:
-
-- p: Used to write a block of text. Think of it like writing a paragraph in a document.
-
-- textarea: Creates a box where users can type multiple lines of text, like leaving a comment or writing a message.
-
-- h1: The biggest and most important title on a page, like the main title of a blog post.
-
-- h2: A slightly smaller title, used for sections within the main title.
-
-- h3: A sub-section of h2; smaller and less important than h2.
-
-- h4: A sub-section of h3, and so on for h5 and h6.
-
-- h5: Even smaller and used for less important headings.
-
-- h6: The smallest and least important heading on the page.
-
-- input: Is used to create a box for user input, like typing your name or selecting a checkbox.
-
-- label: Describes or names an input field so users know what to enter, like “Name:” next to a text box.
-
-- header: Represents the top section of a page, usually containing the title, logo, or navigation menu.
-
-- img: Displays a picture or graphic on the page.
-
-- ul: Creates a list of items with bullet points, like a grocery list.
-
-- ol: Creates a list of items with numbers, like steps in a recipe.
-
-- li: Represents each individual item in a ul or ol list.
-
-- a: Creates a clickable link that can take you to another page, file, or section.
-
-- hr: Is used to insert a thematic break or divider between sections of content. It is a self-closing tag and does not require an ending tag.
-
 ---
 
+## Content Division
 
-Common types of elements that are used to divide content into sections are:
+Elements like <span><</span>div<span>></span> and <span><</span>section<span>></span> are used to divide content into logical <span class="emphasis">sections</span>.
 
 ```html
 <div>
@@ -155,90 +191,76 @@ Common types of elements that are used to divide content into sections are:
 ```
 
 ---
+
 ## Special Characters
----
-The following are used to create special characters in HTML:
+
+To display <span class="emphasis">special characters</span> in HTML, use the following:
 
 ```html
 &rsquo;
-
 &lsquo;
-
 &rdquo;
-
 &ldquo;
-
 &amp;
-
 &gt;
-
 &lt;
-
 &copy;
-
 &reg;
-
 &trade;
 ```
 
-In order they create the following special characters:
+### Output:
 
-&rsquo; = Right Single Quote
-
-&lsquo; = Left Single Quote
-
-&rdquo; = Right Double Quote
-
-&ldquo; = Left Double Quote
-
-&amp; = Ampersand
-
-&gt; = Greater Than
-
-&lt; = Less Than
-
-&copy; = Copyright Symbol
-
-&reg; = Registered Symbol
-
-&trade; = Trademark Symbol
+- &rsquo; : Right Single Quote  
+- &lsquo; : Left Single Quote  
+- &rdquo; : Right Double Quote  
+- &ldquo; : Left Double Quote  
+- &amp;: Ampersand  
+- &gt; : Greater Than  
+- &lt; : Less Than  
+- &copy; : Copyright Symbol  
+- &reg; : Registered Symbol  
+- &trade; : Trademark Symbol  
 
 ---
 
-The following HTML tag is used to represent a self-contained, independent piece of content that could be distributed or reused on it's own.
+## Articles and Sidebars
+
+### Article
+
+The <span><</span>article<span>></span> tag represents a <span class="emphasis">self-contained</span> piece of content.
 
 ```html
 <article>
 ```
 
-The following HTML tag is used to represent content that is tangentially related to the main content. It's often used for supplementary information or sidebars.
+### Aside
+
+The <span><</span>aside<span>></span> tag is used for <span class="secondEmphasis">supplementary content</span> like sidebars.
 
 ```html
 <aside>
 ```
+
 ---
+
 ## Creating Thumbnails
----
 
-To create a thumbnail using vanilla or basic HTML. You would add Open Graph meta tags to the head element of you index.html file. 
-
-### Example
+To create a thumbnail using <span class="emphasis">Open Graph meta tags</span>, add the following code inside the <span><</span>head<span>></span> element:
 
 ```html
-
-    <title>Website Title</title>
-
-    <meta property="og:title" content="Your Website Title">
-    <meta property="og:description" content="A brief description of your website.">
-    <meta property="og:image" content="thumbnail.jpg">
-    <meta property="og:url" content="https://yourwebsite.com/">
-    <meta property="og:type" content="website">
-
+<title>Website Title</title>
+<meta property="og:title" content="Your Website Title">
+<meta property="og:description" content="A brief description of your website.">
+<meta property="og:image" content="thumbnail.jpg">
+<meta property="og:url" content="https://yourwebsite.com/">
+<meta property="og:type" content="website">
 ```
 
-- Just make sure that the path to the file is correct
+Ensure the path to the thumbnail image file is correct.
 
+---
 
+## Summary
 
-
-
+HTML provides the building blocks of every <span class="emphasis">webpage</span>. By understanding the structure, <span class="secondEmphasis">tags</span>, and special features, you can create structured and <span class="emphasis">semantic content</span> for the web.

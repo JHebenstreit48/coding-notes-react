@@ -52,6 +52,10 @@ import Vue from "../pages/Vue.tsx";
 import VueCode from "../pages/VueCode.tsx";
 import Markdown from "../pages/Markdown.tsx";
 import MarkdownCode from "../pages/MarkdownCode.tsx";
+import ApolloServer from "../pages/ApolloServer.tsx";
+import ApolloServerCode from "../pages/ApolloServerCode.tsx";
+import GraphQL from "../pages/GraphQL.tsx";
+import GraphQLCode from "../pages/GraphQLCode.tsx";
 
 export const router = createBrowserRouter([
 
@@ -81,6 +85,14 @@ export const router = createBrowserRouter([
                 element: <APICode />,
             },
             {
+                path: '/apolloserver',
+                element: <ApolloServer />,
+            },
+            {
+                path: '/apolloserver/apolloservercode',
+                element: <ApolloServerCode />,
+            },
+            {
                 path: '/cicdops',
                 element: <CICDOps />,
             },
@@ -103,6 +115,14 @@ export const router = createBrowserRouter([
             {
                 path: '/git/gitcode',
                 element: <GitCode />,
+            },
+            {
+                path: '/graphql',
+                element: <GraphQL />,
+            },
+            {
+                path: '/graphql/graphqlcode',
+                element: <GraphQLCode />,
             },
             {
                 path: '/html',
