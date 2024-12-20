@@ -1,32 +1,33 @@
-# CSS Basics with Code Examples
----
-
-## Introduction to CSS
-
-<span class="emphasis">CSS</span> is used to determine how <span class="secondEmphasis">HTML elements</span> <span class="emphasis">appear</span> or are <span class="emphasis">displayed</span> on a <span class="emphasis">webpage</span>. These code examples demonstrate <span class="secondEmphasis">basic</span> and <span class="emphasis">advanced concepts</span>.
+# CSS Basics
 
 ---
 
-### Example: External Stylesheet
+## <span class="subheadingEmphasis1">Introduction to CSS</span>
+
+---
+
+<span class="emphasis">CSS</span> is used to determine how <span class="secondEmphasis">HTML elements</span> <span class="emphasis">appear</span> or are <span class="emphasis">displayed</span> on a <span class="emphasis">webpage</span>.
+
+### Example: <span class="subheadingEmphasis2">External Stylesheet</span>
 
 This example shows how to link an <span class="emphasis">external CSS file</span> to an <span class="secondEmphasis">HTML document</span>.
 
 ```html
 <head>
-    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 ```
 
 ---
 
-### Example: Basic CSS Syntax
+### Example: <span class="subheadingEmphasis2">Basic CSS Syntax</span>
 
 Here is the <span class="secondEmphasis">basic structure</span> of a <span class="emphasis">CSS rule</span>. The <span class="emphasis">selector</span> targets <span class="secondEmphasis">elements</span>, and the <span class="emphasis">property</span> applies a specific style.
 
 ```css
 /* Basic CSS Syntax */
 p {
-    color: blue; /* Property and Value */
+  color: blue; /* Property and Value */
 }
 ```
 
@@ -38,15 +39,17 @@ The <span class="emphasis">box model</span> consists of the <span class="secondE
 
 ```css
 div {
-    margin: 10px;  /* Space outside the element */
-    padding: 20px; /* Space inside the border */
-    border: 1px solid black; /* Border width and color */
+  margin: 10px; /* Space outside the element */
+  padding: 20px; /* Space inside the border */
+  border: 1px solid black; /* Border width and color */
 }
 ```
 
 ---
 
-## CSS Selectors
+## <span class="subheadingEmphasis1">CSS Selectors</span>
+
+---
 
 ### Basic Selectors
 
@@ -54,10 +57,10 @@ div {
 
 ```css
 header {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 p {
-    color: green;
+  color: green;
 }
 ```
 
@@ -66,17 +69,18 @@ The selector <span class="codeSnip">&lt;p&gt;</span> changes the <span class="se
 
 ---
 
-### Descendant Selectors
+### <span class="subheadingEmphasis1">Descendant Selectors</span>
+---
 
 <span class="emphasis">Descendant selectors</span> target elements nested within a specific <span class="secondEmphasis">parent</span>.
 
 ```css
 header p {
-    color: green;
+  color: green;
 }
 
 header p span {
-    color: blue;
+  color: blue;
 }
 ```
 
@@ -94,7 +98,7 @@ The second rule specifically targets <span class="codeSnip">&lt;span&gt;</span> 
 ```css
 /* Class Selector */
 .highlight {
-    color: red;
+  color: red;
 }
 ```
 
@@ -109,7 +113,7 @@ The class <span class="emphasis">highlight</span> applies <span class="secondEmp
 ```css
 /* ID Selector */
 #uniqueElement {
-    font-size: 20px;
+  font-size: 20px;
 }
 ```
 
@@ -125,7 +129,7 @@ The <span class="emphasis">margin</span> <span class="secondEmphasis">property</
 
 ```css
 div {
-    margin: 10px; /* Space on all four sides */
+  margin: 10px; /* Space on all four sides */
 }
 ```
 
@@ -137,7 +141,7 @@ The <span class="emphasis">padding</span> <span class="secondEmphasis">property<
 
 ```css
 div {
-    padding: 20px;
+  padding: 20px;
 }
 ```
 
@@ -149,9 +153,39 @@ The <span class="emphasis">box-shadow</span> <span class="secondEmphasis">proper
 
 ```css
 div {
-    box-shadow: 5px 10px; /* Horizontal and vertical shadow */
+  box-shadow: 5px 10px; /* Horizontal and vertical shadow */
 }
 ```
+
+### Text Wrapping and Whitespace Control
+
+The <span class="emphasis">white-space</span> and <span class="emphasis">word-wrap</span> properties control how <span class="secondEmphasis">text behaves</span> inside an element, especially when the content exceeds the container's width.
+
+### <span class="subheadingEmphasis2">White-Space</span> Property
+
+```css
+p {
+  white-space: normal; /* Allows text to wrap to the next line */
+}
+```
+
+- <span class="emphasis">Values</span>:
+
+  - <span class="secondEmphasis">normal</span>: Text wraps when necessary (default behavior).
+  - <span class="secondEmphasis">nowrap</span>: Prevents text from wrapping.
+  - <span class="secondEmphasis">pre</span>: Preserves whitespace and line breaks as in the source code.
+
+### <span class="subheadingEmphasis2">Word-Wrap</span> Property
+
+```css
+div {
+  word-wrap: break-word; /* Breaks long words onto the next line */
+}
+```
+
+- <span class="secondEmphasis">Purpose</span>: Forces long words to break and wrap to the next line if they exceed the container's width.
+
+- <span class="emphasis">Use Case</span>: These properties are useful for ensuring text fits within a defined layout without overflow, especially for <span class="secondEmphasis">dynamic content</span>.
 
 ---
 
@@ -163,9 +197,9 @@ div {
 
 ```css
 @media (max-width: 768px) {
-    body {
-        background-color: lightblue;
-    }
+  body {
+    background-color: lightblue;
+  }
 }
 ```
 
@@ -181,9 +215,9 @@ The <span class="emphasis">flex</span> <span class="emphasis">properties</span> 
 
 ```css
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 ```
 
@@ -203,7 +237,7 @@ border: 1px solid black;
 
 **Box Model Layers**:
 
-- <span class="emphasis">Margin</span>: Space outside the border.  
+- <span class="emphasis">Margin</span>: Space outside the border.
 - <span class="secondEmphasis">Padding</span>: Space between content and border.
 
 ---

@@ -136,11 +136,14 @@
   justify-content: center;
   text-decoration: none;
   border: 1px solid rgb(9, 174, 230);
-  width: 12rem;
+  width: 10rem;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 10px 8px;
   border-radius: 14px;
   color: rgb(133, 5, 252);
+  text-align: center;
+  white-space: normal;
+  text-wrap: break-word;
 }
 
 /* Responsive Styles */

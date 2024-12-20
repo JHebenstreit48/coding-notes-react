@@ -2,7 +2,7 @@ import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
 const ReactNative = () => {
-    const markdownFilePath = '/ReactNative/ReactNativeNotes.md';
+    const markdownFilePath = '/ReactNative/ReactNative.md';
 
     return (
 
