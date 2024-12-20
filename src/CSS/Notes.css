@@ -52,14 +52,26 @@ hr {
   box-shadow: 2px 2px 2px black;
 }
 
-.emphasis,
-.secondEmphasis {
+.emphasis {
   color: rgb(243, 175, 28);
   font: italic bold 23px 'Arial', sans-serif;
 }
 
 .secondEmphasis {
   color: rgb(47, 185, 20);
+}
+
+.subheadingEmphasis1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(175, 28, 243);
+  font: italic bold 40px 'Arial', sans-serif;
+  margin: 1.6rem auto;
+}
+
+.subheadingEmphasis2 {
+  color: rgb(243, 175, 28);
+  font: italic bold 30px 'Arial', sans-serif;
 }
 
 .markdownContent ul {
